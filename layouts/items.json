@@ -19,91 +19,91 @@
                         "item_width": 56,
                         "rows": [
                             [
-                                "rebellion",
-                                "rebellion-progressivestinger",
-                                "rebellion-drive",
-                                "rebellion-airhike"
+                                "Rebellion",
+                                "Rebellion - Progressive Stinger",
+                                "Rebellion - Drive",
+                                "Rebellion - Airhike"
                             ],
                             [
-                                "cerberus",
-                                "cerberus-revolverlevel2",
-                                "cerberus-windmill"
+                                "Cerberus",
+                                "Cerberus - Revolver Level 2",
+                                "Cerberus - Windmill"
                             ],
                             [
-                                "agniandrudra",
-                                "agniandrudra-progressivejetstream",
-                                "agniandrudra-whirlwind",
-                                "agniandrudra-airhike"
+                                "Agni and Rudra",
+                                "Agni and Rudra - Progressive Jetstream",
+                                "Agni and Rudra - Whirlwind",
+                                "Agni and Rudra - Airhike"
                             ],
                             [
-                                "nevan",
-                                "nevan-progressivereverbshock",
-                                "nevan-batriftlevel2",
-                                "nevan-volumeup",
-                                "nevan-airraid"
+                                "Nevan",
+                                "Nevan - Progressive Reverbshock",
+                                "Nevan - Batrift Level 2",
+                                "Nevan - Volume Up",
+                                "Nevan - Airraid"
                             ],
                             [
-                                "beowulf",
-                                "beowulf-progressiveuppercut",
-                                "beowulf-straightlevel2",
-                                "beowulf-airhike"
+                                "Beowulf",
+                                "Beowulf - Progressive Uppercut",
+                                "Beowulf - Straight Level 2",
+                                "Beowulf - Airhike"
                             ],
                             [
-                                "ebony&ivory",
-                                "shotgun",
-                                "artemis",
-                                "spiral",
-                                "kalinaann"
+                                "Ebony & Ivory",
+                                "Shotgun",
+                                "Artemis",
+                                "Spiral",
+                                "Kalina Ann"
                             ],
                             [
-                                "ebony&ivoryprogressiveupgrade",
-                                "shotgunprogressiveupgrade",
-                                "artemisprogressiveupgrade",
-                                "spiralprogressiveupgrade",
-                                "kalinaannprogressiveupgrade"
+                                "Ebony & Ivory - Progressive Upgrade",
+                                "Shotgun - Progressive Upgrade",
+                                "Artemis - Progressive Upgrade",
+                                "Spiral - Progressive Upgrade",
+                                "Kalina Ann - Progressive Upgrade"
                             ],
                             [
-                                "progressivetrickster",
-                                "progressiveswordmaster",
-                                "progressivegunslinger",
-                                "progressiveroyalguard",
-                                "quicksilverstyle",
-                                "doppelgangerstyle"
+                                "Progressive Trickster",
+                                "Progressive Swordmaster",
+                                "Progressive Gunslinger",
+                                "Progressive Royalguard",
+                                "Quicksilver Style",
+                                "Doppelganger Style"
                             ],
                             [
-                                "blueorb",
-                                "purpleorb",
-                                "vitalstars",
-                                "vitalstarl",
-                                "devilstar",
-                                "holywater"
+                                "Blue Orb",
+                                "Purple Orb",
+                                "Vital Star S",
+                                "Vital Star L",
+                                "Devil Star",
+                                "Holy Water"
                             ],
                             [
-                                "astronomicalboard",
-                                "vajura",
-                                "soulofsteel",
-                                "essenceofintelligence",
-                                "essenceoftechnique",
-                                "essenceoffighting",
-                                "orihalconfragment"
+                                "Astronomical Board",
+                                "Vajura",
+                                "Soul Of Steel",
+                                "Essence of Intelligence",
+                                "Essence of Technique",
+                                "Essence of Fighting",
+                                "Orihalcon Fragment"
                             ],
                             [
-                                "sirensshriek",
-                                "crystalskull",
-                                "ignisfatuus",
-                                "ambrosia",
-                                "stonemask",
-                                "neogenerator",
-                                "haywireneogenerator"
+                                "Siren's Shriek",
+                                "Crystal Skull",
+                                "Ignis Fatuus",
+                                "Ambrosia",
+                                "Stonemask",
+                                "Neogenerator",
+                                "Haywire Neogenerator"
                             ],
                             [
-                                "fullorihalcon",
-                                "orihalconfragment(left)",
-                                "orihalconfragment(bottom)",
-                                "orihalconfragment(right)",
-                                "goldensun",
-                                "onyxmoonshard",
-                                "samsara"
+                                "Full Orihalcon",
+                                "Orihalcon Fragment (left)",
+                                "Orihalcon Fragment (bottom)",
+                                "Orihalcon Fragment (right)",
+                                "Golden Sun",
+                                "Onyx Moonshard",
+                                "Samsara"
                             ]
                         ]
                     }

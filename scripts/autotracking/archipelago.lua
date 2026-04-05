@@ -72,10 +72,10 @@ function LocationHandler(location)
 			custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED] = {}
 		end
 		if location.AvailableChestCount < location.ChestCount then --add to list
-			-- print("add to list")
+			print("add to list")
 			custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][full_path] = location.AvailableChestCount
 		else --remove from list of set back to max chestcount
-			-- print("remove from list")
+			print("remove from list")
 			custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][full_path] = nil
 		end
 	end
@@ -145,7 +145,7 @@ function preOnClear()
 		Archipelago:Get({ HINTS_ID })
 	end
 
-	-- print(Archipelago.Seed)
+	print(Archipelago.Seed)
 	local seed_base = (Archipelago.Seed or tostring(#ALL_LOCATIONS))
 		.. "_"
 		.. Archipelago.TeamNumber
@@ -228,7 +228,7 @@ function onClear(slot_data)
 			if item_obj then
 				if item_obj.Type == "toggle" then
 					item_obj.Active = false
-				elseif item_obj.Type == "progressive" then
+				elseif item_obj.Type == "Progressive " then
 					item_obj.CurrentStage = 0
 				elseif item_obj.Type == "consumable" then
 					if item_obj.MinCount then
@@ -236,7 +236,7 @@ function onClear(slot_data)
 					else
 						item_obj.AcquiredCount = 0
 					end
-				elseif item_obj.Type == "progressive_toggle" then
+				elseif item_obj.Type == "Progressive _toggle" then
 					item_obj.CurrentStage = 0
 					item_obj.Active = false
 				end
@@ -251,7 +251,7 @@ function onClear(slot_data)
 	-- if Tracker:FindObjectForCode("autofill_settings").Active == true then
 	--     autoFill(slot_data)
 	-- end
-	-- print(PLAYER_ID, TEAM_NUMBER)
+	print(PLAYER_ID, TEAM_NUMBER)
 	if Archipelago.PlayerNumber > -1 then
 		if #ALL_LOCATIONS > 0 then
 			ALL_LOCATIONS = {}
@@ -295,20 +295,28 @@ function onItem(index, item_id, item_name, player_number)
 		local item_obj = Tracker:FindObjectForCode(item_code)
 		if item_obj then
 			if item_obj.Type == "toggle" then
-				-- print("toggle")
+				if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+					print("toggle")
+				end
 				item_obj.Active = true
 			elseif item_obj.Type == "progressive" then
-				-- print("progressive")
+				if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+					print("progressive")
+				end
 				if item_obj.Active == true then
 					item_obj.CurrentStage = item_obj.CurrentStage + 1
 				else
 					item_obj.Active = true
 				end
 			elseif item_obj.Type == "consumable" then
-				-- print("consumable")
+				if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+					print("consumable")
+				end
 				item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment * (tonumber(item_pair[3]) or 1)
-			elseif item_obj.Type == "progressive_toggle" then
-				-- print("progressive_toggle")
+			elseif item_obj.Type == "progressive toggle" then
+				if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+					print("progressive toggle")
+				end
 				if item_obj.Active then
 					item_obj.CurrentStage = item_obj.CurrentStage + 1
 				else

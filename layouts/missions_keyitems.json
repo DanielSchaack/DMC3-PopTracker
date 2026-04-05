@@ -1,0 +1,144 @@
+{
+    "missions_keyitems_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "group",
+                "header": "Mission 5",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "mission_5_grid"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Mission 6",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "mission_6_grid"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Mission 7",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "mission_7_grid"
+                }
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "dock": "top",
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Mission 8",
+                        "dock": "top",
+                        "content": {
+                            "type": "layout",
+                            "key": "mission_8_grid"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Mission 9",
+                        "dock": "top",
+                        "content": {
+                            "type": "layout",
+                            "key": "mission_9_grid"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "dock": "top",
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Mission 10",
+                        "dock": "top",
+                        "content": {
+                            "type": "layout",
+                            "key": "mission_10_grid"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Mission 11",
+                        "dock": "top",
+                        "content": {
+                            "type": "layout",
+                            "key": "mission_11_grid"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "dock": "top",
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Mission 12",
+                        "dock": "top",
+                        "content": {
+                            "type": "layout",
+                            "key": "mission_12_grid"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Mission 13",
+                        "dock": "top",
+                        "content": {
+                            "type": "layout",
+                            "key": "mission_13_grid"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "header": "Mission 15",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "mission_15_grid"
+                }
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "dock": "top",
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Mission 16",
+                        "dock": "top",
+                        "content": {
+                            "type": "layout",
+                            "key": "mission_16_grid"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Mission 19",
+                        "dock": "top",
+                        "content": {
+                            "type": "layout",
+                            "key": "mission_19_grid"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

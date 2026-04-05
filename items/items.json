@@ -1,9 +1,9 @@
 [
     {
-        "name": "blueorb",
+        "name": "Blue Orb",
         "type": "consumable",
-        "img": "/images/items/blueorb.png",
-        "codes": "blueorb",
+        "img": "/images/items/Blue Orb.png",
+        "codes": "Blue Orb",
         "min_quantity": 0,
         "max_quantity": 14,
         "increment": 1,
@@ -14,10 +14,10 @@
         "overlay_background": "#000000"
     },
     {
-        "name": "purpleorb",
+        "name": "Purple Orb",
         "type": "consumable",
-        "img": "/images/items/purpleorb.png",
-        "codes": "purpleorb",
+        "img": "/images/items/Purple Orb.png",
+        "codes": "Purple Orb",
         "min_quantity": 0,
         "max_quantity": 10,
         "increment": 1,
@@ -28,18 +28,18 @@
         "overlay_background": "#000000"
     },
     {
-        "name": "rebellion",
+        "name": "Rebellion",
         "type": "toggle",
-        "img": "images/items/rebellion.png",
+        "img": "images/items/Rebellion.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "rebellion"
+        "codes": "Rebellion"
     },
     {
-        "name": "rebellion-progressivestinger",
+        "name": "Rebellion - Progressive Stinger",
         "type": "consumable",
-        "img": "/images/items/rebellion-progressivestinger.png",
-        "codes": "rebellion-progressivestinger",
+        "img": "/images/items/Rebellion - Progressive Stinger.png",
+        "codes": "Rebellion - Progressive Stinger",
         "min_quantity": 0,
         "max_quantity": 2,
         "increment": 1,
@@ -50,58 +50,58 @@
         "overlay_background": "#000000"
     },
     {
-        "name": "rebellion-drive",
+        "name": "Rebellion - Drive",
         "type": "toggle",
-        "img": "images/items/rebellion-drive.png",
+        "img": "images/items/Rebellion - Drive.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "rebellion-drive"
+        "codes": "Rebellion - Drive"
     },
     {
-        "name": "rebellion-airhike",
+        "name": "Rebellion - Airhike",
         "type": "toggle",
-        "img": "images/items/rebellion-airhike.png",
+        "img": "images/items/Rebellion - Airhike.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "rebellion-airhike"
+        "codes": "Rebellion - Airhike"
     },
     {
-        "name": "cerberus",
+        "name": "Cerberus",
         "type": "toggle",
-        "img": "images/items/cerberus.png",
+        "img": "images/items/Cerberus.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "cerberus"
+        "codes": "Cerberus"
     },
     {
-        "name": "cerberus-revolverlevel2",
+        "name": "Cerberus - Revolver Level 2",
         "type": "toggle",
-        "img": "images/items/cerberus-revolverlevel2.png",
+        "img": "images/items/Cerberus - Revolver Level 2.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "cerberus-revolverlevel2"
+        "codes": "Cerberus - Revolver Level 2"
     },
     {
-        "name": "cerberus-windmill",
+        "name": "Cerberus - Windmill",
         "type": "toggle",
-        "img": "images/items/cerberus-windmill.png",
+        "img": "images/items/Cerberus - Windmill.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "cerberus-windmill"
+        "codes": "Cerberus - Windmill"
     },
     {
-        "name": "agniandrudra",
+        "name": "Agni and Rudra",
         "type": "toggle",
-        "img": "images/items/agniandrudra.png",
+        "img": "images/items/Agni and Rudra.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "agniandrudra"
+        "codes": "Agni and Rudra"
     },
     {
-        "name": "agniandrudra-progressivejetstream",
+        "name": "Agni and Rudra - Progressive Jetstream",
         "type": "consumable",
-        "img": "/images/items/agniandrudra-progressivejetstream.png",
-        "codes": "agniandrudra-progressivejetstream",
+        "img": "/images/items/Agni and Rudra - Progressive Jetstream.png",
+        "codes": "Agni and Rudra - Progressive Jetstream",
         "min_quantity": 0,
         "max_quantity": 2,
         "increment": 1,
@@ -112,34 +112,34 @@
         "overlay_background": "#000000"
     },
     {
-        "name": "agniandrudra-whirlwind",
+        "name": "Agni and Rudra - Whirlwind",
         "type": "toggle",
-        "img": "images/items/agniandrudra-whirlwind.png",
+        "img": "images/items/Agni and Rudra - Whirlwind.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "agniandrudra-whirlwind"
+        "codes": "Agni and Rudra - Whirlwind"
     },
     {
-        "name": "agniandrudra-airhike",
+        "name": "Agni and Rudra - Airhike",
         "type": "toggle",
-        "img": "images/items/agniandrudra-airhike.png",
+        "img": "images/items/Agni and Rudra - Airhike.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "agniandrudra-airhike"
+        "codes": "Agni and Rudra - Airhike"
     },
     {
-        "name": "nevan",
+        "name": "Nevan",
         "type": "toggle",
-        "img": "images/items/nevan.png",
+        "img": "images/items/Nevan.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "nevan"
+        "codes": "Nevan"
     },
     {
-        "name": "nevan-progressivereverbshock",
+        "name": "Nevan - Progressive Reverbshock",
         "type": "consumable",
-        "img": "/images/items/nevan-progressivereverbshock.png",
-        "codes": "nevan-progressivereverbshock",
+        "img": "/images/items/Nevan - Progressive Reverbshock.png",
+        "codes": "Nevan - Progressive Reverbshock",
         "min_quantity": 0,
         "max_quantity": 2,
         "increment": 1,
@@ -150,42 +150,42 @@
         "overlay_background": "#000000"
     },
     {
-        "name": "nevan-volumeup",
+        "name": "Nevan - Volume Up",
         "type": "toggle",
-        "img": "images/items/nevan-volumeup.png",
+        "img": "images/items/Nevan - Volume Up.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "nevan-volumeup"
+        "codes": "Nevan - Volume Up"
     },
     {
-        "name": "nevan-batriftlevel2",
+        "name": "Nevan - Batrift Level 2",
         "type": "toggle",
-        "img": "images/items/nevan-batriftlevel2.png",
+        "img": "images/items/Nevan - Batrift Level 2.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "nevan-batriftlevel2"
+        "codes": "Nevan - Batrift Level 2"
     },
     {
-        "name": "nevan-airraid",
+        "name": "Nevan - Airraid",
         "type": "toggle",
-        "img": "images/items/nevan-airraid.png",
+        "img": "images/items/Nevan - Airraid.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "nevan-airraid"
+        "codes": "Nevan - Airraid"
     },
     {
-        "name": "beowulf",
+        "name": "Beowulf",
         "type": "toggle",
-        "img": "images/items/beowulf.png",
+        "img": "images/items/Beowulf.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "beowulf"
+        "codes": "Beowulf"
     },
     {
-        "name": "beowulf-progressiveuppercut",
+        "name": "Beowulf - Progressive Uppercut",
         "type": "consumable",
-        "img": "/images/items/beowulf-progressiveuppercut.png",
-        "codes": "beowulf-progressiveuppercut",
+        "img": "/images/items/Beowulf - Progressive Uppercut.png",
+        "codes": "Beowulf - Progressive Uppercut",
         "min_quantity": 0,
         "max_quantity": 2,
         "increment": 1,
@@ -196,34 +196,34 @@
         "overlay_background": "#000000"
     },
     {
-        "name": "beowulf-straightlevel2",
+        "name": "Beowulf - Straight Level 2",
         "type": "toggle",
-        "img": "images/items/beowulf-straightlevel2.png",
+        "img": "images/items/Beowulf - Straight Level 2.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "beowulf-straightlevel2"
+        "codes": "Beowulf - Straight Level 2"
     },
     {
-        "name": "beowulf-airhike",
+        "name": "Beowulf - Airhike",
         "type": "toggle",
-        "img": "images/items/beowulf-airhike.png",
+        "img": "images/items/Beowulf - Airhike.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "beowulf-airhike"
+        "codes": "Beowulf - Airhike"
     },
     {
-        "name": "ebony&ivory",
+        "name": "Ebony & Ivory",
         "type": "toggle",
-        "img": "images/items/ebony&ivory.png",
+        "img": "images/items/Ebony & Ivory.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "ebony&ivory"
+        "codes": "Ebony & Ivory"
     },
     {
-        "name": "ebony&ivoryprogressiveupgrade",
+        "name": "Ebony & Ivory - Progressive Upgrade",
         "type": "consumable",
-        "img": "/images/items/ebony&ivoryprogressiveupgrade.png",
-        "codes": "ebony&ivoryprogressiveupgrade",
+        "img": "/images/items/Ebony & Ivory - Progressive Upgrade.png",
+        "codes": "Ebony & Ivory - Progressive Upgrade",
         "min_quantity": 0,
         "max_quantity": 2,
         "increment": 1,
@@ -234,18 +234,18 @@
         "overlay_background": "#000000"
     },
     {
-        "name": "shotgun",
+        "name": "Shotgun",
         "type": "toggle",
-        "img": "images/items/shotgun.png",
+        "img": "images/items/Shotgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "shotgun"
+        "codes": "Shotgun"
     },
     {
-        "name": "shotgunprogressiveupgrade",
+        "name": "Shotgun - Progressive Upgrade",
         "type": "consumable",
-        "img": "/images/items/shotgunprogressiveupgrade.png",
-        "codes": "shotgunprogressiveupgrade",
+        "img": "/images/items/Shotgun - Progressive Upgrade.png",
+        "codes": "Shotgun - Progressive Upgrade",
         "min_quantity": 0,
         "max_quantity": 2,
         "increment": 1,
@@ -256,18 +256,18 @@
         "overlay_background": "#000000"
     },
     {
-        "name": "artemis",
+        "name": "Artemis",
         "type": "toggle",
-        "img": "images/items/artemis.png",
+        "img": "images/items/Artemis.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "artemis"
+        "codes": "Artemis"
     },
     {
-        "name": "artemisprogressiveupgrade",
+        "name": "Artemis - Progressive Upgrade",
         "type": "consumable",
-        "img": "/images/items/artemisprogressiveupgrade.png",
-        "codes": "artemisprogressiveupgrade",
+        "img": "/images/items/Artemis - Progressive Upgrade.png",
+        "codes": "Artemis - Progressive Upgrade",
         "min_quantity": 0,
         "max_quantity": 2,
         "increment": 1,
@@ -278,18 +278,18 @@
         "overlay_background": "#000000"
     },
     {
-        "name": "spiral",
+        "name": "Spiral",
         "type": "toggle",
-        "img": "images/items/spiral.png",
+        "img": "images/items/Spiral.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "spiral"
+        "codes": "Spiral"
     },
     {
-        "name": "spiralprogressiveupgrade",
+        "name": "Spiral - Progressive Upgrade",
         "type": "consumable",
-        "img": "/images/items/spiralprogressiveupgrade.png",
-        "codes": "spiralprogressiveupgrade",
+        "img": "/images/items/Spiral - Progressive Upgrade.png",
+        "codes": "Spiral - Progressive Upgrade",
         "min_quantity": 0,
         "max_quantity": 2,
         "increment": 1,
@@ -300,18 +300,18 @@
         "overlay_background": "#000000"
     },
     {
-        "name": "kalinaann",
+        "name": "Kalina Ann",
         "type": "toggle",
-        "img": "images/items/kalinaann.png",
+        "img": "images/items/Kalina Ann.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "kalinaann"
+        "codes": "Kalina Ann"
     },
     {
-        "name": "kalinaannprogressiveupgrade",
+        "name": "Kalina Ann - Progressive Upgrade",
         "type": "consumable",
-        "img": "/images/items/kalinaannprogressiveupgrade.png",
-        "codes": "kalinaannprogressiveupgrade",
+        "img": "/images/items/Kalina Ann - Progressive Upgrade.png",
+        "codes": "Kalina Ann - Progressive Upgrade",
         "min_quantity": 0,
         "max_quantity": 2,
         "increment": 1,
@@ -322,7 +322,7 @@
         "overlay_background": "#000000"
     },
     {
-        "name": "progressivetrickster",
+        "name": "Progressive Trickster",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
@@ -330,27 +330,27 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "progressivetrickster stage1",
+                "name": "Progressive Trickster stage1",
                 "inherit_codes": true,
-                "img": "/images/items/progressivetrickster1.png",
-                "codes": "progressivetrickster, progressivetrickster_stage1"
+                "img": "/images/items/Progressive Trickster 1.png",
+                "codes": "Progressive Trickster, Progressive Trickster Stage 1"
             },
             {
-                "name": "progressivetrickster stage2",
+                "name": "Progressive Trickster stage2",
                 "inherit_codes": true,
-                "img": "/images/items/progressivetrickster2.png",
-                "codes": "progressivetrickster_stage2"
+                "img": "/images/items/Progressive Trickster 2.png",
+                "codes": "Progressive Trickster Stage 2"
             },
             {
-                "name": "progressivetrickster stage3",
+                "name": "Progressive Trickster stage3",
                 "inherit_codes": true,
-                "img": "/images/items/progressivetrickster3.png",
-                "codes": "progressivetrickster_stage3"
+                "img": "/images/items/Progressive Trickster 3.png",
+                "codes": "Progressive Trickster Stage 3"
             }
         ]
     },
     {
-        "name": "progressiveswordmaster",
+        "name": "Progressive Swordmaster",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
@@ -358,27 +358,27 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "progressiveswordmaster stage1",
+                "name": "Progressive Swordmaster stage1",
                 "inherit_codes": true,
-                "img": "/images/items/progressiveswordmaster1.png",
-                "codes": "progressiveswordmaster, progressiveswordmaster_stage1"
+                "img": "/images/items/Progressive Swordmaster 1.png",
+                "codes": "Progressive Swordmaster, Progressive Swordmaster Stage 1"
             },
             {
-                "name": "progressiveswordmaster stage2",
+                "name": "Progressive Swordmaster stage2",
                 "inherit_codes": true,
-                "img": "/images/items/progressiveswordmaster2.png",
-                "codes": "progressiveswordmaster_stage2"
+                "img": "/images/items/Progressive Swordmaster 2.png",
+                "codes": "Progressive Swordmaster Stage 2"
             },
             {
-                "name": "progressiveswordmaster stage3",
+                "name": "Progressive Swordmaster stage3",
                 "inherit_codes": true,
-                "img": "/images/items/progressiveswordmaster3.png",
-                "codes": "progressiveswordmaster_stage3"
+                "img": "/images/items/Progressive Swordmaster 3.png",
+                "codes": "Progressive Swordmaster Stage 3"
             }
         ]
     },
     {
-        "name": "progressivegunslinger",
+        "name": "Progressive Gunslinger",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
@@ -386,27 +386,27 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "progressivegunslinger stage1",
+                "name": "Progressive Gunslinger stage1",
                 "inherit_codes": true,
-                "img": "/images/items/progressivegunslinger1.png",
-                "codes": "progressivegunslinger, progressivegunslinger_stage1"
+                "img": "/images/items/Progressive Gunslinger 1.png",
+                "codes": "Progressive Gunslinger, Progressive Gunslinger Stage 1"
             },
             {
-                "name": "progressivegunslinger stage2",
+                "name": "Progressive Gunslinger stage2",
                 "inherit_codes": true,
-                "img": "/images/items/progressivegunslinger2.png",
-                "codes": "progressivegunslinger_stage2"
+                "img": "/images/items/Progressive Gunslinger 2.png",
+                "codes": "Progressive Gunslinger Stage 2"
             },
             {
-                "name": "progressivegunslinger stage3",
+                "name": "Progressive Gunslinger stage3",
                 "inherit_codes": true,
-                "img": "/images/items/progressivegunslinger3.png",
-                "codes": "progressivegunslinger_stage3"
+                "img": "/images/items/Progressive Gunslinger 3.png",
+                "codes": "Progressive Gunslinger Stage 3"
             }
         ]
     },
     {
-        "name": "progressiveroyalguard",
+        "name": "Progressive Royalguard",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
@@ -414,220 +414,220 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "progressiveroyalguard stage1",
+                "name": "Progressive Royalguard stage1",
                 "inherit_codes": true,
-                "img": "/images/items/progressiveroyalguard1.png",
-                "codes": "progressiveroyalguard, progressiveroyalguard_stage1"
+                "img": "/images/items/Progressive Royalguard 1.png",
+                "codes": "Progressive Royalguard, Progressive Royalguard Stage 1"
             },
             {
-                "name": "progressiveroyalguard stage2",
+                "name": "Progressive Royalguard stage2",
                 "inherit_codes": true,
-                "img": "/images/items/progressiveroyalguard2.png",
-                "codes": "progressiveroyalguard_stage2"
+                "img": "/images/items/Progressive Royalguard 2.png",
+                "codes": "Progressive Royalguard Stage 2"
             },
             {
-                "name": "progressiveroyalguard stage3",
+                "name": "Progressive Royalguard stage3",
                 "inherit_codes": true,
-                "img": "/images/items/progressiveroyalguard3.png",
-                "codes": "progressiveroyalguard_stage3"
+                "img": "/images/items/Progressive Royalguard 3.png",
+                "codes": "Progressive Royalguard Stage 3"
             }
         ]
     },
     {
-        "name": "quicksilverstyle",
+        "name": "Quicksilver Style",
         "type": "toggle",
-        "img": "images/items/quicksilverstyle.png",
+        "img": "images/items/Quicksilver Style.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "quicksilverstyle"
+        "codes": "Quicksilver Style"
     },
     {
-        "name": "doppelgangerstyle",
+        "name": "Doppelganger Style",
         "type": "toggle",
-        "img": "images/items/doppelgangerstyle.png",
+        "img": "images/items/Doppelganger Style.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "doppelgangerstyle"
-    },
-
-    {
-        "name": "astronomicalboard",
-        "type": "toggle",
-        "img": "images/items/astronomicalboard.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "astronomicalboard"
-    },
-    {
-        "name": "vajura",
-        "type": "toggle",
-        "img": "images/items/vajura.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "vajura"
+        "codes": "Doppelganger Style"
     },
 
     {
-        "name": "essenceofintelligence",
+        "name": "Astronomical Board",
         "type": "toggle",
-        "img": "images/items/essenceofintelligence.png",
+        "img": "images/items/Astronomical Board.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "essenceofintelligence"
+        "codes": "Astronomical Board"
     },
     {
-        "name": "essenceoftechnique",
+        "name": "Vajura",
         "type": "toggle",
-        "img": "images/items/essenceoftechnique.png",
+        "img": "images/items/Vajura.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "essenceoftechnique"
-    },
-    {
-        "name": "essenceoffighting",
-        "type": "toggle",
-        "img": "images/items/essenceoffighting.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "essenceoffighting"
-    },
-    {
-        "name": "soulofsteel",
-        "type": "toggle",
-        "img": "images/items/soulofsteel.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "soulofsteel"
+        "codes": "Vajura"
     },
 
     {
-        "name": "orihalconfragment",
+        "name": "Essence of Intelligence",
         "type": "toggle",
-        "img": "images/items/orihalconfragment.png",
+        "img": "images/items/Essence of Intelligence.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "orihalconfragment"
+        "codes": "Essence of Intelligence"
     },
     {
-        "name": "sirensshriek",
+        "name": "Essence of Technique",
         "type": "toggle",
-        "img": "images/items/sirensshriek.png",
+        "img": "images/items/Essence of Technique.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "sirensshriek"
+        "codes": "Essence of Technique"
     },
     {
-        "name": "crystalskull",
+        "name": "Essence of Fighting",
         "type": "toggle",
-        "img": "images/items/crystalskull.png",
+        "img": "images/items/Essence of Fighting.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "crystalskull"
+        "codes": "Essence of Fighting"
     },
-
     {
-        "name": "ignisfatuus",
+        "name": "Soul Of Steel",
         "type": "toggle",
-        "img": "images/items/ignisfatuus.png",
+        "img": "images/items/Soul Of Steel.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "ignisfatuus"
-    },
-
-    {
-        "name": "ambrosia",
-        "type": "toggle",
-        "img": "images/items/ambrosia.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "ambrosia"
+        "codes": "Soul Of Steel"
     },
 
     {
-        "name": "stonemask",
+        "name": "Orihalcon Fragment",
         "type": "toggle",
-        "img": "images/items/stonemask.png",
+        "img": "images/items/Orihalcon Fragment.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "stonemask"
+        "codes": "Orihalcon Fragment"
+    },
+    {
+        "name": "Siren's Shriek",
+        "type": "toggle",
+        "img": "images/items/Siren's Shriek.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Siren's Shriek"
+    },
+    {
+        "name": "Crystal Skull",
+        "type": "toggle",
+        "img": "images/items/Crystal Skull.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Crystal Skull"
     },
 
     {
-        "name": "neogenerator",
+        "name": "Ignis Fatuus",
         "type": "toggle",
-        "img": "images/items/neogenerator.png",
+        "img": "images/items/Ignis Fatuus.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "neogenerator"
+        "codes": "Ignis Fatuus"
     },
 
     {
-        "name": "haywireneogenerator",
+        "name": "Ambrosia",
         "type": "toggle",
-        "img": "images/items/haywireneogenerator.png",
+        "img": "images/items/Ambrosia.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "haywireneogenerator"
+        "codes": "Ambrosia"
+    },
+
+    {
+        "name": "Stonemask",
+        "type": "toggle",
+        "img": "images/items/Stonemask.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stonemask"
+    },
+
+    {
+        "name": "Neogenerator",
+        "type": "toggle",
+        "img": "images/items/Neogenerator.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Neogenerator"
+    },
+
+    {
+        "name": "Haywire Neogenerator",
+        "type": "toggle",
+        "img": "images/items/Haywire Neogenerator.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Haywire Neogenerator"
     },
      
     {
-        "name": "fullorihalcon",
+        "name": "Full Orihalcon",
         "type": "toggle",
-        "img": "images/items/fullorihalcon.png",
+        "img": "images/items/Full Orihalcon.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "fullorihalcon"
+        "codes": "Full Orihalcon"
     },
 
     {
-        "name": "orihalconfragment(left)",
+        "name": "Orihalcon Fragment (left)",
         "type": "toggle",
-        "img": "images/items/orihalconfragment(left).png",
+        "img": "images/items/Orihalcon Fragment (left).png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "orihalconfragment(left)"
+        "codes": "Orihalcon Fragment (left)"
     },
     {
-        "name": "orihalconfragment(right)",
+        "name": "Orihalcon Fragment (right)",
         "type": "toggle",
-        "img": "images/items/orihalconfragment(right).png",
+        "img": "images/items/Orihalcon Fragment (right).png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "orihalconfragment(right)"
+        "codes": "Orihalcon Fragment (right)"
     },
     {
-        "name": "orihalconfragment(bottom)",
+        "name": "Orihalcon Fragment (bottom)",
         "type": "toggle",
-        "img": "images/items/orihalconfragment(bottom).png",
+        "img": "images/items/Orihalcon Fragment (bottom).png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "orihalconfragment(bottom)"
-    },
-
-    {
-        "name": "goldensun",
-        "type": "toggle",
-        "img": "images/items/goldensun.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "goldensun"
-    },
-    {
-        "name": "onyxmoonshard",
-        "type": "toggle",
-        "img": "images/items/onyxmoonshard.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "onyxmoonshard"
+        "codes": "Orihalcon Fragment (bottom)"
     },
 
     {
-        "name": "samsara",
+        "name": "Golden Sun",
         "type": "toggle",
-        "img": "images/items/samsara.png",
+        "img": "images/items/Golden Sun.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "samsara"
+        "codes": "Golden Sun"
+    },
+    {
+        "name": "Onyx Moonshard",
+        "type": "toggle",
+        "img": "images/items/Onyx Moonshard.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Onyx Moonshard"
+    },
+
+    {
+        "name": "Samsara",
+        "type": "toggle",
+        "img": "images/items/Samsara.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Samsara"
     },
 
     {
@@ -673,9 +673,9 @@
         "codes": "5000redorbs"
     },
     {
-        "name": "vitalstars",
+        "name": "Vital Star S",
         "type": "consumable",
-        "img": "images/items/vitalstars.png",
+        "img": "images/items/Vital Star S.png",
         "min_quantity": 0,
         "max_quantity": 10,
         "increment": 1,
@@ -684,12 +684,12 @@
         "overlay_align": "right",
         "overlay_font_size": 14,
         "overlay_background": "#000000",
-        "codes": "vitalstars"
+        "codes": "Vital Star S"
     },
     {
-        "name": "vitalstarl",
+        "name": "Vital Star L",
         "type": "consumable",
-        "img": "images/items/vitalstarl.png",
+        "img": "images/items/Vital Star L.png",
         "min_quantity": 0,
         "max_quantity": 10,
         "increment": 1,
@@ -698,12 +698,12 @@
         "overlay_align": "right",
         "overlay_font_size": 14,
         "overlay_background": "#000000",
-        "codes": "vitalstarl"
+        "codes": "Vital Star L"
     },
     {
-        "name": "devilstar",
+        "name": "Devil Star",
         "type": "consumable",
-        "img": "images/items/devilstar.png",
+        "img": "images/items/Devil Star.png",
         "min_quantity": 0,
         "max_quantity": 10,
         "increment": 1,
@@ -712,12 +712,12 @@
         "overlay_align": "right",
         "overlay_font_size": 14,
         "overlay_background": "#000000",
-        "codes": "devilstar"
+        "codes": "Devil Star"
     },
     {
-        "name": "holywater",
+        "name": "Holy Water",
         "type": "consumable",
-        "img": "images/items/holywater.png",
+        "img": "images/items/Holy Water.png",
         "min_quantity": 0,
         "max_quantity": 10,
         "increment": 1,
@@ -726,15 +726,15 @@
         "overlay_align": "right",
         "overlay_font_size": 14,
         "overlay_background": "#000000",
-        "codes": "holywater"
+        "codes": "Holy Water"
     },
 
     {
-        "name": "deviltrigger",
+        "name": "Deviltrigger",
         "type": "toggle",
-        "img": "images/items/deviltrigger.png",
+        "img": "images/items/Deviltrigger.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "deviltrigger"
+        "codes": "Deviltrigger"
     }
 ]

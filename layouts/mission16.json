@@ -1,12 +1,13 @@
 {
     "mission_16_grid": {
         "type": "itemgrid",
-        "h_alignment": "left",
-        "item_size": 56,
+        "h_alignment": "center",
+        "item_h_alignment": "center",
+        "item_size": 48,
         "rows": [
             [
-                "goldensun",
-                "onyxmoonshard"
+                "Golden Sun",
+                "Onyx Moonshard"
             ]
         ]
     }

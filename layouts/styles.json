@@ -5,12 +5,22 @@
         "item_size": 56,
         "rows": [
             [
-                "progressivetrickster",
-                "progressiveswordmaster",
-                "progressivegunslinger",
-                "progressiveroyalguard",
-                "quicksilverstyle",
-                "doppelgangerstyle"
+                "Progressive Trickster"
+            ],
+            [
+                "Progressive Swordmaster"
+            ],
+            [
+                "Progressive Gunslinger"
+            ],
+            [
+                "Progressive Royalguard"
+            ],
+            [
+                "Quicksilver Style"
+            ],
+            [
+                "Doppelganger Style"
             ]
         ]
     }

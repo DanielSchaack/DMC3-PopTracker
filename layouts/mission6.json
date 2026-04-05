@@ -1,13 +1,14 @@
 {
     "mission_6_grid": {
         "type": "itemgrid",
-        "h_alignment": "left",
-        "item_size": 56,
+        "h_alignment": "center",
+        "item_h_alignment": "center",
+        "item_size": 48,
         "rows": [
             [
-                "essenceofintelligence",
-                "essenceoftechnique",
-                "essenceoffighting"
+                "Essence of Intelligence",
+                "Essence of Technique",
+                "Essence of Fighting"
             ]
         ]
     }

@@ -1,13 +1,14 @@
 {
     "mission_15_grid": {
         "type": "itemgrid",
-        "h_alignment": "left",
-        "item_size": 56,
+        "h_alignment": "center",
+        "item_h_alignment": "center",
+        "item_size": 48,
         "rows": [
             [
-                "orihalconfragment(left)",
-                "orihalconfragment(bottom)",
-                "orihalconfragment(right)"
+                "Orihalcon Fragment (left)",
+                "Orihalcon Fragment (bottom)",
+                "Orihalcon Fragment (right)"
             ]
         ]
     }

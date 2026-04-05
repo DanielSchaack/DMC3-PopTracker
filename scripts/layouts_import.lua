@@ -1,5 +1,3 @@
-
-
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tabs.json")
@@ -8,8 +6,7 @@ Tracker:AddLayouts("layouts/guns.json")
 Tracker:AddLayouts("layouts/styles.json")
 Tracker:AddLayouts("layouts/shopitems.json")
 
-Tracker:AddLayouts("layouts/missions.json")
-
+Tracker:AddLayouts("layouts/missions_keyitems.json")
 Tracker:AddLayouts("layouts/mission19.json")
 Tracker:AddLayouts("layouts/mission16.json")
 Tracker:AddLayouts("layouts/mission15.json")
@@ -22,5 +19,7 @@ Tracker:AddLayouts("layouts/mission8.json")
 Tracker:AddLayouts("layouts/mission7.json")
 Tracker:AddLayouts("layouts/mission6.json")
 Tracker:AddLayouts("layouts/mission5.json")
+
+Tracker:AddLayouts("layouts/missions.json")
 
 Tracker:AddLayouts("layouts/broadcast.json")

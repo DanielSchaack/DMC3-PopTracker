@@ -1,13 +1,14 @@
 {
     "mission_7_grid": {
         "type": "itemgrid",
-        "h_alignment": "left",
-        "item_size": 56,
+        "h_alignment": "center",
+        "item_h_alignment": "center",
+        "item_size": 48,
         "rows": [
             [
-                "orihalconfragment",
-                "sirensshriek",
-                "crystalskull"
+                "Orihalcon Fragment",
+                "Siren's Shriek",
+                "Crystal Skull"
             ]
         ]
     }

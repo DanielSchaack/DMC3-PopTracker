@@ -1,16 +1,26 @@
 {
     "shop_items_grid": {
         "type": "itemgrid",
-        "h_alignment": "left",
+        "h_alignment": "center",
         "item_size": 56,
         "rows": [
             [
-                "blueorb",
-                "purpleorb",
-                "vitalstars",
-                "vitalstarl",
-                "devilstar",
-                "holywater"
+                "Blue Orb"
+            ],
+            [
+                "Purple Orb"
+            ],
+            [
+                "Vital Star S"
+            ],
+            [
+                "Vital Star L"
+            ],
+            [
+                "Devil Star"
+            ],
+            [
+                "Holy Water"
             ]
         ]
     }

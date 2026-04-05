@@ -2,7 +2,7 @@
 -- connect multiple of these representations with the provided one_way/two_ways() methods.
 -- this will build a graph that gets traveres via the :discover() method.
 
---To-Do: add a tutorial for the grpah absed logic into the README
+--To-Do: add a tutorial for the grpah absed logic into the_README
 
 -- ScriptHost:AddWatchForCode("ow_dungeon details handler", "ow_dungeon_details", owDungeonDetails)
 
