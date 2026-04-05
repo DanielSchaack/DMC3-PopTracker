@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "0.0.2",
+            "download_url": "https://github.com/DanielSchaack/DMC3-PopTracker/releases/download/0.0.2/DMC3-PopTracker.zip",
+            "sha256": "ca95fda8e11c4b94af703a1ac57f455c4033ed8301756d7f9a877fb3048170c5",
+            "changelog": [
+                "All images are now theoretically centered and have a square format",
+                "Some images have their saturation and brightness cranked up to be more distinct from the disabled state",
+                "All items have been renamed to proper spelling, i.e. soulofsteel to Soul of Steel",
+                "Guns, styles and shop items are now vertically below the devil arms to save some space"
+            ]
+        },
+        {
             "package_version": "0.0.1",
             "download_url": "https://github.com/DanielSchaack/DMC3-PopTracker/releases/download/0.0.1/DMC3-PopTracker.zip",
             "sha256": "ca95fda8e11c4b94af703a1ac57f455c4033ed8301756d7f9a877fb3048170c5",
