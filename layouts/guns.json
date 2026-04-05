@@ -1,0 +1,23 @@
+{
+    "guns_grid": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_size": 56,
+        "rows": [
+            [
+                "ebony&ivory",
+                "shotgun",
+                "artemis",
+                "spiral",
+                "kalinaann"
+            ],
+            [
+                "ebony&ivoryprogressiveupgrade",
+                "shotgunprogressiveupgrade",
+                "artemisprogressiveupgrade",
+                "spiralprogressiveupgrade",
+                "kalinaannprogressiveupgrade"
+            ]
+        ]
+    }
+}

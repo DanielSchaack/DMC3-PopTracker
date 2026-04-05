@@ -1,0 +1,12 @@
+{
+    "mission_13_grid": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_size": 56,
+        "rows": [
+            [
+                "fullorihalcon"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 56,
+                        "item_width": 56,
+                        "rows": [
+                            [
+                                "rebellion",
+                                "rebellion-progressivestinger",
+                                "rebellion-drive",
+                                "rebellion-airhike"
+                            ],
+                            [
+                                "cerberus",
+                                "cerberus-revolverlevel2",
+                                "cerberus-windmill"
+                            ],
+                            [
+                                "agniandrudra",
+                                "agniandrudra-progressivejetstream",
+                                "agniandrudra-whirlwind",
+                                "agniandrudra-airhike"
+                            ],
+                            [
+                                "nevan",
+                                "nevan-progressivereverbshock",
+                                "nevan-batriftlevel2",
+                                "nevan-volumeup",
+                                "nevan-airraid"
+                            ],
+                            [
+                                "beowulf",
+                                "beowulf-progressiveuppercut",
+                                "beowulf-straightlevel2",
+                                "beowulf-airhike"
+                            ],
+                            [
+                                "ebony&ivory",
+                                "shotgun",
+                                "artemis",
+                                "spiral",
+                                "kalinaann"
+                            ],
+                            [
+                                "ebony&ivoryprogressiveupgrade",
+                                "shotgunprogressiveupgrade",
+                                "artemisprogressiveupgrade",
+                                "spiralprogressiveupgrade",
+                                "kalinaannprogressiveupgrade"
+                            ],
+                            [
+                                "progressivetrickster",
+                                "progressiveswordmaster",
+                                "progressivegunslinger",
+                                "progressiveroyalguard",
+                                "quicksilverstyle",
+                                "doppelgangerstyle"
+                            ],
+                            [
+                                "blueorb",
+                                "purpleorb",
+                                "vitalstars",
+                                "vitalstarl",
+                                "devilstar",
+                                "holywater"
+                            ],
+                            [
+                                "astronomicalboard",
+                                "vajura",
+                                "soulofsteel",
+                                "essenceofintelligence",
+                                "essenceoftechnique",
+                                "essenceoffighting",
+                                "orihalconfragment"
+                            ],
+                            [
+                                "sirensshriek",
+                                "crystalskull",
+                                "ignisfatuus",
+                                "ambrosia",
+                                "stonemask",
+                                "neogenerator",
+                                "haywireneogenerator"
+                            ],
+                            [
+                                "fullorihalcon",
+                                "orihalconfragment(left)",
+                                "orihalconfragment(bottom)",
+                                "orihalconfragment(right)",
+                                "goldensun",
+                                "onyxmoonshard",
+                                "samsara"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

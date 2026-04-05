@@ -1,0 +1,39 @@
+{
+    "devil_arms_grid": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_size": 56,
+        "rows": [
+            [
+                "rebellion",
+                "rebellion-progressivestinger",
+                "rebellion-drive",
+                "rebellion-airhike"
+            ],
+            [
+                "cerberus",
+                "cerberus-revolverlevel2",
+                "cerberus-windmill"
+            ],
+            [
+                "agniandrudra",
+                "agniandrudra-progressivejetstream",
+                "agniandrudra-whirlwind",
+                "agniandrudra-airhike"
+            ],
+            [
+                "nevan",
+                "nevan-progressivereverbshock",
+                "nevan-batriftlevel2",
+                "nevan-volumeup",
+                "nevan-airraid"
+            ],
+            [
+                "beowulf",
+                "beowulf-progressiveuppercut",
+                "beowulf-straightlevel2",
+                "beowulf-airhike"
+            ]
+        ]
+    }
+}

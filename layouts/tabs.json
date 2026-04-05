@@ -1,0 +1,30 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Shop",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Shop"
+                    ]
+                }
+            }
+        ]
+    },
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Shop",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Shop"
+                    ]
+                }
+            }
+        ]
+    }
+}

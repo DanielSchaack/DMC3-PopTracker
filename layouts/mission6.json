@@ -1,0 +1,14 @@
+{
+    "mission_6_grid": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_size": 56,
+        "rows": [
+            [
+                "essenceofintelligence",
+                "essenceoftechnique",
+                "essenceoffighting"
+            ]
+        ]
+    }
+}

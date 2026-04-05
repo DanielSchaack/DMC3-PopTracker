@@ -1,0 +1,17 @@
+{
+    "name": "Devil May Cry 3 Archipelago",
+    "game_name": "Devil May Cry 3",
+    "package_version": "0.0.1",
+    "package_uid": "devil_may_cry_3_ap",
+    "author": "Daniel Schaack",
+    "variants": {
+        "Full Tracker": {
+            "display_name": "Full Tracker",
+            "flags": [
+                "ap"
+            ]
+        }
+    },
+    "min_poptracker_version": "0.31.0",
+    "versions_url": "https://raw.githubusercontent.com/DanielSchaack/DMC3-PopTracker/refs/heads/main/versions.json"
+}

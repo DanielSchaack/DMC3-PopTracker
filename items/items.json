@@ -1,0 +1,740 @@
+[
+    {
+        "name": "blueorb",
+        "type": "consumable",
+        "img": "/images/items/blueorb.png",
+        "codes": "blueorb",
+        "min_quantity": 0,
+        "max_quantity": 14,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000"
+    },
+    {
+        "name": "purpleorb",
+        "type": "consumable",
+        "img": "/images/items/purpleorb.png",
+        "codes": "purpleorb",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000"
+    },
+    {
+        "name": "rebellion",
+        "type": "toggle",
+        "img": "images/items/rebellion.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rebellion"
+    },
+    {
+        "name": "rebellion-progressivestinger",
+        "type": "consumable",
+        "img": "/images/items/rebellion-progressivestinger.png",
+        "codes": "rebellion-progressivestinger",
+        "min_quantity": 0,
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000"
+    },
+    {
+        "name": "rebellion-drive",
+        "type": "toggle",
+        "img": "images/items/rebellion-drive.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rebellion-drive"
+    },
+    {
+        "name": "rebellion-airhike",
+        "type": "toggle",
+        "img": "images/items/rebellion-airhike.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rebellion-airhike"
+    },
+    {
+        "name": "cerberus",
+        "type": "toggle",
+        "img": "images/items/cerberus.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cerberus"
+    },
+    {
+        "name": "cerberus-revolverlevel2",
+        "type": "toggle",
+        "img": "images/items/cerberus-revolverlevel2.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cerberus-revolverlevel2"
+    },
+    {
+        "name": "cerberus-windmill",
+        "type": "toggle",
+        "img": "images/items/cerberus-windmill.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cerberus-windmill"
+    },
+    {
+        "name": "agniandrudra",
+        "type": "toggle",
+        "img": "images/items/agniandrudra.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "agniandrudra"
+    },
+    {
+        "name": "agniandrudra-progressivejetstream",
+        "type": "consumable",
+        "img": "/images/items/agniandrudra-progressivejetstream.png",
+        "codes": "agniandrudra-progressivejetstream",
+        "min_quantity": 0,
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000"
+    },
+    {
+        "name": "agniandrudra-whirlwind",
+        "type": "toggle",
+        "img": "images/items/agniandrudra-whirlwind.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "agniandrudra-whirlwind"
+    },
+    {
+        "name": "agniandrudra-airhike",
+        "type": "toggle",
+        "img": "images/items/agniandrudra-airhike.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "agniandrudra-airhike"
+    },
+    {
+        "name": "nevan",
+        "type": "toggle",
+        "img": "images/items/nevan.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "nevan"
+    },
+    {
+        "name": "nevan-progressivereverbshock",
+        "type": "consumable",
+        "img": "/images/items/nevan-progressivereverbshock.png",
+        "codes": "nevan-progressivereverbshock",
+        "min_quantity": 0,
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000"
+    },
+    {
+        "name": "nevan-volumeup",
+        "type": "toggle",
+        "img": "images/items/nevan-volumeup.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "nevan-volumeup"
+    },
+    {
+        "name": "nevan-batriftlevel2",
+        "type": "toggle",
+        "img": "images/items/nevan-batriftlevel2.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "nevan-batriftlevel2"
+    },
+    {
+        "name": "nevan-airraid",
+        "type": "toggle",
+        "img": "images/items/nevan-airraid.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "nevan-airraid"
+    },
+    {
+        "name": "beowulf",
+        "type": "toggle",
+        "img": "images/items/beowulf.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "beowulf"
+    },
+    {
+        "name": "beowulf-progressiveuppercut",
+        "type": "consumable",
+        "img": "/images/items/beowulf-progressiveuppercut.png",
+        "codes": "beowulf-progressiveuppercut",
+        "min_quantity": 0,
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000"
+    },
+    {
+        "name": "beowulf-straightlevel2",
+        "type": "toggle",
+        "img": "images/items/beowulf-straightlevel2.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "beowulf-straightlevel2"
+    },
+    {
+        "name": "beowulf-airhike",
+        "type": "toggle",
+        "img": "images/items/beowulf-airhike.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "beowulf-airhike"
+    },
+    {
+        "name": "ebony&ivory",
+        "type": "toggle",
+        "img": "images/items/ebony&ivory.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ebony&ivory"
+    },
+    {
+        "name": "ebony&ivoryprogressiveupgrade",
+        "type": "consumable",
+        "img": "/images/items/ebony&ivoryprogressiveupgrade.png",
+        "codes": "ebony&ivoryprogressiveupgrade",
+        "min_quantity": 0,
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000"
+    },
+    {
+        "name": "shotgun",
+        "type": "toggle",
+        "img": "images/items/shotgun.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shotgun"
+    },
+    {
+        "name": "shotgunprogressiveupgrade",
+        "type": "consumable",
+        "img": "/images/items/shotgunprogressiveupgrade.png",
+        "codes": "shotgunprogressiveupgrade",
+        "min_quantity": 0,
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000"
+    },
+    {
+        "name": "artemis",
+        "type": "toggle",
+        "img": "images/items/artemis.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "artemis"
+    },
+    {
+        "name": "artemisprogressiveupgrade",
+        "type": "consumable",
+        "img": "/images/items/artemisprogressiveupgrade.png",
+        "codes": "artemisprogressiveupgrade",
+        "min_quantity": 0,
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000"
+    },
+    {
+        "name": "spiral",
+        "type": "toggle",
+        "img": "images/items/spiral.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "spiral"
+    },
+    {
+        "name": "spiralprogressiveupgrade",
+        "type": "consumable",
+        "img": "/images/items/spiralprogressiveupgrade.png",
+        "codes": "spiralprogressiveupgrade",
+        "min_quantity": 0,
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000"
+    },
+    {
+        "name": "kalinaann",
+        "type": "toggle",
+        "img": "images/items/kalinaann.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kalinaann"
+    },
+    {
+        "name": "kalinaannprogressiveupgrade",
+        "type": "consumable",
+        "img": "/images/items/kalinaannprogressiveupgrade.png",
+        "codes": "kalinaannprogressiveupgrade",
+        "min_quantity": 0,
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000"
+    },
+    {
+        "name": "progressivetrickster",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "progressivetrickster stage1",
+                "inherit_codes": true,
+                "img": "/images/items/progressivetrickster1.png",
+                "codes": "progressivetrickster, progressivetrickster_stage1"
+            },
+            {
+                "name": "progressivetrickster stage2",
+                "inherit_codes": true,
+                "img": "/images/items/progressivetrickster2.png",
+                "codes": "progressivetrickster_stage2"
+            },
+            {
+                "name": "progressivetrickster stage3",
+                "inherit_codes": true,
+                "img": "/images/items/progressivetrickster3.png",
+                "codes": "progressivetrickster_stage3"
+            }
+        ]
+    },
+    {
+        "name": "progressiveswordmaster",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "progressiveswordmaster stage1",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveswordmaster1.png",
+                "codes": "progressiveswordmaster, progressiveswordmaster_stage1"
+            },
+            {
+                "name": "progressiveswordmaster stage2",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveswordmaster2.png",
+                "codes": "progressiveswordmaster_stage2"
+            },
+            {
+                "name": "progressiveswordmaster stage3",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveswordmaster3.png",
+                "codes": "progressiveswordmaster_stage3"
+            }
+        ]
+    },
+    {
+        "name": "progressivegunslinger",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "progressivegunslinger stage1",
+                "inherit_codes": true,
+                "img": "/images/items/progressivegunslinger1.png",
+                "codes": "progressivegunslinger, progressivegunslinger_stage1"
+            },
+            {
+                "name": "progressivegunslinger stage2",
+                "inherit_codes": true,
+                "img": "/images/items/progressivegunslinger2.png",
+                "codes": "progressivegunslinger_stage2"
+            },
+            {
+                "name": "progressivegunslinger stage3",
+                "inherit_codes": true,
+                "img": "/images/items/progressivegunslinger3.png",
+                "codes": "progressivegunslinger_stage3"
+            }
+        ]
+    },
+    {
+        "name": "progressiveroyalguard",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "progressiveroyalguard stage1",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveroyalguard1.png",
+                "codes": "progressiveroyalguard, progressiveroyalguard_stage1"
+            },
+            {
+                "name": "progressiveroyalguard stage2",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveroyalguard2.png",
+                "codes": "progressiveroyalguard_stage2"
+            },
+            {
+                "name": "progressiveroyalguard stage3",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveroyalguard3.png",
+                "codes": "progressiveroyalguard_stage3"
+            }
+        ]
+    },
+    {
+        "name": "quicksilverstyle",
+        "type": "toggle",
+        "img": "images/items/quicksilverstyle.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "quicksilverstyle"
+    },
+    {
+        "name": "doppelgangerstyle",
+        "type": "toggle",
+        "img": "images/items/doppelgangerstyle.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "doppelgangerstyle"
+    },
+
+    {
+        "name": "astronomicalboard",
+        "type": "toggle",
+        "img": "images/items/astronomicalboard.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "astronomicalboard"
+    },
+    {
+        "name": "vajura",
+        "type": "toggle",
+        "img": "images/items/vajura.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "vajura"
+    },
+
+    {
+        "name": "essenceofintelligence",
+        "type": "toggle",
+        "img": "images/items/essenceofintelligence.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "essenceofintelligence"
+    },
+    {
+        "name": "essenceoftechnique",
+        "type": "toggle",
+        "img": "images/items/essenceoftechnique.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "essenceoftechnique"
+    },
+    {
+        "name": "essenceoffighting",
+        "type": "toggle",
+        "img": "images/items/essenceoffighting.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "essenceoffighting"
+    },
+    {
+        "name": "soulofsteel",
+        "type": "toggle",
+        "img": "images/items/soulofsteel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "soulofsteel"
+    },
+
+    {
+        "name": "orihalconfragment",
+        "type": "toggle",
+        "img": "images/items/orihalconfragment.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "orihalconfragment"
+    },
+    {
+        "name": "sirensshriek",
+        "type": "toggle",
+        "img": "images/items/sirensshriek.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sirensshriek"
+    },
+    {
+        "name": "crystalskull",
+        "type": "toggle",
+        "img": "images/items/crystalskull.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "crystalskull"
+    },
+
+    {
+        "name": "ignisfatuus",
+        "type": "toggle",
+        "img": "images/items/ignisfatuus.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ignisfatuus"
+    },
+
+    {
+        "name": "ambrosia",
+        "type": "toggle",
+        "img": "images/items/ambrosia.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ambrosia"
+    },
+
+    {
+        "name": "stonemask",
+        "type": "toggle",
+        "img": "images/items/stonemask.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "stonemask"
+    },
+
+    {
+        "name": "neogenerator",
+        "type": "toggle",
+        "img": "images/items/neogenerator.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "neogenerator"
+    },
+
+    {
+        "name": "haywireneogenerator",
+        "type": "toggle",
+        "img": "images/items/haywireneogenerator.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "haywireneogenerator"
+    },
+     
+    {
+        "name": "fullorihalcon",
+        "type": "toggle",
+        "img": "images/items/fullorihalcon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fullorihalcon"
+    },
+
+    {
+        "name": "orihalconfragment(left)",
+        "type": "toggle",
+        "img": "images/items/orihalconfragment(left).png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "orihalconfragment(left)"
+    },
+    {
+        "name": "orihalconfragment(right)",
+        "type": "toggle",
+        "img": "images/items/orihalconfragment(right).png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "orihalconfragment(right)"
+    },
+    {
+        "name": "orihalconfragment(bottom)",
+        "type": "toggle",
+        "img": "images/items/orihalconfragment(bottom).png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "orihalconfragment(bottom)"
+    },
+
+    {
+        "name": "goldensun",
+        "type": "toggle",
+        "img": "images/items/goldensun.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "goldensun"
+    },
+    {
+        "name": "onyxmoonshard",
+        "type": "toggle",
+        "img": "images/items/onyxmoonshard.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "onyxmoonshard"
+    },
+
+    {
+        "name": "samsara",
+        "type": "toggle",
+        "img": "images/items/samsara.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "samsara"
+    },
+
+    {
+        "name": "1000redorbs",
+        "type": "consumable",
+        "img": "images/items/redorb.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "1000redorbs"
+    },
+    {
+        "name": "2500redorbs",
+        "type": "consumable",
+        "img": "images/items/redorbs.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "2500redorbs"
+    },
+    {
+        "name": "5000redorbs",
+        "type": "consumable",
+        "img": "images/items/5000redorbs.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5000redorbs"
+    },
+    {
+        "name": "vitalstars",
+        "type": "consumable",
+        "img": "images/items/vitalstars.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "vitalstars"
+    },
+    {
+        "name": "vitalstarl",
+        "type": "consumable",
+        "img": "images/items/vitalstarl.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "vitalstarl"
+    },
+    {
+        "name": "devilstar",
+        "type": "consumable",
+        "img": "images/items/devilstar.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "devilstar"
+    },
+    {
+        "name": "holywater",
+        "type": "consumable",
+        "img": "images/items/holywater.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "holywater"
+    },
+
+    {
+        "name": "deviltrigger",
+        "type": "toggle",
+        "img": "images/items/deviltrigger.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "deviltrigger"
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "shop_items_grid": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_size": 56,
+        "rows": [
+            [
+                "blueorb",
+                "purpleorb",
+                "vitalstars",
+                "vitalstarl",
+                "devilstar",
+                "holywater"
+            ]
+        ]
+    }
+}

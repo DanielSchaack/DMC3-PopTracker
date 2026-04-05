@@ -1,0 +1,17 @@
+{
+    "styles_grid": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_size": 56,
+        "rows": [
+            [
+                "progressivetrickster",
+                "progressiveswordmaster",
+                "progressivegunslinger",
+                "progressiveroyalguard",
+                "quicksilverstyle",
+                "doppelgangerstyle"
+            ]
+        ]
+    }
+}
