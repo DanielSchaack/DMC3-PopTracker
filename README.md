@@ -8,6 +8,13 @@ A PopTracker pack for Devil May Cry 3 Archipelago Randomizer.
 2. Download the [latest release](https://github.com/Vinaigre1/DMC3-PopTracker/releases) of this pack.
 3. Place the downloaded zip file in PopTracker's `packs` directory.
 
+## Known Issues
+
+- (Version 0.0.1/0.0.2 misses Devil Trigger tracking)
+- Non randomised options (gun levels, devil arms skills, styles) are _not_ tracked
+- Devil trigger does _not_ add three purple orbs in non-purple orb modes nor reduces the max amount of purple orbs available
+-> Workarounds: Manual tracking by clicking the respective icons
+
 ## ToDo
 
 - Higher resolution styles and abilities.
