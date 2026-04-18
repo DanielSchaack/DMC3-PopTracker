@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Mission #19",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 19/Vital Star L"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission19",
+                        "x": 750,
+                        "y": 342
+                    }                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 19/Samsara"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission19",
+                        "x": 846,
+                        "y": 395
+                    }                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 19/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission19",
+                        "x": 731,
+                        "y": 61
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 19/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission19",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

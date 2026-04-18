@@ -1,0 +1,91 @@
+[
+    {
+        "name": "Mission #15",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 15/Orihalcon Fragment 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission15",
+                        "x": 700,
+                        "y": 1471
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 15/Orihalcon Fragment 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission15",
+                        "x": 340,
+                        "y": 999
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 15/Orihalcon Fragment 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission15",
+                        "x": 517,
+                        "y": 1094
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 15/Blue Orb Fragment 8"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission15",
+                        "x": 64,
+                        "y": 1060
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 15/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission15",
+                        "x": 217,
+                        "y": 1365
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 15/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission15",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

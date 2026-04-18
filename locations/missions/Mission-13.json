@@ -1,0 +1,123 @@
+[
+    {
+        "name": "Mission #13",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 13/Devil Star"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission13",
+                        "x": 182,
+                        "y": 457
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 13/Orihalcon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission13",
+                        "x": 185,
+                        "y": 15
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 13/Combat Adjudicator 8"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission13",
+                        "x": 355,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 13/Secret Mission 8"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission13",
+                        "x": 270,
+                        "y": 540
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 13/Secret Mission 9"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission13",
+                        "x": 160,
+                        "y": 50
+                    },
+                    {
+                        "map": "Mission14",
+                        "x": 260,
+                        "y": 165,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|14",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission15",
+                        "x": 520,
+                        "y": 170,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 13/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission13",
+                        "x": 266,
+                        "y": 155
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 13/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission13",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

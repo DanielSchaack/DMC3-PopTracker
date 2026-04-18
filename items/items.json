@@ -330,19 +330,19 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "Progressive Trickster stage1",
+                "name": "Progressive Trickster Stage 1",
                 "inherit_codes": true,
                 "img": "/images/items/Progressive Trickster 1.png",
                 "codes": "Progressive Trickster, Progressive Trickster Stage 1"
             },
             {
-                "name": "Progressive Trickster stage2",
+                "name": "Progressive Trickster Stage 2",
                 "inherit_codes": true,
                 "img": "/images/items/Progressive Trickster 2.png",
                 "codes": "Progressive Trickster Stage 2"
             },
             {
-                "name": "Progressive Trickster stage3",
+                "name": "Progressive Trickster Stage 3",
                 "inherit_codes": true,
                 "img": "/images/items/Progressive Trickster 3.png",
                 "codes": "Progressive Trickster Stage 3"
@@ -358,19 +358,19 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "Progressive Swordmaster stage1",
+                "name": "Progressive Swordmaster Stage 1",
                 "inherit_codes": true,
                 "img": "/images/items/Progressive Swordmaster 1.png",
                 "codes": "Progressive Swordmaster, Progressive Swordmaster Stage 1"
             },
             {
-                "name": "Progressive Swordmaster stage2",
+                "name": "Progressive Swordmaster Stage 2",
                 "inherit_codes": true,
                 "img": "/images/items/Progressive Swordmaster 2.png",
                 "codes": "Progressive Swordmaster Stage 2"
             },
             {
-                "name": "Progressive Swordmaster stage3",
+                "name": "Progressive Swordmaster Stage 3",
                 "inherit_codes": true,
                 "img": "/images/items/Progressive Swordmaster 3.png",
                 "codes": "Progressive Swordmaster Stage 3"
@@ -386,19 +386,19 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "Progressive Gunslinger stage1",
+                "name": "Progressive Gunslinger Stage 1",
                 "inherit_codes": true,
                 "img": "/images/items/Progressive Gunslinger 1.png",
                 "codes": "Progressive Gunslinger, Progressive Gunslinger Stage 1"
             },
             {
-                "name": "Progressive Gunslinger stage2",
+                "name": "Progressive Gunslinger Stage 2",
                 "inherit_codes": true,
                 "img": "/images/items/Progressive Gunslinger 2.png",
                 "codes": "Progressive Gunslinger Stage 2"
             },
             {
-                "name": "Progressive Gunslinger stage3",
+                "name": "Progressive Gunslinger Stage 3",
                 "inherit_codes": true,
                 "img": "/images/items/Progressive Gunslinger 3.png",
                 "codes": "Progressive Gunslinger Stage 3"
@@ -414,19 +414,19 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "Progressive Royalguard stage1",
+                "name": "Progressive Royalguard Stage 1",
                 "inherit_codes": true,
                 "img": "/images/items/Progressive Royalguard 1.png",
                 "codes": "Progressive Royalguard, Progressive Royalguard Stage 1"
             },
             {
-                "name": "Progressive Royalguard stage2",
+                "name": "Progressive Royalguard Stage 2",
                 "inherit_codes": true,
                 "img": "/images/items/Progressive Royalguard 2.png",
                 "codes": "Progressive Royalguard Stage 2"
             },
             {
-                "name": "Progressive Royalguard stage3",
+                "name": "Progressive Royalguard Stage 3",
                 "inherit_codes": true,
                 "img": "/images/items/Progressive Royalguard 3.png",
                 "codes": "Progressive Royalguard Stage 3"
@@ -553,21 +553,21 @@
     },
 
     {
-        "name": "Neogenerator",
+        "name": "Neo Generator",
         "type": "toggle",
-        "img": "images/items/Neogenerator.png",
+        "img": "images/items/Neo Generator.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "Neogenerator"
+        "codes": "Neo Generator"
     },
 
     {
-        "name": "Haywire Neogenerator",
+        "name": "Haywire Neo Generator",
         "type": "toggle",
-        "img": "images/items/Haywire Neogenerator.png",
+        "img": "images/items/Haywire Neo Generator.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "Haywire Neogenerator"
+        "codes": "Haywire Neo Generator"
     },
      
     {
@@ -631,9 +631,9 @@
     },
 
     {
-        "name": "1000redorbs",
+        "name": "1000 Red Orbs",
         "type": "consumable",
-        "img": "images/items/redorb.png",
+        "img": "images/items/Red Orb.png",
         "min_quantity": 0,
         "max_quantity": 10,
         "increment": 1,
@@ -645,9 +645,9 @@
         "codes": "1000redorbs"
     },
     {
-        "name": "2500redorbs",
+        "name": "2500 Red Orbs",
         "type": "consumable",
-        "img": "images/items/redorbs.png",
+        "img": "images/items/Red Orb.png",
         "min_quantity": 0,
         "max_quantity": 10,
         "increment": 1,
@@ -659,9 +659,9 @@
         "codes": "2500redorbs"
     },
     {
-        "name": "5000redorbs",
+        "name": "5000 Red Orbs",
         "type": "consumable",
-        "img": "images/items/5000redorbs.png",
+        "img": "images/items/Red Orb.png",
         "min_quantity": 0,
         "max_quantity": 10,
         "increment": 1,
@@ -730,11 +730,11 @@
     },
 
     {
-        "name": "Deviltrigger",
+        "name": "Devil Trigger",
         "type": "toggle",
-        "img": "images/items/Deviltrigger.png",
+        "img": "images/items/Devil Trigger.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "Deviltrigger"
+        "codes": "Devil Trigger"
     }
 ]

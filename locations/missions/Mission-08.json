@@ -1,0 +1,91 @@
+[
+    {
+        "name": "Mission #08",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 8/Blue Orb Fragment 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission08",
+                        "x": 15,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 8/Secret Mission 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission08",
+                        "x": 35,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 8/Ignis Fatuus"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission08",
+                        "x": 655,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 8/Combat Adjudicator 5"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission08",
+                        "x": 365,
+                        "y": 430
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 8/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission08",
+                        "x": 328,
+                        "y": 196
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 8/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission08",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

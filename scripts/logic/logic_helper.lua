@@ -66,7 +66,7 @@ end
 function HAS(item, amount, amountInLogic)
     local count = Tracker:ProviderCountForCode(item)
 
-    -- print(item, count, amount, amountInLogic)
+    print(item, count, amount, amountInLogic)
     if amountInLogic then
         if count >= amountInLogic then
             return ACCESS_NORMAL

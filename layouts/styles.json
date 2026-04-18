@@ -2,7 +2,7 @@
     "styles_grid": {
         "type": "itemgrid",
         "h_alignment": "left",
-        "item_size": 56,
+        "item_size": 48,
         "rows": [
             [
                 "Progressive Trickster"

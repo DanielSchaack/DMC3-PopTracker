@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Mission #20",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 20/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission20",
+                        "x": 55,
+                        "y": 211
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 20/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission20",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

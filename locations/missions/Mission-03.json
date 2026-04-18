@@ -1,0 +1,186 @@
+[
+    {
+        "name": "Mission #03",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 3/Shotgun"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission03",
+                        "x": 50,
+                        "y": 580
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 3/Blue Orb Fragment 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission03",
+                        "x": 180,
+                        "y": 315
+                    },
+                    {
+                        "map": "Mission04",
+                        "x": 240,
+                        "y": 930,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|4",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission05",
+                        "x": 555,
+                        "y": 1130,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|5",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission07",
+                        "x": 240,
+                        "y": 1110,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|7",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 3/Combat Adjudicator 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission03",
+                        "x": 130,
+                        "y": 280
+                    },
+                    {
+                        "map": "Mission04",
+                        "x": 190,
+                        "y": 890,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|4",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission05",
+                        "x": 510,
+                        "y": 1130,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|5",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission07",
+                        "x": 190,
+                        "y": 1020,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|7",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 3/Secret Mission 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission03",
+                        "x": 180,
+                        "y": 280
+                    },
+                    {
+                        "map": "Mission04",
+                        "x": 240,
+                        "y": 900,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|4",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission05",
+                        "x": 555,
+                        "y": 1170,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|5",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission07",
+                        "x": 240,
+                        "y": 1050,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|7",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 3/Cerberus"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission03",
+                        "x": 160,
+                        "y": 110
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 3/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission03",
+                        "x": 162,
+                        "y": 23
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 3/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission03",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

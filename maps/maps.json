@@ -1,8 +1,122 @@
 [
     {
-        "name": "Shop",
+        "name": "Mission01",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/Shop.png"
+        "img": "images/maps/missions/Mission-1.png"
+    },
+    {
+        "name": "Mission02",
+        "location_size": 8,
+        "location_border_thickness": 1,
+        "img": "images/maps/missions/Mission-2.png"
+    },
+    {
+        "name": "Mission03",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-3.png"
+    },
+    {
+        "name": "Mission04",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-4.png"
+    },
+    {
+        "name": "Mission05",
+        "location_size": 32,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-5.png"
+    },
+    {
+        "name": "Mission06",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-6.png"
+    },
+    {
+        "name": "Mission07",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-7.png"
+    },
+    {
+        "name": "Mission08",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-8.png"
+    },
+    {
+        "name": "Mission09",
+        "location_size": 9,
+        "location_border_thickness": 1,
+        "img": "images/maps/missions/Mission-9.png"
+    },
+    {
+        "name": "Mission10",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-10.png"
+    },
+    {
+        "name": "Mission11",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-11.png"
+    },
+    {
+        "name": "Mission12",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-12.png"
+    },
+    {
+        "name": "Mission13",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-13.png"
+    },
+    {
+        "name": "Mission14",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-14.png"
+    },
+    {
+        "name": "Mission15",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-15.png"
+    },
+    {
+        "name": "Mission16",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-16.png"
+    },
+    {
+        "name": "Mission17",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-17.png"
+    },
+    {
+        "name": "Mission18",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-18.png"
+    },
+    {
+        "name": "Mission19",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/missions/Mission-19.png"
+    },
+    {
+        "name": "Mission20",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/missions/Mission-20.png"
     }
 ]

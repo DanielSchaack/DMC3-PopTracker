@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Mission #04",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 4/Blue Orb Fragment 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission04",
+                        "x": 305,
+                        "y": 115
+                    },
+                    {
+                        "map": "Mission05",
+                        "x": 620,
+                        "y": 350,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|5",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 4/Astronomical Board"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission04",
+                        "x": 280,
+                        "y": 35
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 4/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission04",
+                        "x": 325,
+                        "y": 35
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 4/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission04",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

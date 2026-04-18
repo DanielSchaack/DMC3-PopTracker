@@ -1,0 +1,123 @@
+[
+    {
+        "name": "Mission #05",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 5/Vajura"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission05",
+                        "x": 470,
+                        "y": 370
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 5/Soul of Steel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission05",
+                        "x": 740,
+                        "y": 620
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 5/Agni and Rudra"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission05",
+                        "x": 250,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 5/Combat Adjudicator 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission05",
+                        "x": 340,
+                        "y": 530
+                    },
+                    {
+                        "map": "Mission07",
+                        "x": 20,
+                        "y": 300,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|7",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 5/Secret Mission 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission05",
+                        "x": 430,
+                        "y": 540
+                    },
+                    {
+                        "map": "Mission07",
+                        "x": 120,
+                        "y": 310,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|7",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 5/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission05",
+                        "x": 250,
+                        "y": 430
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 5/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission05",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

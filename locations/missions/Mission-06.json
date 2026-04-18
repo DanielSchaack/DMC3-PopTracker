@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Mission #06",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 6/Essence of Technique"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission06",
+                        "x": 250,
+                        "y": 10
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 6/Essence of Intelligence"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission06",
+                        "x": 155,
+                        "y": 155
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 6/Essence of Fighting"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission06",
+                        "x": 390,
+                        "y": 155
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 6/Artemis"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission06",
+                        "x": 250,
+                        "y": 405
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 6/Combat Adjudicator 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission06",
+                        "x": 395,
+                        "y": 365
+                    },
+                    {
+                        "map": "Mission07",
+                        "x": 670,
+                        "y": 1230,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|7",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 6/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission06",
+                        "x": 575,
+                        "y": 405
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 6/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission06",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

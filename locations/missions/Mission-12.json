@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Mission #12",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 12/Haywire Neo Generator"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission12",
+                        "x": 470,
+                        "y": 530
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 12/Vital Star L"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission12",
+                        "x": 200,
+                        "y": 288
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 12/Quicksilver"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission12",
+                        "x": 280,
+                        "y": 590
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 12/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission12",
+                        "x": 300,
+                        "y": 660
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 12/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission12",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

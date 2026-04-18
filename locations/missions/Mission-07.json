@@ -1,0 +1,147 @@
+[
+    {
+        "name": "Mission #07",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 7/Orihalcon Fragment"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission07",
+                        "x": 670,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 7/Holy Water"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission07",
+                        "x": 710,
+                        "y": 1180
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 7/Blue Orb Fragment 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission07",
+                        "x": 610,
+                        "y": 1050
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 7/Vital Star S"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission07",
+                        "x": 750,
+                        "y": 825
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 7/Crystal Skull"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission07",
+                        "x": 215,
+                        "y": 402
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 7/Sirens Shriek"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission07",
+                        "x": 635,
+                        "y": 880
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 7/Combat Adjudicator 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission07",
+                        "x": 700,
+                        "y": 780
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 7/Secret Mission 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission07",
+                        "x": 780,
+                        "y": 1225
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 7/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission07",
+                        "x": 638,
+                        "y": 563
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 7/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission07",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

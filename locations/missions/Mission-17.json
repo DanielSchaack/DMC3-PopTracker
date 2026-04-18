@@ -1,0 +1,177 @@
+[
+    {
+        "name": "Mission #17",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 17/Vital Star S"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission17",
+                        "x": 359,
+                        "y": 897
+                    },
+                    {
+                        "map": "Mission18",
+                        "x": 359,
+                        "y": 897,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|18",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission19",
+                        "x": 359,
+                        "y": 967,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|19",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 17/Blue Orb Fragment 10"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission17",
+                        "x": 351,
+                        "y": 779
+                    },
+                    {
+                        "map": "Mission18",
+                        "x": 351,
+                        "y": 779,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|18",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission19",
+                        "x": 351,
+                        "y": 849,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|19",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 17/Combat Adjudicator 10"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission17",
+                        "x": 99,
+                        "y": 836
+                    },
+                    {
+                        "map": "Mission18",
+                        "x": 99,
+                        "y": 836,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|18",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission19",
+                        "x": 99,
+                        "y": 906,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|19",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 17/Doppelganger"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission17",
+                        "x": 150,
+                        "y": 166
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 17/Secret Mission 11"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission17",
+                        "x": 377,
+                        "y": 178
+                    },
+                    {
+                        "map": "Mission18",
+                        "x": 377,
+                        "y": 178,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|18",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission19",
+                        "x": 377,
+                        "y": 248,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|19",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 17/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission17",
+                        "x": 77,
+                        "y": 166
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 17/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission17",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

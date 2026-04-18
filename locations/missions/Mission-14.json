@@ -1,0 +1,155 @@
+[
+    {
+        "name": "Mission #14",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 14/Beowulf"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission14",
+                        "x": 440,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 14/Vital Star S"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission14",
+                        "x": 530,
+                        "y": 571
+                    },
+                    {
+                        "map": "Mission15",
+                        "x": 790,
+                        "y": 571,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 14/Combat Adjudicator 9"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission14",
+                        "x": 260,
+                        "y": 380
+                    },
+                    {
+                        "map": "Mission15",
+                        "x": 512,
+                        "y": 380,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 14/Blue Orb Fragment 7"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission14",
+                        "x": 387,
+                        "y": 561
+                    },
+                    {
+                        "map": "Mission15",
+                        "x": 647,
+                        "y": 561,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 14/Vital Star S 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission14",
+                        "x": 191,
+                        "y": 507
+                    },
+                    {
+                        "map": "Mission15",
+                        "x": 450,
+                        "y": 505,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 14/Holy Water"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission14",
+                        "x": 909,
+                        "y": 125
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 14/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission14",
+                        "x": 890,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 14/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission14",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

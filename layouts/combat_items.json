@@ -1,0 +1,15 @@
+{
+    "combat_items_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "rows": [
+            [
+                "Vital Star S",
+                "Vital Star L",
+                "Devil Star",
+                "Holy Water"
+            ]
+        ]
+    }
+}

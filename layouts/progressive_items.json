@@ -1,0 +1,19 @@
+
+{
+    "progressive_items_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "rows": [
+            [
+                "Devil Trigger"
+            ],
+            [
+                "Blue Orb"
+            ],
+            [
+                "Purple Orb"
+            ]
+        ]
+    }
+}

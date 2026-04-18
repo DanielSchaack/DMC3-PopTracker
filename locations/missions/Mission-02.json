@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Mission #02",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 2/Vital Star S"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission02",
+                        "x": 50,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 2/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission02",
+                        "x": 80,
+                        "y": 5
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 2/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission02",
+                        "x": 20,
+                        "y": 20
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Mission #10",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 10/Stonemask"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission10",
+                        "x": 140,
+                        "y": 25
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 10/Neo Generator"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission10",
+                        "x": 30,
+                        "y": 270
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 10/Secret Mission 6"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission10",
+                        "x": 10,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 10/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission10",
+                        "x": 485,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 10/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission10",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

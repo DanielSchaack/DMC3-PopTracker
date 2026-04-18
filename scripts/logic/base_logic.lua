@@ -1,13 +1,152 @@
-
 -- this is the file to put all your custom logic functions into.
 -- if you dont want to use the json based logic you can switch to a graph-based logic method.
 -- the needed functions for that are in `/scripts/logic/graph_logic/logic_main.lua`.
-
-
 
 -- function <name> (<parameters if needed>)
 --     <actual code>
 --     <indentations are just for readability>
 -- end
 --
-                
+function has(item)
+	return tonumber(Tracker:ProviderCountForCode(item)) > 0
+end
+
+ADDED_DT_ORBS = false
+function checkAndUpdateDevilTrigger()
+	local is_dt_mode = SLOT_DATA["devil_trigger_mode"]
+	local is_purple_mode = SLOT_DATA["purple_orb_mode"]
+	if is_purple_mode and not is_dt_mode then
+		Tracker:FindObjectForCode("Devil Trigger").Active = tonumber(Tracker:ProviderCountForCode("Purple Orb")) >= 3
+	elseif not is_purple_mode and has("Devil Trigger") and ADDED_DT_ORBS then
+		Tracker:FindObjectForCode("Purple Orb").AcquiredCount = Tracker:FindObjectForCode("Purple Orb").AcquiredCount
+			+ 3
+		ADDED_DT_ORBS = true
+	end
+end
+
+COMPLETED_LOCATIONS = {}
+function updateAvailableMissions(location)
+	if not COMPLETED_LOCATIONS[location] and string.find(location, "Mission Completion$") then
+		local item_obj = Tracker:FindObjectForCode("Maximum Mission")
+		item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment
+		COMPLETED_LOCATIONS[location] = true
+	end
+end
+
+function hasMission(mission_idx)
+	if GOAL == 1 then
+		return true
+	end
+
+	local max_mission_number = Tracker:ProviderCountForCode("Maximum Mission")
+	mission_idx = tonumber(mission_idx)
+
+	if GOAL == 0 then
+		return mission_idx <= max_mission_number
+	end
+
+	if GOAL == 2 then
+		for i = 1, max_mission_number do
+			if MISSION_ASSIGNMENTS[i] == mission_idx then
+				return true
+			end
+		end
+	end
+
+	return false
+end
+
+function notHasMission(mission_idx)
+	return not hasMission(mission_idx)
+end
+
+ADJUDICATOR_MAP = {
+	[1] = 3,
+	[2] = 5,
+	[3] = 6,
+	[4] = 7,
+	[5] = 8,
+	[6] = 9,
+	[7] = 11,
+	[8] = 13,
+	[9] = 14,
+	[10] = 17,
+}
+
+ADJUDICATOR_BASE_WEAPON_MAP = {
+	[1] = "Rebellion",
+	[2] = "Cerberus",
+	[3] = "Agni and Rudra",
+	[4] = "Rebellion",
+	[5] = "Cerberus",
+	[6] = "Nevan",
+	[7] = "Agni and Rudra",
+	[8] = "Nevan",
+	[9] = "Beowulf",
+	[10] = "Beowulf",
+}
+
+function hasRequiredWeapon(adjudicator_idx)
+	adjudicator_idx = tonumber(adjudicator_idx)
+	local map_idx = ADJUDICATOR_MAP[adjudicator_idx]
+	local adjudicator_name = "Mission #" .. map_idx .. " - Combat Adjudicator #" .. adjudicator_idx
+	local adjudicators = SLOT_DATA["adjudicators"]
+	if adjudicators ~= nil then
+		local adjudicator = adjudicators[adjudicator_name]
+		local required_weapon = adjudicator["weapon"]
+		return Tracker:FindObjectForCode(required_weapon).Active
+	else
+		local required_weapon = ADJUDICATOR_BASE_WEAPON_MAP[adjudicator_idx]
+		return Tracker:FindObjectForCode(required_weapon).Active
+	end
+end
+
+function hasRequiredDifficulty()
+	local required_difficulty = SLOT_DATA["mission_clear_difficulty"]
+	for difficulty, _ in pairs(AVAILABLE_DIFFICULTIES) do
+		if difficulty >= required_difficulty then
+			return true
+		end
+	end
+	return false
+end
+
+function hasRequiredSSDifficulty()
+	if SLOT_DATA["enabled_ss_rank"] and SLOT_DATA["check_ss_difficulty"] then
+		local required_difficulty = SLOT_DATA["mission_clear_difficulty"]
+		for difficulty, _ in pairs(AVAILABLE_DIFFICULTIES) do
+			if difficulty >= required_difficulty then
+				return true
+			end
+		end
+	end
+	return false
+end
+
+function hasAirhike()
+	return has("Rebellion - Airhike") or has("Agni and Rudra - Airhike") or has("Beowulf - Airhike")
+end
+
+function hasAirraid()
+	return has("Nevan") and has("Nevan - Airraid") and has("Devil Trigger")
+end
+
+function hasEnhancedJump()
+	return hasAirraid() or hasAirhike() or has("Progressive Trickster Stage 2") or has("Progressive Trickster Stage 3")
+end
+
+function hasShopEnabled(name)
+	if name == "Orb" then
+		return SLOT_DATA["shop_orb_checks"]
+	end
+
+	return false
+end
+
+function SB()
+	if has("show_oom_available") or has("show_oom_on") then
+		return AccessibilityLevel.SequenceBreak
+	else
+		return AccessibilityLevel.None
+	end
+end

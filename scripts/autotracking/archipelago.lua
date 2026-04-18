@@ -81,7 +81,7 @@ function LocationHandler(location)
 	end
 	-- local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
 	-- print(dump_table(storage_item.ItemState.MANUAL_LOCATIONS))
-	ForceUpdate() --
+	-- ForceUpdate()
 end
 
 function ForceUpdate()
@@ -109,7 +109,7 @@ function onClearHandler(slot_data)
 			ScriptHost:AddWatchForCode("StateChange", "*", StateChanged)
 			ScriptHost:RemoveOnFrameHandler(handlerName)
 			Tracker.BulkUpdate = false
-			ForceUpdate()
+			-- ForceUpdate()
 			print(string.format("Time taken total: %.2f", os.clock() - clear_timer))
 		end
 		ScriptHost:AddOnFrameHandler(handlerName, frameCallback)
@@ -171,7 +171,81 @@ function preOnClear()
 	end
 end
 
+AVAILABLE_DIFFICULTIES = {
+	[1] = "Normal",
+}
+MISSION_ASSIGNMENTS = {
+	[1] = 1,
+	[2] = 2,
+	[3] = 3,
+	[4] = 4,
+	[5] = 5,
+	[6] = 6,
+	[7] = 7,
+	[8] = 8,
+	[9] = 9,
+	[10] = 10,
+	[11] = 11,
+	[12] = 12,
+	[13] = 13,
+	[14] = 14,
+	[15] = 15,
+	[16] = 16,
+	[17] = 17,
+	[18] = 18,
+	[19] = 19,
+	[20] = 20,
+}
+
+GOAL = 0
 function onClear(slot_data)
+	PLAYER_ID = Archipelago.PlayerNumber or -1
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
+	SLOT_DATA = slot_data
+	print(PLAYER_ID, TEAM_NUMBER)
+
+	for _, available_difficulty in pairs(slot_data["initially_unlocked_difficulties"]) do
+		if available_difficulty == "Easy" then
+			AVAILABLE_DIFFICULTIES[0] = available_difficulty
+		elseif available_difficulty == "Hard" then
+			AVAILABLE_DIFFICULTIES[2] = available_difficulty
+		elseif available_difficulty == "Very Hard" then
+			AVAILABLE_DIFFICULTIES[3] = available_difficulty
+		elseif available_difficulty == "Dante Must Die" then
+			AVAILABLE_DIFFICULTIES[4] = available_difficulty
+		elseif available_difficulty == "Heaven or Hell" then
+			AVAILABLE_DIFFICULTIES[5] = available_difficulty
+		end
+	end
+
+	GOAL = tonumber(slot_data["goal"])
+	if GOAL == 2 then
+		MISSION_ASSIGNMENTS = slot_data["mission_order"]
+	end
+
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print("--- Provided Difficulties ---")
+		print(dump_table(slot_data["initially_unlocked_difficulties"], 2))
+
+		print("--- Available Difficulties ---")
+		print("Count:", #AVAILABLE_DIFFICULTIES)
+		print(dump_table(AVAILABLE_DIFFICULTIES, 2))
+
+		print("--- Active Mission Assignments ---")
+		print("Count:", #MISSION_ASSIGNMENTS)
+		print(dump_table(MISSION_ASSIGNMENTS, 2))
+
+		print("--- Current Goal ---")
+		print(GOAL)
+	end
+
+	local has_ss_checks = slot_data["enabled_ss_rank"]
+	if has_ss_checks then
+		Tracker:FindObjectForCode("SS Rank Completions").CurrentStage = 1
+	else
+		Tracker:FindObjectForCode("SS Rank Completions").CurrentStage = 0
+	end
+
 	MANUAL_CHECKED = false
 	local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
 	if custom_storage_item == nil then
@@ -187,7 +261,6 @@ function onClear(slot_data)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
 	end
-	--SLOT_DATA = slot_data
 	CUR_INDEX = -1
 	-- reset locations
 	for _, location_array in pairs(LOCATION_MAPPING) do
@@ -228,7 +301,7 @@ function onClear(slot_data)
 			if item_obj then
 				if item_obj.Type == "toggle" then
 					item_obj.Active = false
-				elseif item_obj.Type == "Progressive " then
+				elseif item_obj.Type == "progressive" then
 					item_obj.CurrentStage = 0
 				elseif item_obj.Type == "consumable" then
 					if item_obj.MinCount then
@@ -236,7 +309,7 @@ function onClear(slot_data)
 					else
 						item_obj.AcquiredCount = 0
 					end
-				elseif item_obj.Type == "Progressive _toggle" then
+				elseif item_obj.Type == "progressive_toggle" then
 					item_obj.CurrentStage = 0
 					item_obj.Active = false
 				end
@@ -245,13 +318,7 @@ function onClear(slot_data)
 			end
 		end
 	end
-	PLAYER_ID = Archipelago.PlayerNumber or -1
-	TEAM_NUMBER = Archipelago.TeamNumber or 0
-	SLOT_DATA = slot_data
-	-- if Tracker:FindObjectForCode("autofill_settings").Active == true then
-	--     autoFill(slot_data)
-	-- end
-	print(PLAYER_ID, TEAM_NUMBER)
+
 	if Archipelago.PlayerNumber > -1 then
 		if #ALL_LOCATIONS > 0 then
 			ALL_LOCATIONS = {}
@@ -270,6 +337,15 @@ function onClear(slot_data)
 	end
 	ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
 	MANUAL_CHECKED = true
+
+	Tracker:FindObjectForCode("Maximum Mission").AcquiredCount = 1
+	local has_randomised_styles = slot_data["randomize_styles"]
+	if not has_randomised_styles then
+		Tracker:FindObjectForCode("Progressive Trickster").CurrentStage = 1
+		Tracker:FindObjectForCode("Progressive Swordmaster").CurrentStage = 1
+		Tracker:FindObjectForCode("Progressive Gunslinger").CurrentStage = 1
+		Tracker:FindObjectForCode("Progressive Royalguard").CurrentStage = 1
+	end
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -323,6 +399,9 @@ function onItem(index, item_id, item_name, player_number)
 					item_obj.Active = true
 				end
 			end
+			if item_code == "Purple Orb" or item_code == "Devil Trigger" then
+				checkAndUpdateDevilTrigger()
+			end
 		else
 			print(string.format("onItem: could not find object for code %s", item_code[1]))
 		end
@@ -352,46 +431,14 @@ function onLocation(location_id, location_name)
 			else
 				location_obj.Active = true
 			end
+
+            updateAvailableMissions(location)
 		else
 			print(string.format("onLocation: could not find location_object for code %s", location))
 		end
 	end
 	MANUAL_CHECKED = true
 end
-
--- this Autofill function is meant as an example on how to do the reading from slotdata and mapping the values to
--- your own settings
--- function autoFill()
---     if SLOT_DATA == nil  then
---         print("its fucked")
---         return
---     end
---     -- print(dump_table(SLOT_DATA))
-
---     mapToggle={[0]=0,[1]=1,[2]=1,[3]=1,[4]=1}
---     mapToggleReverse={[0]=1,[1]=0,[2]=0,[3]=0,[4]=0}
---     mapTripleReverse={[0]=2,[1]=1,[2]=0}
-
---     slotCodes = {
---         map_name = {code="", mapping=mapToggle...}
---     }
---     -- print(dump_table(SLOT_DATA))
---     -- print(Tracker:FindObjectForCode("autofill_settings").Active)
---     if Tracker:FindObjectForCode("autofill_settings").Active == true then
---         for settings_name , settings_value in pairs(SLOT_DATA) do
---             -- print(k, v)
---             if slotCodes[settings_name] then
---                 item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
---                 if item.Type == "toggle" then
---                     item.Active = slotCodes[settings_name].mapping[settings_value]
---                 else
---                     -- print(k,v,Tracker:FindObjectForCode(slotCodes[k].code).CurrentStage, slotCodes[k].mapping[v])
---                     item.CurrentStage = slotCodes[settings_name].mapping[settings_value]
---                 end
---             end
---         end
---     end
--- end
 
 function OnNotify(key, value, old_value)
 	print("OnNotify", key, value, old_value)
@@ -452,7 +499,9 @@ end
 
 function UpdateHints(locationID, status) -->
 	if Highlight then
-		print(locationID, status)
+		if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+			print(string.format("called UpdateHints: locationID %s, status %s", locationID, status))
+		end
 		local location_table = LOCATION_MAPPING[locationID]
 		for _, location in ipairs(location_table) do
 			if location:sub(1, 1) == "@" then
@@ -515,7 +564,7 @@ end
 -- 	end
 -- end
 
--- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
+ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
 Archipelago:AddClearHandler("clear handler", onClearHandler)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)

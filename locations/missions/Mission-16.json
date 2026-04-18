@@ -1,0 +1,115 @@
+[
+    {
+        "name": "Mission #16",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 16/Devil Star"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission16",
+                        "x": 445,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 16/Onyx Moonshard"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission16",
+                        "x": 258,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 16/Golden Sun"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission16",
+                        "x": 695,
+                        "y": 109
+                    }                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 16/Vital Star S"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission16",
+                        "x": 112,
+                        "y": 150
+                    }                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 16/Kalina Ann"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission16",
+                        "x": 225,
+                        "y": 57
+                    }                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 16/Secret Mission 10"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission16",
+                        "x": 750,
+                        "y": 115
+                    }                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 16/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission16",
+                        "x": 130,
+                        "y": 20
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 16/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission16",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

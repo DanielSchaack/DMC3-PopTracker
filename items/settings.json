@@ -1,0 +1,62 @@
+[
+    {
+        "name": "SS Rank Completions",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/settings/S Rank 1.png",
+                "codes": "SS Rank Completions,disabled_ss_rank",
+                "inherit_codes": false,
+                "name": "SS Rank - Off"
+            },
+            {
+                "img": "images/settings/S Rank 2.png",
+                "codes": "SS Rank Completions,enabled_ss_rank",
+                "inherit_codes": false,
+                "name": "SS Rank - On"
+            }
+        ]
+    },
+    {
+        "name": "Show Out of Mission Checks",
+        "type": "progressive",
+        "allow_disabled": false,
+        "overlay_align": "right",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/Wheel 1.png",
+                "codes": "Show Out of Mission Checks,show_oom_off",
+                "inherit_codes": false,
+                "name": "Show Out of Mission - Off"
+            },
+            {
+                "img": "images/settings/Wheel 2.png",
+                "codes": "Show Out of Mission Checks,show_oom_available",
+                "inherit_codes": false,
+                "name": "Show Out of Mission - Available"
+            },
+            {
+                "img": "images/settings/Wheel 3.png",
+                "codes": "Show Out of Mission Checks,show_oom_on",
+                "inherit_codes": false,
+                "name": "Show Out of Mission - On"
+            }
+        ]
+    },
+    {
+        "name": "Maximum Mission Available",
+        "type": "consumable",
+        "img": "/images/settings/Mission-M.png",
+        "codes": "Maximum Mission",
+        "min_quantity": 1,
+        "max_quantity": 20,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1
+    }
+]

@@ -1,0 +1,232 @@
+[
+    {
+        "name": "Mission #09",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 9/Blue Orb Fragment 5"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission09",
+                        "x": 400,
+                        "y": 475
+                    },
+                    {
+                        "map": "Mission10",
+                        "x": 400,
+                        "y": 475,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|10",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 9/Combat Adjudicator 6"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission09",
+                        "x": 45,
+                        "y": 225
+                    },
+                    {
+                        "map": "Mission10",
+                        "x": 45,
+                        "y": 225,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|10",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 9/Secret Mission 5"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission09",
+                        "x": 85,
+                        "y": 60
+                    },
+                    {
+                        "map": "Mission10",
+                        "x": 85,
+                        "y": 60,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|10",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission14",
+                        "x": 95,
+                        "y": 175,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|14",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission15",
+                        "x": 355,
+                        "y": 175,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 9/Spiral"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission09",
+                        "x": 40,
+                        "y": 170
+                    },
+                    {
+                        "map": "Mission10",
+                        "x": 40,
+                        "y": 170,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|10",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission14",
+                        "x": 40,
+                        "y": 270,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|14",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission15",
+                        "x": 300,
+                        "y": 275,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 9/Ambrosia"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission09",
+                        "x": 345,
+                        "y": 135
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 9/Devil Star"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission09",
+                        "x": 15,
+                        "y": 115
+                    },
+                    {
+                        "map": "Mission10",
+                        "x": 15,
+                        "y": 115,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|10",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission14",
+                        "x": 25,
+                        "y": 230,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|14",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission15",
+                        "x": 288,
+                        "y": 229,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 9/Nevan"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission09",
+                        "x": 175,
+                        "y": 35
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 9/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission09",
+                        "x": 183,
+                        "y": 15
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 9/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission09",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

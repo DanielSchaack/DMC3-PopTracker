@@ -1,0 +1,14 @@
+{
+    "settings_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 48,
+        "rows": [
+            [
+                "SS Rank Completions",
+                "Show Out of Mission Checks",
+                "Maximum Mission"
+            ]
+        ]
+    }
+}

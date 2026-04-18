@@ -1,0 +1,213 @@
+[
+    {
+        "name": "Mission #11",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 11/Devil Star"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission11",
+                        "x": 265,
+                        "y": 170
+                    },
+                    {
+                        "map": "Mission12",
+                        "x": 375,
+                        "y": 170,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission15",
+                        "x": 540,
+                        "y": 1630,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 11/Blue Orb Fragment 6"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission11",
+                        "x": 245,
+                        "y": 143
+                    },
+                    {
+                        "map": "Mission12",
+                        "x": 355,
+                        "y": 143,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|12",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission15",
+                        "x": 575,
+                        "y": 1635,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 11/Holy Water"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission11",
+                        "x": 190,
+                        "y": 25
+                    },
+                    {
+                        "map": "Mission12",
+                        "x": 300,
+                        "y": 25,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|12",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission14",
+                        "x": 380,
+                        "y": 25,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|14",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission15",
+                        "x": 642,
+                        "y": 25,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 11/Secret Mission 7"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission11",
+                        "x": 277,
+                        "y": 187
+                    },
+                    {
+                        "map": "Mission12",
+                        "x": 387,
+                        "y": 187,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|12",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission15",
+                        "x": 520,
+                        "y": 1630,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 11/Combat Adjudicator 7"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission11",
+                        "x": 140,
+                        "y": 20
+                    },
+                    {
+                        "map": "Mission12",
+                        "x": 250,
+                        "y": 20,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|12",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission14",
+                        "x": 330,
+                        "y": 20,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|14",
+                            "show_oom_off"
+                        ]
+                    },
+                    {
+                        "map": "Mission15",
+                        "x": 590,
+                        "y": 20,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|15",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 11/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission11",
+                        "x": 353,
+                        "y": 523
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 11/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission11",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

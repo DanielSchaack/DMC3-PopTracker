@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Mission #18",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 18/Blue Orb Fragment 11"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission18",
+                        "x": 605,
+                        "y": 269
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 18/Secret Mission 12"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission18",
+                        "x": 632,
+                        "y": 386
+                    },
+                    {
+                        "map": "Mission19",
+                        "x": 726,
+                        "y": 582,
+                        "force_invisibility_rules": [
+                            "show_oom_available, $notHasMission|19",
+                            "show_oom_off"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 18/Mission Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission18",
+                        "x": 579,
+                        "y": 269
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Missions/Mission 18/SS Rank Completion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mission18",
+                        "x": 20,
+                        "y": 40
+                    }
+                ]
+            }
+        ]
+    }
+]
