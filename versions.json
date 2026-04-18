@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.1.0",
+            "download_url": "https://github.com/DanielSchaack/DMC3-PopTracker/releases/download/0.1.0/DMC3-PopTracker.zip",
+            "sha256": "4bc6455a60d46357a060f56d3687d9cf492e67686d3554f34571a361b246dbbd",
+            "changelog": [
+                "Maps for each Mission have been set up, fully up and running with logic and accurate placement.",
+                "These also come with some settings to change how much is shown.",
+                "Also some minor issues has been fixed. "
+            ]
+        },        
+        {
             "package_version": "0.0.2",
             "download_url": "https://github.com/DanielSchaack/DMC3-PopTracker/releases/download/0.0.2/DMC3-PopTracker.zip",
             "sha256": "2947f147daffaaa9ee3c4fddcef27cd33d8a20fdf013a3b7c33b45292e2d9557",
