@@ -10,16 +10,13 @@ A PopTracker pack for Devil May Cry 3 Archipelago Randomizer.
 
 ## Known Issues
 
-- (Version 0.0.1/0.0.2 misses Devil Trigger tracking)
 - Non randomised options (gun levels, devil arms skills, styles) are _not_ tracked
-- Devil trigger does _not_ add three purple orbs in non-purple orb modes nor reduces the max amount of purple orbs available
 -> Workarounds: Manual tracking by clicking the respective icons
 
 ## ToDo
 
 - Higher resolution styles and abilities.
 - Add mission assignment overview for randomized mission order
-- Add mission maps + locations
 - Add hidden stashes + orbs
 
 ## Credits
