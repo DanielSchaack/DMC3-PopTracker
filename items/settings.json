@@ -84,7 +84,7 @@
         "type": "progressive",
         "allow_disabled": false,
         "loop": true,
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "stages": [
             {
                 "img": "images/settings/Style Off.png",
@@ -105,7 +105,7 @@
         "type": "progressive",
         "allow_disabled": false,
         "loop": true,
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "stages": [
             {
                 "img": "images/settings/Item Off.png",
@@ -147,7 +147,7 @@
         "type": "progressive",
         "allow_disabled": false,
         "loop": true,
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "stages": [
             {
                 "img": "images/settings/Action Off.png",
@@ -168,7 +168,7 @@
         "type": "progressive",
         "allow_disabled": false,
         "loop": true,
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "stages": [
             {
                 "img": "images/settings/Guns Off.png",
