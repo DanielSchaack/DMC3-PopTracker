@@ -24,7 +24,6 @@
         "name": "Show Out of Mission Checks",
         "type": "progressive",
         "allow_disabled": false,
-        "overlay_align": "right",
         "loop": true,
         "initial_stage_idx": 1,
         "stages": [
@@ -49,14 +48,140 @@
         ]
     },
     {
-        "name": "Maximum Mission Available",
+        "name": "Automated Tab Tracking",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/Tab Tracking Off.png",
+                "codes": "Automated Tab Tracking,auto_tab_off",
+                "inherit_codes": false,
+                "name": "Automated Tab Tracking - Off"
+            },
+            {
+                "img": "images/settings/Tab Tracking.png",
+                "codes": "Automated Tab Tracking,auto_tab_on_mission",
+                "inherit_codes": false,
+                "name": "Automated Tab Tracking - Mission"
+            }
+        ]
+    },
+    {
+        "name": "Completed Missions",
         "type": "consumable",
         "img": "/images/settings/Mission-M.png",
-        "codes": "Maximum Mission",
+        "codes": "Completed Missions",
         "min_quantity": 1,
         "max_quantity": 20,
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 1
+    },
+    {
+        "name": "Style Checks",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/Style Off.png",
+                "codes": "Style Checks,disabled_style_checks",
+                "inherit_codes": false,
+                "name": "Style Checks - Off"
+            },
+            {
+                "img": "images/settings/Style.png",
+                "codes": "Style Checks,enabled_style_checks",
+                "inherit_codes": false,
+                "name": "Style Checks - On"
+            }
+        ]
+    },
+    {
+        "name": "Item Checks",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/Item Off.png",
+                "codes": "Item Checks,disabled_item_shop",
+                "inherit_codes": false,
+                "name": "Item in Shop - Off"
+            },
+            {
+                "img": "images/settings/Item.png",
+                "codes": "Item Checks,enabled_item_shop",
+                "inherit_codes": false,
+                "name": "Item in Shop - On"
+            }
+        ]
+    },
+    {
+        "name": "Orb Checks",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/Archipelago Orbs Off.png",
+                "codes": "Orb Checks,disabled_orb_shop",
+                "inherit_codes": false,
+                "name": "Orbs in Shop - Off"
+            },
+            {
+                "img": "images/settings/Archipelago Orbs.png",
+                "codes": "Orb Checks,enabled_orb_shop",
+                "inherit_codes": false,
+                "name": "Orbs in Shop - On"
+            }
+        ]
+    },
+    {
+        "name": "Action Checks",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/Action Off.png",
+                "codes": "Action Checks,disabled_action_shop",
+                "inherit_codes": false,
+                "name": "Actions in Shop - Off"
+            },
+            {
+                "img": "images/settings/Action.png",
+                "codes": "Action Checks,enabled_action_shop",
+                "inherit_codes": false,
+                "name": "Actions in Shop - On"
+            }
+        ]
+    },
+    {
+        "name": "Guns Checks",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/Guns Off.png",
+                "codes": "Guns Checks,disabled_guns_shop",
+                "inherit_codes": false,
+                "name": "Guns Upgrades in Shop - Off"
+            },
+            {
+                "img": "images/settings/Guns.png",
+                "codes": "Guns Checks,enabled_guns_shop",
+                "inherit_codes": false,
+                "name": "Guns Upgrades in Shop - On"
+            }
+        ]
     }
 ]

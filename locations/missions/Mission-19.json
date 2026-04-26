@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M19 - Vital Star atop one of the chandeliers",
                         "ref": "Missions/Mission 19/Vital Star L"
                     }
                 ],
@@ -18,6 +19,7 @@
             {
                 "sections": [
                     {
+                        "name": "M19 - Samsara",
                         "ref": "Missions/Mission 19/Samsara"
                     }
                 ],

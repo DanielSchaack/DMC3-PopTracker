@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M18 - Blue orb fragment after clearing all bosses",
                         "ref": "Missions/Mission 18/Blue Orb Fragment 11"
                     }
                 ],
@@ -19,6 +20,7 @@
             {
                 "sections": [
                     {
+                        "name": "M18 - SM12 - Final Ascencion - To the left of the foot",
                         "ref": "Missions/Mission 18/Secret Mission 12"
                     }
                 ],

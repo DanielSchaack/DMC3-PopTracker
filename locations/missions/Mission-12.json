@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M12 - Haywire Neo Generator - The most difficult item to receive of them all",
                         "ref": "Missions/Mission 12/Haywire Neo Generator"
                     }
                 ],
@@ -19,6 +20,7 @@
             {
                 "sections": [
                     {
+                        "name": "M12 - Vital Star in front of the staircase",
                         "ref": "Missions/Mission 12/Vital Star L"
                     }
                 ],
@@ -33,6 +35,7 @@
             {
                 "sections": [
                     {
+                        "name": "M12 - Quicksilver Style after defeating the boss",
                         "ref": "Missions/Mission 12/Quicksilver"
                     }
                 ],

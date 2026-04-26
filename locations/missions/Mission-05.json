@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M5 - Vajura on second floor after placing the Astronomical Board",
                         "ref": "Missions/Mission 5/Vajura"
                     }
                 ],
@@ -19,6 +20,7 @@
             {
                 "sections": [
                     {
+                        "name": "M5 - Soul of Steel after placing Vajuria",
                         "ref": "Missions/Mission 5/Soul of Steel"
                     }
                 ],
@@ -33,6 +35,7 @@
             {
                 "sections": [
                     {
+                        "name": "M5 - Agni and Rudra after defeating the boss",
                         "ref": "Missions/Mission 5/Agni and Rudra"
                     }
                 ],
@@ -47,6 +50,7 @@
             {
                 "sections": [
                     {
+                        "name": "M5 - Combat Adjudicator across the bridge after obtaining Soul of Steel",
                         "ref": "Missions/Mission 5/Combat Adjudicator 2"
                     }
                 ],
@@ -70,6 +74,7 @@
             {
                 "sections": [
                     {
+                        "name": "M5 - SM2 - Untouchable - Next to the elevator",
                         "ref": "Missions/Mission 5/Secret Mission 2"
                     }
                 ],

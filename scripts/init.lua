@@ -2,7 +2,7 @@ ENABLE_DEBUG_LOG = true
 
 local variant = Tracker.ActiveVariantUID
 print("\n-- Devil May Cry 3 Tracker --")
-print("Variant: ", Tracker.ActiveVariantUID)
+print("Variant: ", variant)
 if ENABLE_DEBUG_LOG then
 	print("Debug Logging Enabled")
 end
@@ -13,17 +13,12 @@ require("scripts/items_import")
 -- Logic
 require("scripts/logic/logic_helper")
 require("scripts/logic/base_logic")
-require("scripts/logic/graph_logic/logic_main")
 
 -- Maps
 if Tracker.ActiveVariantUID == "maps-u" then
 	Tracker:AddMaps("maps/maps-u.json")
 else
 	Tracker:AddMaps("maps/maps.json")
-end
-
-if PopVersion and PopVersion >= "0.23.0" then
-	Tracker:AddLocations("locations/dungeons.json")
 end
 
 -- Layout
@@ -45,6 +40,7 @@ function OnFrameHandler()
 	CreateLuaManualStorageItem("manual_location_storage")
 	-- ForceUpdate()
 end
+
 require("scripts/luaitems")
 require("scripts/watches")
 ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)

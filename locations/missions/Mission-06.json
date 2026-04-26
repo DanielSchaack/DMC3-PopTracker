@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M6 - Essence of Technique",
                         "ref": "Missions/Mission 6/Essence of Technique"
                     }
                 ],
@@ -19,6 +20,7 @@
             {
                 "sections": [
                     {
+                        "name": "M6 - Essence of Intelligence",
                         "ref": "Missions/Mission 6/Essence of Intelligence"
                     }
                 ],
@@ -33,6 +35,7 @@
             {
                 "sections": [
                     {
+                        "name": "M6 - Essence of Fighting",
                         "ref": "Missions/Mission 6/Essence of Fighting"
                     }
                 ],
@@ -47,6 +50,7 @@
             {
                 "sections": [
                     {
+                        "name": "M6 - Artemis - After collecting all three essences",
                         "ref": "Missions/Mission 6/Artemis"
                     }
                 ],
@@ -61,6 +65,7 @@
             {
                 "sections": [
                     {
+                        "name": "M6 - Combat Adjudicator after clearing the rubble with atleast two essences",
                         "ref": "Missions/Mission 6/Combat Adjudicator 3"
                     }
                 ],

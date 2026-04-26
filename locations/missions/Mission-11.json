@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M11 - Devil Star on the floor below the secret mission",
                         "ref": "Missions/Mission 11/Devil Star"
                     }
                 ],
@@ -37,6 +38,7 @@
             {
                 "sections": [
                     {
+                        "name": "M11 - Blue orb fragment hidden atop the pipes before the long hallway",
                         "ref": "Missions/Mission 11/Blue Orb Fragment 6"
                     }
                 ],
@@ -69,6 +71,7 @@
             {
                 "sections": [
                     {
+                        "name": "M11 - Holy Water hidden on the floor under the movable statue",
                         "ref": "Missions/Mission 11/Holy Water"
                     }
                 ],
@@ -110,6 +113,7 @@
             {
                 "sections": [
                     {
+                        "name": "M11 - SM7 - Hang 10 - On the second floor above the gear before the entrance to the long hall",
                         "ref": "Missions/Mission 11/Secret Mission 7"
                     }
                 ],
@@ -142,6 +146,7 @@
             {
                 "sections": [
                     {
+                        "name": "M11 - Combat Adjudicator below the building entrance",
                         "ref": "Missions/Mission 11/Combat Adjudicator 7"
                     }
                 ],

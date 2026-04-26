@@ -1,4 +1,4 @@
-Tracker:AddLocations("locations/Missions.json")
+Tracker:AddLocations("locations/Locations.json")
 Tracker:AddLocations("locations/missions/Mission-01.json")
 Tracker:AddLocations("locations/missions/Mission-02.json")
 Tracker:AddLocations("locations/missions/Mission-03.json")
@@ -19,6 +19,3 @@ Tracker:AddLocations("locations/missions/Mission-17.json")
 Tracker:AddLocations("locations/missions/Mission-18.json")
 Tracker:AddLocations("locations/missions/Mission-19.json")
 Tracker:AddLocations("locations/missions/Mission-20.json")
-
-Tracker:AddLocations("locations/Shop.json")
-Tracker:AddLocations("locations/Overworld.json")

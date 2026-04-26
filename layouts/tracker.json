@@ -8,7 +8,6 @@
                 {
                     "type": "dock",
                     "dock": "left",
-                    "v_alignment": "stretch",
                     "content": [
                         {
                             "type": "array",

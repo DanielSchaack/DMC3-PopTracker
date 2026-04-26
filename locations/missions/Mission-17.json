@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M17 - Vital Star in the wall crevice next to the orange door at the start of the mission",
                         "ref": "Missions/Mission 17/Vital Star S"
                     }
                 ],
@@ -37,6 +38,7 @@
             {
                 "sections": [
                     {
+                        "name": "M17 - Blue orb fragment atop the elevator on the first floor after the Agni and Rudra boss room",
                         "ref": "Missions/Mission 17/Blue Orb Fragment 10"
                     }
                 ],
@@ -69,6 +71,7 @@
             {
                 "sections": [
                     {
+                        "name": "M17 - Combat Adjudicator in the right corner of the floor",
                         "ref": "Missions/Mission 17/Combat Adjudicator 10"
                     }
                 ],
@@ -101,6 +104,7 @@
             {
                 "sections": [
                     {
+                        "name": "M17 - Doppelganger Style - Obtained after defeating the boss",
                         "ref": "Missions/Mission 17/Doppelganger"
                     }
                 ],
@@ -115,6 +119,7 @@
             {
                 "sections": [
                     {
+                        "name": "M17 - SM11 - On Pin And Needles - On the first arch in the center of the hallway at the right side to the wall",
                         "ref": "Missions/Mission 17/Secret Mission 11"
                     }
                 ],

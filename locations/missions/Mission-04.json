@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M4 - Blue orb fragment above the door leading to the main hall",
                         "ref": "Missions/Mission 4/Blue Orb Fragment 2"
                     }
                 ],
@@ -28,6 +29,7 @@
             {
                 "sections": [
                     {
+                        "name": "M4 - Astronomical Board",
                         "ref": "Missions/Mission 4/Astronomical Board"
                     }
                 ],

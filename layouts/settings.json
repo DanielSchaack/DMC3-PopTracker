@@ -6,8 +6,9 @@
         "rows": [
             [
                 "SS Rank Completions",
+                "Orb Checks",
                 "Show Out of Mission Checks",
-                "Maximum Mission"
+                "Automated Tab Tracking"
             ]
         ]
     }

@@ -26,10 +26,21 @@ end
 
 COMPLETED_LOCATIONS = {}
 function updateAvailableMissions(location)
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print("[DEBUG] updateAvailableMap called | Location: " .. tostring(location))
+	end
 	if not COMPLETED_LOCATIONS[location] and string.find(location, "Mission Completion$") then
-		local item_obj = Tracker:FindObjectForCode("Maximum Mission")
+		if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+			print("[DEBUG] updateAvailableMap adds location to completed missions: " .. tostring(location))
+		end
+		local item_obj = Tracker:FindObjectForCode("Completed Missions")
 		item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment
 		COMPLETED_LOCATIONS[location] = true
+
+		local current_mission = MISSION_ASSIGNMENTS[item_obj.AcquiredCount]
+		if current_mission then
+			updateMap(current_mission, 0)
+		end
 	end
 end
 
@@ -38,7 +49,7 @@ function hasMission(mission_idx)
 		return true
 	end
 
-	local max_mission_number = Tracker:ProviderCountForCode("Maximum Mission")
+	local max_mission_number = Tracker:ProviderCountForCode("Completed Missions")
 	mission_idx = tonumber(mission_idx)
 
 	if GOAL == 0 then
@@ -103,6 +114,10 @@ end
 
 function hasRequiredDifficulty()
 	local required_difficulty = SLOT_DATA["mission_clear_difficulty"]
+	if required_difficulty == nil then
+		return true
+	end
+
 	for difficulty, _ in pairs(AVAILABLE_DIFFICULTIES) do
 		if difficulty >= required_difficulty then
 			return true
@@ -114,6 +129,10 @@ end
 function hasRequiredSSDifficulty()
 	if SLOT_DATA["enabled_ss_rank"] and SLOT_DATA["check_ss_difficulty"] then
 		local required_difficulty = SLOT_DATA["mission_clear_difficulty"]
+		if required_difficulty == nil then
+			return true
+		end
+
 		for difficulty, _ in pairs(AVAILABLE_DIFFICULTIES) do
 			if difficulty >= required_difficulty then
 				return true
@@ -131,10 +150,6 @@ function hasAirraid()
 	return has("Nevan") and has("Nevan - Airraid") and has("Devil Trigger")
 end
 
-function hasEnhancedJump()
-	return hasAirraid() or hasAirhike() or has("Progressive Trickster Stage 2") or has("Progressive Trickster Stage 3")
-end
-
 function hasShopEnabled(name)
 	if name == "Orb" then
 		return SLOT_DATA["shop_orb_checks"]
@@ -148,5 +163,28 @@ function SB()
 		return AccessibilityLevel.SequenceBreak
 	else
 		return AccessibilityLevel.None
+	end
+end
+
+function updateMap(mission_id, room_id)
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print("[DEBUG] updateMap called | Mission ID: " .. tostring(mission_id) .. " | Room ID: " .. tostring(room_id))
+	end
+	if has("auto_tab_on_mission") then
+		local tabs = TAB_MAPPING[mission_id][0]
+		if tabs then
+			print("[DEBUG] Found " .. #tabs .. " tab(s) to activate")
+			for _, tab in ipairs(tabs) do
+				print("[DEBUG] Activating tab: " .. tostring(tab))
+				Tracker:UiHint("ActivateTab", tab)
+			end
+		end
+	elseif has("auto_tab_on_room") then
+		local tabs = TAB_MAPPING[mission_id][room_id]
+		if tabs then
+			for _, tab in ipairs(tabs) do
+				Tracker:UiHint("ActivateTab", tab)
+			end
+		end
 	end
 end

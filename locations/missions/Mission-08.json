@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M8 - Blue orb fragment on the broken ship above the secret mission",
                         "ref": "Missions/Mission 8/Blue Orb Fragment 4"
                     }
                 ],
@@ -19,6 +20,7 @@
             {
                 "sections": [
                     {
+                        "name": "M8 - SM4 - Devil's Teetor-totter - Inside of the broken ship",
                         "ref": "Missions/Mission 8/Secret Mission 4"
                     }
                 ],
@@ -33,6 +35,7 @@
             {
                 "sections": [
                     {
+                        "name": "M8 - Ignis Fatuus - After feeding enough orbs",
                         "ref": "Missions/Mission 8/Ignis Fatuus"
                     }
                 ],
@@ -47,6 +50,7 @@
             {
                 "sections": [
                     {
+                        "name": "M8 - Combat Adjudicator hidden in the left side of the wall",
                         "ref": "Missions/Mission 8/Combat Adjudicator 5"
                     }
                 ],

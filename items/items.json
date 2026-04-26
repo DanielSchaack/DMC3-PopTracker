@@ -569,7 +569,7 @@
         "overlay_align": "right",
         "codes": "Haywire Neo Generator"
     },
-     
+
     {
         "name": "Full Orihalcon",
         "type": "toggle",
@@ -642,7 +642,7 @@
         "overlay_align": "right",
         "overlay_font_size": 14,
         "overlay_background": "#000000",
-        "codes": "1000redorbs"
+        "codes": "1000 Red Orbs"
     },
     {
         "name": "2500 Red Orbs",
@@ -656,7 +656,7 @@
         "overlay_align": "right",
         "overlay_font_size": 14,
         "overlay_background": "#000000",
-        "codes": "2500redorbs"
+        "codes": "2500 Red Orbs"
     },
     {
         "name": "5000 Red Orbs",
@@ -670,7 +670,7 @@
         "overlay_align": "right",
         "overlay_font_size": 14,
         "overlay_background": "#000000",
-        "codes": "5000redorbs"
+        "codes": "5000 Red Orbs"
     },
     {
         "name": "Vital Star S",

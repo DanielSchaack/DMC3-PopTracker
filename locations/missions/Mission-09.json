@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M9 - Blue orb fragment hidden above the goddess' statue accessed by Trickster Level 2 + Air Hike",
                         "ref": "Missions/Mission 9/Blue Orb Fragment 5"
                     }
                 ],
@@ -28,6 +29,7 @@
             {
                 "sections": [
                     {
+                        "name": "M9 - Combat Adjudicator near the front of the cave",
                         "ref": "Missions/Mission 9/Combat Adjudicator 6"
                     }
                 ],
@@ -51,6 +53,7 @@
             {
                 "sections": [
                     {
+                        "name": "M9 - SM5 - Destroyer - In the higher up hidded pathway glowing red crystal/equipment",
                         "ref": "Missions/Mission 9/Secret Mission 5"
                     }
                 ],
@@ -92,6 +95,7 @@
             {
                 "sections": [
                     {
+                        "name": "M9 - Spiral - On top of the ruins close to the cave entrance",
                         "ref": "Missions/Mission 9/Spiral"
                     }
                 ],
@@ -133,6 +137,7 @@
             {
                 "sections": [
                     {
+                        "name": "M9 - Ambrosia",
                         "ref": "Missions/Mission 9/Ambrosia"
                     }
                 ],
@@ -147,6 +152,7 @@
             {
                 "sections": [
                     {
+                        "name": "M9 - Devil Star - Hidden to the left when following the ordinary path of the cave",
                         "ref": "Missions/Mission 9/Devil Star"
                     }
                 ],
@@ -188,6 +194,7 @@
             {
                 "sections": [
                     {
+                        "name": "M9 - Nevan - Obtained after defeating the boss",
                         "ref": "Missions/Mission 9/Nevan"
                     }
                 ],

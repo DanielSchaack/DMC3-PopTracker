@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M10 - Stonemask - Next to the exit of the Nevan fight",
                         "ref": "Missions/Mission 10/Stonemask"
                     }
                 ],
@@ -19,6 +20,7 @@
             {
                 "sections": [
                     {
+                        "name": "M10 - Neo Generator - Across the bridge after inserting the Stonemask",
                         "ref": "Missions/Mission 10/Neo Generator"
                     }
                 ],
@@ -33,6 +35,7 @@
             {
                 "sections": [
                     {
+                        "name": "M10 - SM6 - Flight of the Demon - Across the bridge, requiring Nevan, Devil Trigger and Air Raid",
                         "ref": "Missions/Mission 10/Secret Mission 6"
                     }
                 ],

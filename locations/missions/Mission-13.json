@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M13 - Devil Star near the roof",
                         "ref": "Missions/Mission 13/Devil Star"
                     }
                 ],
@@ -19,6 +20,7 @@
             {
                 "sections": [
                     {
+                        "name": "M13 - Orihalcon - In the hallway after clearing the beam puuule",
                         "ref": "Missions/Mission 13/Orihalcon"
                     }
                 ],
@@ -33,6 +35,7 @@
             {
                 "sections": [
                     {
+                        "name": "M13 - Combat Adjudicator at the end of the hallway leading to Vergil",
                         "ref": "Missions/Mission 13/Combat Adjudicator 8"
                     }
                 ],
@@ -47,6 +50,7 @@
             {
                 "sections": [
                     {
+                        "name": "M13 - SM8 - Tough Guys - In the middle of the staircase in the coloured light",
                         "ref": "Missions/Mission 13/Secret Mission 8"
                     }
                 ],
@@ -61,6 +65,7 @@
             {
                 "sections": [
                     {
+                        "name": "M13 - SM9 - Target Practice - In the hallways after clearing the beam puuule hidden higher up on the left side",
                         "ref": "Missions/Mission 13/Secret Mission 9"
                     }
                 ],

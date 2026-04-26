@@ -1,0 +1,1523 @@
+[
+    {
+        "name": "Missions",
+        "overlay_background": "#000000",
+        "access_rules": [],
+        "children": [
+            {
+                "name": "Mission 1",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|1, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|1, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 600,
+                        "y": 50,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 2",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Vital Star S",
+                        "access_rules": [
+                            "$hasMission|2"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|2, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|2, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1215,
+                        "y": 50,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 3",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "access_rules": [
+                            "$hasMission|3"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Orb Fragment 1",
+                        "access_rules": [
+                            "$hasMission|3",
+                            "$hasMission|4,^$SB",
+                            "$hasMission|5,^$SB",
+                            "$hasMission|7,Orihalcon Fragment, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Combat Adjudicator 1",
+                        "access_rules": [
+                            "$hasMission|3, $hasRequiredWeapon|1",
+                            "$hasRequiredWeapon|1, $hasMission|4,^$SB",
+                            "$hasRequiredWeapon|1, $hasMission|5,^$SB",
+                            "$hasRequiredWeapon|1, $hasMission|7,Orihalcon Fragment, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret Mission 1",
+                        "access_rules": [
+                            "$hasMission|3",
+                            "$hasMission|4,^$SB",
+                            "$hasMission|5,^$SB",
+                            "$hasMission|7,Orihalcon Fragment, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cerberus",
+                        "access_rules": [
+                            "$hasMission|3"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|3, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|3, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1830,
+                        "y": 50,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 4",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Blue Orb Fragment 2",
+                        "access_rules": [
+                            "$hasMission|4",
+                            "$hasMission|5, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Astronomical Board",
+                        "access_rules": [
+                            "$hasMission|4"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|4, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|4, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 600,
+                        "y": 170,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 5",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Vajura",
+                        "access_rules": [
+                            "$hasMission|5, Astronomical Board"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Soul of Steel",
+                        "access_rules": [
+                            "$hasMission|5, Vajura"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Agni and Rudra",
+                        "access_rules": [
+                            "$hasMission|5, Soul of Steel"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Combat Adjudicator 2",
+                        "access_rules": [
+                            "$hasMission|5, Soul of Steel, $hasRequiredWeapon|2",
+                            "$hasMission|7, Orihalcon Fragment, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret Mission 2",
+                        "access_rules": [
+                            "$hasMission|5, Soul of Steel",
+                            "$hasMission|7, Orihalcon Fragment, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|5, Soul of Steel, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|5, Soul of Steel, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1215,
+                        "y": 170,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 6",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Essence of Technique",
+                        "access_rules": [
+                            "$hasMission|6"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Essence of Intelligence",
+                        "access_rules": [
+                            "$hasMission|6"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Essence of Fighting",
+                        "access_rules": [
+                            "$hasMission|6"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Artemis",
+                        "access_rules": [
+                            "$hasMission|6, Essence of Technique, Essence of Fighting, Essence of Intelligence"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Combat Adjudicator 3",
+                        "access_rules": [
+                            "$hasMission|6, Essence of Technique, Essence of Fighting, $hasRequiredWeapon|3",
+                            "$hasMission|6, Essence of Technique, Essence of Intelligence, $hasRequiredWeapon|3",
+                            "$hasMission|6, Essence of Intelligence, Essence of Fighting, $hasRequiredWeapon|3",
+                            "$hasMission|7, $hasRequiredWeapon|3, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|6, Essence of Technique, Essence of Fighting, $hasRequiredWeapon|3, $hasRequiredDifficulty",
+                            "$hasMission|6, Essence of Technique, Essence of Intelligence, $hasRequiredWeapon|3, $hasRequiredDifficulty",
+                            "$hasMission|6, Essence of Intelligence, Essence of Fighting, $hasRequiredWeapon|3, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|6, Essence of Technique, Essence of Fighting, $hasRequiredWeapon|3, $hasRequiredSSDifficulty",
+                            "$hasMission|6, Essence of Technique, Essence of Intelligence, $hasRequiredWeapon|3, $hasRequiredSSDifficulty",
+                            "$hasMission|6, Essence of Intelligence, Essence of Fighting, $hasRequiredWeapon|3, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1830,
+                        "y": 170,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 7",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Orihalcon Fragment",
+                        "access_rules": [
+                            "$hasMission|7"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Holy Water",
+                        "access_rules": [
+                            "$hasMission|7"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Orb Fragment 3",
+                        "access_rules": [
+                            "$hasMission|7"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vital Star S",
+                        "access_rules": [
+                            "$hasMission|7"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sirens Shriek",
+                        "access_rules": [
+                            "$hasMission|7"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Crystal Skull",
+                        "access_rules": [
+                            "$hasMission|7, Orihalcon Fragment, Siren's Shriek"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Combat Adjudicator 4",
+                        "access_rules": [
+                            "$hasMission|7, $hasRequiredWeapon|4"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret Mission 3",
+                        "access_rules": [
+                            "$hasMission|7"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|7, Crystal Skull, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|7, Crystal Skull, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 600,
+                        "y": 290,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 8",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Blue Orb Fragment 4",
+                        "access_rules": [
+                            "$hasMission|8"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ignis Fatuus",
+                        "access_rules": [
+                            "$hasMission|8"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Combat Adjudicator 5",
+                        "access_rules": [
+                            "$hasMission|8, $hasRequiredWeapon|5"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret Mission 4",
+                        "access_rules": [
+                            "$hasMission|8"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|8, Ignis Fatuus, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|8, Ignis Fatuus, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1215,
+                        "y": 290,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 9",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Blue Orb Fragment 5",
+                        "access_rules": [
+                            "$hasMission|9, Progressive Trickster Stage 2, $hasAirhike",
+                            "$hasMission|9, Progressive Trickster Stage 3, $hasAirhike",
+                            "$hasMission|10, Progressive Trickster Stage 2, $hasAirhike, ^$SB",
+                            "$hasMission|10, Progressive Trickster Stage 3, $hasAirhike, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spiral",
+                        "access_rules": [
+                            "$hasMission|9",
+                            "$hasMission|10, ^$SB",
+                            "$hasMission|14, ^$SB",
+                            "$hasMission|15, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ambrosia",
+                        "access_rules": [
+                            "$hasMission|9"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Devil Star",
+                        "access_rules": [
+                            "$hasMission|9",
+                            "$hasMission|10, ^$SB",
+                            "$hasMission|14, ^$SB",
+                            "$hasMission|15, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Combat Adjudicator 6",
+                        "access_rules": [
+                            "$hasMission|9, $hasRequiredWeapon|6",
+                            "$hasMission|10, $hasRequiredWeapon|6, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret Mission 5",
+                        "access_rules": [
+                            "$hasMission|9",
+                            "$hasMission|10, ^$SB",
+                            "$hasMission|14, ^$SB",
+                            "$hasMission|15, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nevan",
+                        "access_rules": [
+                            "$hasMission|9, Ambrosia"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|9, Ambrosia, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|9, Ambrosia, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1830,
+                        "y": 290,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 10",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Stonemask",
+                        "access_rules": [
+                            "$hasMission|10"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Neo Generator",
+                        "access_rules": [
+                            "$hasMission|10, Stonemask"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret Mission 6",
+                        "access_rules": [
+                            "$hasMission|10, Stonemask, Devil Trigger, Nevan, Nevan - Airraid"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|10, Neo Generator, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|10, Neo Generator, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 600,
+                        "y": 410,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 11",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Devil Star",
+                        "access_rules": [
+                            "$hasMission|11",
+                            "$hasMission|12, ^$SB",
+                            "$hasMission|14, ^$SB",
+                            "$hasMission|15, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Orb Fragment 6",
+                        "access_rules": [
+                            "$hasMission|11",
+                            "$hasMission|12, ^$SB",
+                            "$hasMission|15, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Holy Water",
+                        "access_rules": [
+                            "$hasMission|11",
+                            "$hasMission|12, ^$SB",
+                            "$hasMission|14, ^$SB",
+                            "$hasMission|15, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Combat Adjudicator 7",
+                        "access_rules": [
+                            "$hasMission|11, $hasRequiredWeapon|7",
+                            "$hasMission|12, $hasRequiredWeapon|7, ^$SB",
+                            "$hasMission|14, $hasRequiredWeapon|7, ^$SB",
+                            "$hasMission|15, $hasRequiredWeapon|7, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret Mission 7",
+                        "access_rules": [
+                            "$hasMission|11",
+                            "$hasMission|12, ^$SB",
+                            "$hasMission|14, ^$SB",
+                            "$hasMission|15, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|11, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|11, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1215,
+                        "y": 410,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 12",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Haywire Neo Generator",
+                        "access_rules": [
+                            "$hasMission|12"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vital Star L",
+                        "access_rules": [
+                            "$hasMission|12, Haywire Neo Generator"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Quicksilver",
+                        "access_rules": [
+                            "$hasMission|12, Haywire Neo Generator"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|12, Haywire Neo Generator, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|12, Haywire Neo Generator, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1830,
+                        "y": 410,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 13",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Devil Star",
+                        "access_rules": [
+                            "$hasMission|13"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orihalcon",
+                        "access_rules": [
+                            "$hasMission|13"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Combat Adjudicator 8",
+                        "access_rules": [
+                            "$hasMission|13, $hasRequiredWeapon|8"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret Mission 8",
+                        "access_rules": [
+                            "$hasMission|13"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret Mission 9",
+                        "access_rules": [
+                            "$hasMission|13",
+                            "$hasMission|14, ^$SB",
+                            "$hasMission|15, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|13, Full Orihalcon, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|13, Full Orihalcon, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 600,
+                        "y": 530,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 14",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Beowulf",
+                        "access_rules": [
+                            "$hasMission|14",
+                            "$hasMission|15, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vital Star S",
+                        "access_rules": [
+                            "$hasMission|14, $hasRequiredWeapon|9",
+                            "$hasMission|15, $hasRequiredWeapon|9, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Orb Fragment 7",
+                        "access_rules": [
+                            "$hasMission|14, $hasRequiredWeapon|9",
+                            "$hasMission|15, $hasRequiredWeapon|9, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vital Star S 2",
+                        "access_rules": [
+                            "$hasMission|14, $hasRequiredWeapon|9",
+                            "$hasMission|15, $hasRequiredWeapon|9, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Holy Water",
+                        "access_rules": [
+                            "$hasMission|14, $hasRequiredWeapon|9"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Combat Adjudicator 9",
+                        "access_rules": [
+                            "$hasMission|14, $hasRequiredWeapon|9",
+                            "$hasMission|15, $hasRequiredWeapon|9, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|14, $hasRequiredWeapon|9, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|14, $hasRequiredWeapon|9, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1215,
+                        "y": 530,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 15",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Orihalcon Fragment 1",
+                        "access_rules": [
+                            "$hasMission|15"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orihalcon Fragment 2",
+                        "access_rules": [
+                            "$hasMission|15"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orihalcon Fragment 3",
+                        "access_rules": [
+                            "$hasMission|15"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Orb Fragment 8",
+                        "access_rules": [
+                            "$hasMission|15"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|15, Orihalcon Fragment (left), Orihalcon Fragment (bottom), Orihalcon Fragment (right), $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|15, Orihalcon Fragment (left), Orihalcon Fragment (bottom), Orihalcon Fragment (right), $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1830,
+                        "y": 530,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 16",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Devil Star",
+                        "access_rules": [
+                            "$hasMission|16"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Onyx Moonshard",
+                        "access_rules": [
+                            "$hasMission|16"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Golden Sun",
+                        "access_rules": [
+                            "$hasMission|16"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vital Star S",
+                        "access_rules": [
+                            "$hasMission|16, Golden Sun, Onyx Moonshard"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kalina Ann",
+                        "access_rules": [
+                            "$hasMission|16, Golden Sun, Onyx Moonshard"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret Mission 10",
+                        "access_rules": [
+                            "$hasMission|16"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|16, Golden Sun, Onyx Moonshard, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|16, Golden Sun, Onyx Moonshard, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 600,
+                        "y": 650,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 17",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Vital Star S",
+                        "access_rules": [
+                            "$hasMission|17",
+                            "$hasMission|18, ^$SB",
+                            "$hasMission|19, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Orb Fragment 10",
+                        "access_rules": [
+                            "$hasMission|17",
+                            "$hasMission|18, ^$SB",
+                            "$hasMission|19, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Doppelganger",
+                        "access_rules": [
+                            "$hasMission|17"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Combat Adjudicator 10",
+                        "access_rules": [
+                            "$hasMission|17, $hasRequiredWeapon|10",
+                            "$hasMission|18, $hasRequiredWeapon|10, ^$SB",
+                            "$hasMission|19, $hasRequiredWeapon|10, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret Mission 11",
+                        "access_rules": [
+                            "$hasMission|17",
+                            "$hasMission|18, ^$SB",
+                            "$hasMission|19, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|17, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|17, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1215,
+                        "y": 650,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 18",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Blue Orb Fragment 11",
+                        "access_rules": [
+                            "$hasMission|18"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret Mission 12",
+                        "access_rules": [
+                            "$hasMission|18",
+                            "$hasMission|19, ^$SB"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|18, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|18, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1830,
+                        "y": 650,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 19",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Vital Star L",
+                        "access_rules": [
+                            "$hasMission|19"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Samsara",
+                        "access_rules": [
+                            "$hasMission|19"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|19, Samsara, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|19, Samsara, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 900,
+                        "y": 780,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Mission 20",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Mission Completion",
+                        "access_rules": [
+                            "$hasMission|20, $hasRequiredDifficulty"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SS Rank Completion",
+                        "access_rules": [
+                            "$hasMission|20, $hasRequiredSSDifficulty"
+                        ],
+                        "visibility_rules": [
+                            "enabled_ss_rank"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1570,
+                        "y": 780,
+                        "size": 50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Shop",
+        "overlay_background": "#000000",
+        "access_rules": [],
+        "children": [
+            {
+                "name": "Style",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Not implemented yet",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "enabled_style_checks"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 590,
+                        "y": 890,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Item",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Blue Orb",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "enabled_orb_shop"
+                        ],
+                        "item_count": 6,
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Purple Orb",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "enabled_orb_shop"
+                        ],
+                        "item_count": 7,
+                        "clear_as_group": false
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 900,
+                        "y": 890,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Action",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Not implemented yet",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "enabled_action_shop"
+                        ],
+                        "item_count": 2,
+                        "clear_as_group": false
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1280,
+                        "y": 890,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Guns",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Not implemented yet",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "enabled_guns_shop"
+                        ],
+                        "item_count": 1,
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Ebony & Ivory",
+                        "access_rules": [
+                            "Ebony & Ivory"
+                        ],
+                        "visibility_rules": [
+                            "enabled_guns_shop"
+                        ],
+                        "item_count": 2,
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": [
+                            "Shotgun"
+                        ],
+                        "visibility_rules": [
+                            "enabled_guns_shop"
+                        ],
+                        "item_count": 2,
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Artemis",
+                        "access_rules": [
+                            "Artemis"
+                        ],
+                        "visibility_rules": [
+                            "enabled_guns_shop"
+                        ],
+                        "item_count": 2,
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Spiral",
+                        "access_rules": [
+                            "Spiral"
+                        ],
+                        "visibility_rules": [
+                            "enabled_guns_shop"
+                        ],
+                        "item_count": 2,
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Kalina Ann",
+                        "access_rules": [
+                            "Kalina Ann"
+                        ],
+                        "visibility_rules": [
+                            "enabled_guns_shop"
+                        ],
+                        "item_count": 2,
+                        "clear_as_group": false
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Missions_Overview",
+                        "x": 1580,
+                        "y": 890,
+                        "size": 50
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -19,6 +19,7 @@
             {
                 "sections": [
                     {
+                        "name": "M14 - Vital Star in the green room to the strong left after clearing the second room",
                         "ref": "Missions/Mission 14/Vital Star S"
                     }
                 ],
@@ -42,6 +43,7 @@
             {
                 "sections": [
                     {
+                        "name": "M14 - Combat Adjudicator blocking the exit",
                         "ref": "Missions/Mission 14/Combat Adjudicator 9"
                     }
                 ],
@@ -65,6 +67,7 @@
             {
                 "sections": [
                     {
+                        "name": "M14 - Blue orb fragment in the hallway",
                         "ref": "Missions/Mission 14/Blue Orb Fragment 7"
                     }
                 ],
@@ -88,6 +91,7 @@
             {
                 "sections": [
                     {
+                        "name": "M14 - Vital Star hidden behind the statues at the end of the hallway",
                         "ref": "Missions/Mission 14/Vital Star S 2"
                     }
                 ],
@@ -111,6 +115,7 @@
             {
                 "sections": [
                     {
+                        "name": "M14 - Holy Water atop the last building to the right before the tower",
                         "ref": "Missions/Mission 14/Holy Water"
                     }
                 ],

@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M7 - Orihalcon Fragment - Below a statue across the library",
                         "ref": "Missions/Mission 7/Orihalcon Fragment"
                     }
                 ],
@@ -19,6 +20,7 @@
             {
                 "sections": [
                     {
+                        "name": "M7 - Holy Water - On the second highest floor",
                         "ref": "Missions/Mission 7/Holy Water"
                     }
                 ],
@@ -33,6 +35,7 @@
             {
                 "sections": [
                     {
+                        "name": "M7 - Blue orb fragment on the highest-level arch nearest to the bottom of the staircase",
                         "ref": "Missions/Mission 7/Blue Orb Fragment 3"
                     }
                 ],
@@ -47,6 +50,7 @@
             {
                 "sections": [
                     {
+                        "name": "M7 - Vital Star next to the entrance to the Tranquil Souls room",
                         "ref": "Missions/Mission 7/Vital Star S"
                     }
                 ],
@@ -61,6 +65,7 @@
             {
                 "sections": [
                     {
+                        "name": "M7 - Crystal Skull after aquiring both Siren's Shriek and the Orihalcon Fragment",
                         "ref": "Missions/Mission 7/Crystal Skull"
                     }
                 ],
@@ -75,6 +80,7 @@
             {
                 "sections": [
                     {
+                        "name": "M7 - Siren's Shriek - After clearing the room for the first time",
                         "ref": "Missions/Mission 7/Sirens Shriek"
                     }
                 ],
@@ -89,6 +95,7 @@
             {
                 "sections": [
                     {
+                        "name": "M7 - Combat Adjudicator to the right of the entrance",
                         "ref": "Missions/Mission 7/Combat Adjudicator 4"
                     }
                 ],
@@ -103,6 +110,7 @@
             {
                 "sections": [
                     {
+                        "name": "M7 - SM3 - Death From Above - Wall jump next to the orange door at the start of the mission",
                         "ref": "Missions/Mission 7/Secret Mission 3"
                     }
                 ],

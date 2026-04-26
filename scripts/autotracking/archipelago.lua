@@ -1,5 +1,6 @@
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
+require("scripts/logic/tab_mapping")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -80,7 +81,7 @@ function LocationHandler(location)
 		end
 	end
 	-- local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
-	-- print(dump_table(storage_item.ItemState.MANUAL_LOCATIONS))
+	-- print(dump_table(custom_storage_item.ItemState.MANUAL_LOCATIONS))
 	-- ForceUpdate()
 end
 
@@ -202,6 +203,8 @@ function onClear(slot_data)
 	PLAYER_ID = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
 	SLOT_DATA = slot_data
+	COMPLETED_LOCATIONS = {}
+
 	print(PLAYER_ID, TEAM_NUMBER)
 
 	for _, available_difficulty in pairs(slot_data["initially_unlocked_difficulties"]) do
@@ -246,6 +249,13 @@ function onClear(slot_data)
 		Tracker:FindObjectForCode("SS Rank Completions").CurrentStage = 0
 	end
 
+	local has_orb_shop = slot_data["shop_orb_checks"]
+	if has_orb_shop then
+		Tracker:FindObjectForCode("Orb Checks").CurrentStage = 1
+	else
+		Tracker:FindObjectForCode("Orb Checks").CurrentStage = 0
+	end
+
 	MANUAL_CHECKED = false
 	local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
 	if custom_storage_item == nil then
@@ -272,12 +282,7 @@ function onClear(slot_data)
 				local location_obj = Tracker:FindObjectForCode(location)
 				if location_obj then
 					if location:sub(1, 1) == "@" then
-						if custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][location_obj.FullID] then
-							location_obj.AvailableChestCount =
-								custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][location_obj.FullID]
-						else
-							location_obj.AvailableChestCount = location_obj.ChestCount
-						end
+						location_obj.AvailableChestCount = location_obj.ChestCount
 					else
 						location_obj.Active = false
 					end
@@ -338,7 +343,7 @@ function onClear(slot_data)
 	ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
 	MANUAL_CHECKED = true
 
-	Tracker:FindObjectForCode("Maximum Mission").AcquiredCount = 1
+	Tracker:FindObjectForCode("Completed Missions").AcquiredCount = 1
 	local has_randomised_styles = slot_data["randomize_styles"]
 	if not has_randomised_styles then
 		Tracker:FindObjectForCode("Progressive Trickster").CurrentStage = 1
@@ -432,7 +437,7 @@ function onLocation(location_id, location_name)
 				location_obj.Active = true
 			end
 
-            updateAvailableMissions(location)
+			updateAvailableMissions(location)
 		else
 			print(string.format("onLocation: could not find location_object for code %s", location))
 		end
@@ -441,7 +446,9 @@ function onLocation(location_id, location_name)
 end
 
 function OnNotify(key, value, old_value)
-	print("OnNotify", key, value, old_value)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called onNotify: key %s, value %s, old_value %s", key, value, old_value))
+    end
 	if value ~= old_value and key == HINTS_ID then
 		Tracker.BulkUpdate = true
 		for _, hint in ipairs(value) do
@@ -520,60 +527,6 @@ function UpdateHints(locationID, status) -->
 		end
 	end
 end
-
--- function onBounce(json)
--- 	-- print("Log: Received bounce event") -- Commented out log
--- 	print("[DEBUG] onBounce triggered")
---
--- 	local data = json["data"]
--- 	if data then
--- 		print("[DEBUG] Data type: " .. tostring(data["type"]))
---
--- 		if data["type"] == "MapUpdate" then
--- 			updateMap(data["mapId"], data["sectionId"])
--- 		end
--- 	else
--- 		print("[DEBUG] onBounce received no data object")
--- 	end
--- end
---
--- TAB_MAPPING = {}
---
--- function updateMap(mapId, sectionId)
--- 	print("[DEBUG] updateMap called | MapId: " .. tostring(mapId) .. " | SectionId: " .. tostring(sectionId))
---
--- 	if has("auto_tab_on") then
--- 		-- Ensure the mapId exists in the mapping table first to prevent nil errors
--- 		if TAB_MAPPING[mapId] then
--- 			local tabs = TAB_MAPPING[mapId][sectionId]
---
--- 			if tabs then
--- 				print("[DEBUG] Found " .. #tabs .. " tab(s) to activate")
--- 				for _, tab in ipairs(tabs) do
--- 					print("[DEBUG] Activating tab: " .. tostring(tab))
--- 					Tracker:UiHint("ActivateTab", tab)
--- 				end
--- 			else
--- 				print("[DEBUG] No tabs mapped for SectionId: " .. tostring(sectionId))
--- 			end
--- 		else
--- 			print("[DEBUG] MapId " .. tostring(mapId) .. " not found in TAB_MAPPING")
--- 		end
--- 	else
--- 		print("[DEBUG] auto_tab_on is currently disabled")
--- 	end
--- end
-
-ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
-Archipelago:AddClearHandler("clear handler", onClearHandler)
-Archipelago:AddItemHandler("item handler", onItem)
-Archipelago:AddLocationHandler("location handler", onLocation)
-
-Archipelago:AddSetReplyHandler("notify handler", OnNotify)
-Archipelago:AddRetrievedHandler("notify launch handler", OnNotifyLaunch)
-
-Archipelago:AddScoutHandler("scout handler", onScout)
-Archipelago:AddBouncedHandler("bounce handler", onBounce)
 
 --doc
 --hint layout

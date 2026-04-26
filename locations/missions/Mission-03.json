@@ -19,6 +19,7 @@
             {
                 "sections": [
                     {
+                        "name": "M3 - Blue Orb Fragment above the garage's entrance",
                         "ref": "Missions/Mission 3/Blue Orb Fragment 1"
                     }
                 ],
@@ -60,6 +61,7 @@
             {
                 "sections": [
                     {
+                        "name": "M3 - Combat Adjudicator on the upper part of the left building",
                         "ref": "Missions/Mission 3/Combat Adjudicator 1"
                     }
                 ],
@@ -101,6 +103,7 @@
             {
                 "sections": [
                     {
+                        "name": "M3 - SM1 - The Exorcist - Building entrance below the blue orb fragment",
                         "ref": "Missions/Mission 3/Secret Mission 1"
                     }
                 ],

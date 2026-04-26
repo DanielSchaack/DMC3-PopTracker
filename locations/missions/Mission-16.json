@@ -5,6 +5,7 @@
             {
                 "sections": [
                     {
+                        "name": "M16 - Devil Star hidden inside the Crystal Skull room",
                         "ref": "Missions/Mission 16/Devil Star"
                     }
                 ],
@@ -19,6 +20,7 @@
             {
                 "sections": [
                     {
+                        "name": "M16 - Onyx Moonshard",
                         "ref": "Missions/Mission 16/Onyx Moonshard"
                     }
                 ],
@@ -33,6 +35,7 @@
             {
                 "sections": [
                     {
+                        "name": "M16 - Golden Sun",
                         "ref": "Missions/Mission 16/Golden Sun"
                     }
                 ],
@@ -46,6 +49,7 @@
             {
                 "sections": [
                     {
+                        "name": "M16 - Vital Star in the path to the main hall",
                         "ref": "Missions/Mission 16/Vital Star S"
                     }
                 ],
@@ -59,6 +63,7 @@
             {
                 "sections": [
                     {
+                        "name": "M16 - Kalista Ann - Obtained after defeating the boss",
                         "ref": "Missions/Mission 16/Kalina Ann"
                     }
                 ],
@@ -72,6 +77,7 @@
             {
                 "sections": [
                     {
+                        "name": "M16 - SM10 - Guiding Light - Beam puuule",
                         "ref": "Missions/Mission 16/Secret Mission 10"
                     }
                 ],
