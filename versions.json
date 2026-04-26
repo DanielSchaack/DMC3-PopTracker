@@ -3,7 +3,7 @@
         {
             "package_version": "0.2.0",
             "download_url": "https://github.com/DanielSchaack/DMC3-PopTracker/releases/download/0.2.0/DMC3-PopTracker.zip",
-            "sha256": "a60679821c4d14bbe18c4a4a60ccd1f2ebf619b699903da6f422e26fe51ab366",
+            "sha256": "21df4f0a272c334ac9bc71d5167a3d867a307009224970d3ff8ae43c95c5f83c",
             "changelog": [
                 "Added Overview tab showing the available checks in missions and the shop",
                 "Includes the option to toggle the visibility of orb checks",
