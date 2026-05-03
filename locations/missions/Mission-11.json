@@ -20,7 +20,7 @@
                         "x": 375,
                         "y": 170,
                         "force_invisibility_rules": [
-                            "show_oom_available, $notHasMission|15",
+                            "show_oom_available, $notHasMission|12",
                             "show_oom_off"
                         ]
                     },

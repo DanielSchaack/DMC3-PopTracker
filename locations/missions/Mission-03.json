@@ -78,7 +78,7 @@
                         "y": 890,
                         "force_invisibility_rules": [
                             "show_oom_available, $notHasMission|4",
-                            "show_oom_available, $nothasRequiredWeapon|01,",
+                            "show_oom_available, $notHasRequiredWeapon|01,",
                             "show_oom_off"
                         ]
                     },
@@ -88,7 +88,7 @@
                         "y": 1130,
                         "force_invisibility_rules": [
                             "show_oom_available, $notHasMission|5",
-                            "show_oom_available, $nothasRequiredWeapon|01,",
+                            "show_oom_available, $notHasRequiredWeapon|01,",
                             "show_oom_off"
                         ]
                     },
@@ -99,7 +99,7 @@
                         "force_invisibility_rules": [
                             "show_oom_available, $notHasMission|7",
                             "show_oom_available, $notHas|Orihalcon Fragment",
-                            "show_oom_available, $nothasRequiredWeapon|01,",
+                            "show_oom_available, $notHasRequiredWeapon|01,",
                             "show_oom_off"
                         ]
                     }
