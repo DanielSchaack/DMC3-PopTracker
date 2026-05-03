@@ -80,7 +80,7 @@
                         "x": 670,
                         "y": 1230,
                         "force_invisibility_rules": [
-                            "show_oom_available, $notHasMission|7",
+                            "show_oom_available, $notHasMission|7, $notHasRequiredWeapon|3",
                             "show_oom_off"
                         ]
                     }

@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Assignment Slot #01",
+        "type": "toggle",
+        "codes": "Assignment Slot #01",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-01.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #02",
+        "type": "toggle",
+        "codes": "Assignment Slot #02",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-02.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #03",
+        "type": "toggle",
+        "codes": "Assignment Slot #03",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-03.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #04",
+        "type": "toggle",
+        "codes": "Assignment Slot #04",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-04.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #05",
+        "type": "toggle",
+        "codes": "Assignment Slot #05",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-05.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #06",
+        "type": "toggle",
+        "codes": "Assignment Slot #06",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-06.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #07",
+        "type": "toggle",
+        "codes": "Assignment Slot #07",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-07.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #08",
+        "type": "toggle",
+        "codes": "Assignment Slot #08",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-08.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #09",
+        "type": "toggle",
+        "codes": "Assignment Slot #09",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-09.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #10",
+        "type": "toggle",
+        "codes": "Assignment Slot #10",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-10.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #11",
+        "type": "toggle",
+        "codes": "Assignment Slot #11",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-11.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #12",
+        "type": "toggle",
+        "codes": "Assignment Slot #12",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-12.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #13",
+        "type": "toggle",
+        "codes": "Assignment Slot #13",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-13.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #14",
+        "type": "toggle",
+        "codes": "Assignment Slot #14",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-14.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #15",
+        "type": "toggle",
+        "codes": "Assignment Slot #15",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-15.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #16",
+        "type": "toggle",
+        "codes": "Assignment Slot #16",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-16.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #17",
+        "type": "toggle",
+        "codes": "Assignment Slot #17",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-17.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #18",
+        "type": "toggle",
+        "codes": "Assignment Slot #18",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-18.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #19",
+        "type": "toggle",
+        "codes": "Assignment Slot #19",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-19.png",
+        "overlay_align": "right"
+    },
+    {
+        "name": "Assignment Slot #20",
+        "type": "toggle",
+        "codes": "Assignment Slot #20",
+        "initial_active_state": true,
+        "img": "images/missions/Menu-20.png",
+        "overlay_align": "right"
+    }
+]

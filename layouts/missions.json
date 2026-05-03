@@ -1,8 +1,10 @@
 {
-    "missions_grid": {
+    "mission_5_grid": {
         "type": "itemgrid",
-        "h_alignment": "left",
-        "item_size": 48,
+        "h_alignment": "center",
+        "item_margin": "8,1",
+        "item_h_alignment": "center",
+        "item_size": 40,
         "rows": [
             [
                 "Astronomical Board",
@@ -10,6 +12,158 @@
                 "Soul Of Steel"
             ]
         ]
+    },
+    "mission_6_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "8,1",
+        "item_h_alignment": "center",
+        "item_size": 40,
+        "rows": [
+            [
+                "Essence of Intelligence",
+                "Essence of Technique",
+                "Essence of Fighting"
+            ]
+        ]
+    },
+    "mission_7_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "8,0",
+        "item_h_alignment": "center",
+        "item_size": 40,
+        "rows": [
+            [
+                "Orihalcon Fragment",
+                "Siren's Shriek",
+                "Crystal Skull"
+            ]
+        ]
+    },
+    "mission_8_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "8,0",
+        "item_h_alignment": "center",
+        "item_size": 40,
+        "rows": [
+            [
+                "Ignis Fatuus"
+            ]
+        ]
+    },
+    "mission_9_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "20,0",
+        "item_h_alignment": "center",
+        "item_size": 40,
+        "rows": [
+            [
+                "Ambrosia"
+            ]
+        ]
+    },
+    "mission_10_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "8,0",
+        "item_h_alignment": "center",
+        "item_size": 40,
+        "rows": [
+            [
+                "Stonemask"
+            ]
+        ]
+    },
+    "mission_11_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "21,0",
+        "item_h_alignment": "center",
+        "item_size": 40,
+        "rows": [
+            [
+                "Neo Generator"
+            ]
+        ]
+    },
+    "mission_12_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "8,0",
+        "item_h_alignment": "center",
+        "item_size": 40,
+        "rows": [
+            [
+                "Haywire Neo Generator"
+            ]
+        ]
+    },
+    "mission_13_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "22,0",
+        "item_h_alignment": "center",
+        "item_size": 40,
+        "rows": [
+            [
+                "Full Orihalcon"
+            ]
+        ]
+    },
+    "mission_15_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "8,0",
+        "item_h_alignment": "center",
+        "item_size": 40,
+        "rows": [
+            [
+                "Orihalcon Fragment (left)",
+                "Orihalcon Fragment (bottom)",
+                "Orihalcon Fragment (right)"
+            ]
+        ]
+    },
+    "mission_16_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "3,0",
+        "item_h_alignment": "center",
+        "item_size": 40,
+        "rows": [
+            [
+                "Golden Sun",
+                "Onyx Moonshard"
+            ]
+        ]
+    },
+    "mission_19_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "18,0",
+        "item_h_alignment": "center",
+        "item_size": 40,
+        "rows": [
+            [
+                "Samsara"
+            ]
+        ]
+    },
+    "mission_16_19_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "8,0",
+        "item_h_alignment": "center",
+        "item_size": 40,
+        "rows": [
+            [
+                "Golden Sun",
+                "Onyx Moonshard",
+                "Samsara"
+            ]
+        ]
     }
 }
-

@@ -12,7 +12,7 @@
                     {
                         "name": "Mission Completion",
                         "access_rules": [
-                            "$hasMission|1, $hasRequiredDifficulty"
+                            "$hasMission|01, $hasRequiredDifficulty"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -20,7 +20,7 @@
                     {
                         "name": "SS Rank Completion",
                         "access_rules": [
-                            "$hasMission|1, $hasRequiredSSDifficulty"
+                            "$hasMission|01, $hasRequiredSSDifficulty"
                         ],
                         "visibility_rules": [
                             "enabled_ss_rank"
@@ -45,7 +45,7 @@
                     {
                         "name": "Vital Star S",
                         "access_rules": [
-                            "$hasMission|2"
+                            "$hasMission|02"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -53,7 +53,7 @@
                     {
                         "name": "Mission Completion",
                         "access_rules": [
-                            "$hasMission|2, $hasRequiredDifficulty"
+                            "$hasMission|02, $hasRequiredDifficulty"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -61,7 +61,7 @@
                     {
                         "name": "SS Rank Completion",
                         "access_rules": [
-                            "$hasMission|2, $hasRequiredSSDifficulty"
+                            "$hasMission|02, $hasRequiredSSDifficulty"
                         ],
                         "visibility_rules": [
                             "enabled_ss_rank"
@@ -86,7 +86,7 @@
                     {
                         "name": "Shotgun",
                         "access_rules": [
-                            "$hasMission|3"
+                            "$hasMission|03"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -94,10 +94,10 @@
                     {
                         "name": "Blue Orb Fragment 1",
                         "access_rules": [
-                            "$hasMission|3",
-                            "$hasMission|4,^$SB",
-                            "$hasMission|5,^$SB",
-                            "$hasMission|7,Orihalcon Fragment, ^$SB"
+                            "$hasMission|03",
+                            "$hasMission|04,^$SB",
+                            "$hasMission|05,^$SB",
+                            "$hasMission|07,Orihalcon Fragment, ^$SB"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -105,10 +105,10 @@
                     {
                         "name": "Combat Adjudicator 1",
                         "access_rules": [
-                            "$hasMission|3, $hasRequiredWeapon|1",
-                            "$hasRequiredWeapon|1, $hasMission|4,^$SB",
-                            "$hasRequiredWeapon|1, $hasMission|5,^$SB",
-                            "$hasRequiredWeapon|1, $hasMission|7,Orihalcon Fragment, ^$SB"
+                            "$hasMission|03, $hasRequiredWeapon|01",
+                            "$hasRequiredWeapon|01, $hasMission|04,^$SB",
+                            "$hasRequiredWeapon|01, $hasMission|05,^$SB",
+                            "$hasRequiredWeapon|01, $hasMission|07, Orihalcon Fragment, ^$SB"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -116,10 +116,10 @@
                     {
                         "name": "Secret Mission 1",
                         "access_rules": [
-                            "$hasMission|3",
-                            "$hasMission|4,^$SB",
-                            "$hasMission|5,^$SB",
-                            "$hasMission|7,Orihalcon Fragment, ^$SB"
+                            "$hasMission|03",
+                            "$hasMission|04,^$SB",
+                            "$hasMission|05,^$SB",
+                            "$hasMission|07,Orihalcon Fragment, ^$SB"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -127,7 +127,7 @@
                     {
                         "name": "Cerberus",
                         "access_rules": [
-                            "$hasMission|3"
+                            "$hasMission|03"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -135,7 +135,7 @@
                     {
                         "name": "Mission Completion",
                         "access_rules": [
-                            "$hasMission|3, $hasRequiredDifficulty"
+                            "$hasMission|03, $hasRequiredDifficulty"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -143,7 +143,7 @@
                     {
                         "name": "SS Rank Completion",
                         "access_rules": [
-                            "$hasMission|3, $hasRequiredSSDifficulty"
+                            "$hasMission|03, $hasRequiredSSDifficulty"
                         ],
                         "visibility_rules": [
                             "enabled_ss_rank"
@@ -168,8 +168,8 @@
                     {
                         "name": "Blue Orb Fragment 2",
                         "access_rules": [
-                            "$hasMission|4",
-                            "$hasMission|5, ^$SB"
+                            "$hasMission|04",
+                            "$hasMission|05, ^$SB"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -177,7 +177,7 @@
                     {
                         "name": "Astronomical Board",
                         "access_rules": [
-                            "$hasMission|4"
+                            "$hasMission|04"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -185,7 +185,7 @@
                     {
                         "name": "Mission Completion",
                         "access_rules": [
-                            "$hasMission|4, $hasRequiredDifficulty"
+                            "$hasMission|04, $hasRequiredDifficulty"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -193,7 +193,7 @@
                     {
                         "name": "SS Rank Completion",
                         "access_rules": [
-                            "$hasMission|4, $hasRequiredSSDifficulty"
+                            "$hasMission|04, $hasRequiredSSDifficulty"
                         ],
                         "visibility_rules": [
                             "enabled_ss_rank"
@@ -218,7 +218,7 @@
                     {
                         "name": "Vajura",
                         "access_rules": [
-                            "$hasMission|5, Astronomical Board"
+                            "$hasMission|05, Astronomical Board"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -226,7 +226,7 @@
                     {
                         "name": "Soul of Steel",
                         "access_rules": [
-                            "$hasMission|5, Vajura"
+                            "$hasMission|05, Vajura"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -234,7 +234,7 @@
                     {
                         "name": "Agni and Rudra",
                         "access_rules": [
-                            "$hasMission|5, Soul of Steel"
+                            "$hasMission|05, Soul of Steel"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -242,8 +242,8 @@
                     {
                         "name": "Combat Adjudicator 2",
                         "access_rules": [
-                            "$hasMission|5, Soul of Steel, $hasRequiredWeapon|2",
-                            "$hasMission|7, Orihalcon Fragment, ^$SB"
+                            "$hasMission|05, Soul of Steel, $hasRequiredWeapon|02",
+                            "$hasMission|07, Orihalcon Fragment, $hasRequiredWeapon|02, ^$SB"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -251,8 +251,8 @@
                     {
                         "name": "Secret Mission 2",
                         "access_rules": [
-                            "$hasMission|5, Soul of Steel",
-                            "$hasMission|7, Orihalcon Fragment, ^$SB"
+                            "$hasMission|05, Soul of Steel",
+                            "$hasMission|07, Orihalcon Fragment, ^$SB"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -260,7 +260,7 @@
                     {
                         "name": "Mission Completion",
                         "access_rules": [
-                            "$hasMission|5, Soul of Steel, $hasRequiredDifficulty"
+                            "$hasMission|05, Soul of Steel, $hasRequiredDifficulty"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -268,7 +268,7 @@
                     {
                         "name": "SS Rank Completion",
                         "access_rules": [
-                            "$hasMission|5, Soul of Steel, $hasRequiredSSDifficulty"
+                            "$hasMission|05, Soul of Steel, $hasRequiredSSDifficulty"
                         ],
                         "visibility_rules": [
                             "enabled_ss_rank"
@@ -293,7 +293,7 @@
                     {
                         "name": "Essence of Technique",
                         "access_rules": [
-                            "$hasMission|6"
+                            "$hasMission|06"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -301,7 +301,7 @@
                     {
                         "name": "Essence of Intelligence",
                         "access_rules": [
-                            "$hasMission|6"
+                            "$hasMission|06"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -309,7 +309,7 @@
                     {
                         "name": "Essence of Fighting",
                         "access_rules": [
-                            "$hasMission|6"
+                            "$hasMission|06"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -317,7 +317,7 @@
                     {
                         "name": "Artemis",
                         "access_rules": [
-                            "$hasMission|6, Essence of Technique, Essence of Fighting, Essence of Intelligence"
+                            "$hasMission|06, Essence of Technique, Essence of Fighting, Essence of Intelligence"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -325,10 +325,10 @@
                     {
                         "name": "Combat Adjudicator 3",
                         "access_rules": [
-                            "$hasMission|6, Essence of Technique, Essence of Fighting, $hasRequiredWeapon|3",
-                            "$hasMission|6, Essence of Technique, Essence of Intelligence, $hasRequiredWeapon|3",
-                            "$hasMission|6, Essence of Intelligence, Essence of Fighting, $hasRequiredWeapon|3",
-                            "$hasMission|7, $hasRequiredWeapon|3, ^$SB"
+                            "$hasMission|06, Essence of Technique, Essence of Fighting, $hasRequiredWeapon|3",
+                            "$hasMission|06, Essence of Technique, Essence of Intelligence, $hasRequiredWeapon|3",
+                            "$hasMission|06, Essence of Intelligence, Essence of Fighting, $hasRequiredWeapon|3",
+                            "$hasMission|07, $hasRequiredWeapon|03, ^$SB"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -336,9 +336,9 @@
                     {
                         "name": "Mission Completion",
                         "access_rules": [
-                            "$hasMission|6, Essence of Technique, Essence of Fighting, $hasRequiredWeapon|3, $hasRequiredDifficulty",
-                            "$hasMission|6, Essence of Technique, Essence of Intelligence, $hasRequiredWeapon|3, $hasRequiredDifficulty",
-                            "$hasMission|6, Essence of Intelligence, Essence of Fighting, $hasRequiredWeapon|3, $hasRequiredDifficulty"
+                            "$hasMission|06, Essence of Technique, Essence of Fighting, $hasRequiredWeapon|3, $hasRequiredDifficulty",
+                            "$hasMission|06, Essence of Technique, Essence of Intelligence, $hasRequiredWeapon|3, $hasRequiredDifficulty",
+                            "$hasMission|06, Essence of Intelligence, Essence of Fighting, $hasRequiredWeapon|3, $hasRequiredDifficulty"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -346,9 +346,9 @@
                     {
                         "name": "SS Rank Completion",
                         "access_rules": [
-                            "$hasMission|6, Essence of Technique, Essence of Fighting, $hasRequiredWeapon|3, $hasRequiredSSDifficulty",
-                            "$hasMission|6, Essence of Technique, Essence of Intelligence, $hasRequiredWeapon|3, $hasRequiredSSDifficulty",
-                            "$hasMission|6, Essence of Intelligence, Essence of Fighting, $hasRequiredWeapon|3, $hasRequiredSSDifficulty"
+                            "$hasMission|06, Essence of Technique, Essence of Fighting, $hasRequiredWeapon|3, $hasRequiredSSDifficulty",
+                            "$hasMission|06, Essence of Technique, Essence of Intelligence, $hasRequiredWeapon|3, $hasRequiredSSDifficulty",
+                            "$hasMission|06, Essence of Intelligence, Essence of Fighting, $hasRequiredWeapon|3, $hasRequiredSSDifficulty"
                         ],
                         "visibility_rules": [
                             "enabled_ss_rank"
@@ -373,7 +373,7 @@
                     {
                         "name": "Orihalcon Fragment",
                         "access_rules": [
-                            "$hasMission|7"
+                            "$hasMission|07"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -381,7 +381,7 @@
                     {
                         "name": "Holy Water",
                         "access_rules": [
-                            "$hasMission|7"
+                            "$hasMission|07"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -389,7 +389,7 @@
                     {
                         "name": "Blue Orb Fragment 3",
                         "access_rules": [
-                            "$hasMission|7"
+                            "$hasMission|07"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -397,7 +397,7 @@
                     {
                         "name": "Vital Star S",
                         "access_rules": [
-                            "$hasMission|7"
+                            "$hasMission|07"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -405,7 +405,7 @@
                     {
                         "name": "Sirens Shriek",
                         "access_rules": [
-                            "$hasMission|7"
+                            "$hasMission|07"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -413,7 +413,7 @@
                     {
                         "name": "Crystal Skull",
                         "access_rules": [
-                            "$hasMission|7, Orihalcon Fragment, Siren's Shriek"
+                            "$hasMission|07, Orihalcon Fragment, Siren's Shriek"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -421,7 +421,7 @@
                     {
                         "name": "Combat Adjudicator 4",
                         "access_rules": [
-                            "$hasMission|7, $hasRequiredWeapon|4"
+                            "$hasMission|07, $hasRequiredWeapon|4"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -429,7 +429,7 @@
                     {
                         "name": "Secret Mission 3",
                         "access_rules": [
-                            "$hasMission|7"
+                            "$hasMission|07"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -437,7 +437,7 @@
                     {
                         "name": "Mission Completion",
                         "access_rules": [
-                            "$hasMission|7, Crystal Skull, $hasRequiredDifficulty"
+                            "$hasMission|07, Crystal Skull, $hasRequiredDifficulty"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -445,7 +445,7 @@
                     {
                         "name": "SS Rank Completion",
                         "access_rules": [
-                            "$hasMission|7, Crystal Skull, $hasRequiredSSDifficulty"
+                            "$hasMission|07, Crystal Skull, $hasRequiredSSDifficulty"
                         ],
                         "visibility_rules": [
                             "enabled_ss_rank"
@@ -470,7 +470,7 @@
                     {
                         "name": "Blue Orb Fragment 4",
                         "access_rules": [
-                            "$hasMission|8"
+                            "$hasMission|08"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -478,7 +478,7 @@
                     {
                         "name": "Ignis Fatuus",
                         "access_rules": [
-                            "$hasMission|8"
+                            "$hasMission|08"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -486,7 +486,7 @@
                     {
                         "name": "Combat Adjudicator 5",
                         "access_rules": [
-                            "$hasMission|8, $hasRequiredWeapon|5"
+                            "$hasMission|08, $hasRequiredWeapon|5"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -494,7 +494,7 @@
                     {
                         "name": "Secret Mission 4",
                         "access_rules": [
-                            "$hasMission|8"
+                            "$hasMission|08"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -502,7 +502,7 @@
                     {
                         "name": "Mission Completion",
                         "access_rules": [
-                            "$hasMission|8, Ignis Fatuus, $hasRequiredDifficulty"
+                            "$hasMission|08, Ignis Fatuus, $hasRequiredDifficulty"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -510,7 +510,7 @@
                     {
                         "name": "SS Rank Completion",
                         "access_rules": [
-                            "$hasMission|8, Ignis Fatuus, $hasRequiredSSDifficulty"
+                            "$hasMission|08, Ignis Fatuus, $hasRequiredSSDifficulty"
                         ],
                         "visibility_rules": [
                             "enabled_ss_rank"
@@ -535,8 +535,8 @@
                     {
                         "name": "Blue Orb Fragment 5",
                         "access_rules": [
-                            "$hasMission|9, Progressive Trickster Stage 2, $hasAirhike",
-                            "$hasMission|9, Progressive Trickster Stage 3, $hasAirhike",
+                            "$hasMission|09, Progressive Trickster Stage 2, $hasAirhike",
+                            "$hasMission|09, Progressive Trickster Stage 3, $hasAirhike",
                             "$hasMission|10, Progressive Trickster Stage 2, $hasAirhike, ^$SB",
                             "$hasMission|10, Progressive Trickster Stage 3, $hasAirhike, ^$SB"
                         ],
@@ -546,7 +546,7 @@
                     {
                         "name": "Spiral",
                         "access_rules": [
-                            "$hasMission|9",
+                            "$hasMission|09",
                             "$hasMission|10, ^$SB",
                             "$hasMission|14, ^$SB",
                             "$hasMission|15, ^$SB"
@@ -557,7 +557,7 @@
                     {
                         "name": "Ambrosia",
                         "access_rules": [
-                            "$hasMission|9"
+                            "$hasMission|09"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -565,7 +565,7 @@
                     {
                         "name": "Devil Star",
                         "access_rules": [
-                            "$hasMission|9",
+                            "$hasMission|09",
                             "$hasMission|10, ^$SB",
                             "$hasMission|14, ^$SB",
                             "$hasMission|15, ^$SB"
@@ -576,8 +576,8 @@
                     {
                         "name": "Combat Adjudicator 6",
                         "access_rules": [
-                            "$hasMission|9, $hasRequiredWeapon|6",
-                            "$hasMission|10, $hasRequiredWeapon|6, ^$SB"
+                            "$hasMission|09, $hasRequiredWeapon|06",
+                            "$hasMission|10, $hasRequiredWeapon|06, ^$SB"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -585,7 +585,7 @@
                     {
                         "name": "Secret Mission 5",
                         "access_rules": [
-                            "$hasMission|9",
+                            "$hasMission|09",
                             "$hasMission|10, ^$SB",
                             "$hasMission|14, ^$SB",
                             "$hasMission|15, ^$SB"
@@ -596,7 +596,7 @@
                     {
                         "name": "Nevan",
                         "access_rules": [
-                            "$hasMission|9, Ambrosia"
+                            "$hasMission|09, Ambrosia"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -604,7 +604,7 @@
                     {
                         "name": "Mission Completion",
                         "access_rules": [
-                            "$hasMission|9, Ambrosia, $hasRequiredDifficulty"
+                            "$hasMission|09, Ambrosia, $hasRequiredDifficulty"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -612,7 +612,7 @@
                     {
                         "name": "SS Rank Completion",
                         "access_rules": [
-                            "$hasMission|9, Ambrosia, $hasRequiredSSDifficulty"
+                            "$hasMission|09, Ambrosia, $hasRequiredSSDifficulty"
                         ],
                         "visibility_rules": [
                             "enabled_ss_rank"
@@ -726,10 +726,10 @@
                     {
                         "name": "Combat Adjudicator 7",
                         "access_rules": [
-                            "$hasMission|11, $hasRequiredWeapon|7",
-                            "$hasMission|12, $hasRequiredWeapon|7, ^$SB",
-                            "$hasMission|14, $hasRequiredWeapon|7, ^$SB",
-                            "$hasMission|15, $hasRequiredWeapon|7, ^$SB"
+                            "$hasMission|11, $hasRequiredWeapon|07",
+                            "$hasMission|12, $hasRequiredWeapon|07, ^$SB",
+                            "$hasMission|14, $hasRequiredWeapon|07, ^$SB",
+                            "$hasMission|15, $hasRequiredWeapon|07, ^$SB"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -922,8 +922,8 @@
                     {
                         "name": "Vital Star S",
                         "access_rules": [
-                            "$hasMission|14, $hasRequiredWeapon|9",
-                            "$hasMission|15, $hasRequiredWeapon|9, ^$SB"
+                            "$hasMission|14, $hasRequiredWeapon|09",
+                            "$hasMission|15, ^$SB"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -931,8 +931,8 @@
                     {
                         "name": "Blue Orb Fragment 7",
                         "access_rules": [
-                            "$hasMission|14, $hasRequiredWeapon|9",
-                            "$hasMission|15, $hasRequiredWeapon|9, ^$SB"
+                            "$hasMission|14, $hasRequiredWeapon|09",
+                            "$hasMission|15, ^$SB"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -940,8 +940,8 @@
                     {
                         "name": "Vital Star S 2",
                         "access_rules": [
-                            "$hasMission|14, $hasRequiredWeapon|9",
-                            "$hasMission|15, $hasRequiredWeapon|9, ^$SB"
+                            "$hasMission|14, $hasRequiredWeapon|09",
+                            "$hasMission|15, ^$SB"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -949,7 +949,7 @@
                     {
                         "name": "Holy Water",
                         "access_rules": [
-                            "$hasMission|14, $hasRequiredWeapon|9"
+                            "$hasMission|14, $hasRequiredWeapon|09"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -957,8 +957,8 @@
                     {
                         "name": "Combat Adjudicator 9",
                         "access_rules": [
-                            "$hasMission|14, $hasRequiredWeapon|9",
-                            "$hasMission|15, $hasRequiredWeapon|9, ^$SB"
+                            "$hasMission|14, $hasRequiredWeapon|09",
+                            "$hasMission|15, $hasRequiredWeapon|09, ^$SB"
                         ],
                         "visibility_rules": [],
                         "item_count": 1

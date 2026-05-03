@@ -7,8 +7,18 @@
 --     <indentations are just for readability>
 -- end
 --
-function has(item)
-	return tonumber(Tracker:ProviderCountForCode(item)) > 0
+function has(item, amount)
+	local count = Tracker:ProviderCountForCode(item)
+	amount = tonumber(amount)
+	if not amount then
+		return count > 0
+	else
+		return count >= amount
+	end
+end
+
+function notHas(item)
+    return not has(item)
 end
 
 ADDED_DT_ORBS = false
@@ -25,6 +35,13 @@ function checkAndUpdateDevilTrigger()
 end
 
 COMPLETED_LOCATIONS = {}
+function activateMissionAssignment(mission_idx)
+	local slot = getCurrentSlot(mission_idx)
+	Tracker:FindObjectForCode("m" .. slot .. "_assignment").CurrentStage = MISSION_ASSIGNMENTS[tonumber(mission_idx)]
+    Tracker:FindObjectForCode("Assignment Slot #" .. slot).Active = true
+
+end
+
 function updateAvailableMissions(location)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print("[DEBUG] updateAvailableMap called | Location: " .. tostring(location))
@@ -37,34 +54,52 @@ function updateAvailableMissions(location)
 		item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment
 		COMPLETED_LOCATIONS[location] = true
 
-		local current_mission = MISSION_ASSIGNMENTS[item_obj.AcquiredCount]
+		local current_mission_idx = item_obj.AcquiredCount + 1
+		local current_mission = MISSION_ASSIGNMENTS[current_mission_idx]
 		if current_mission then
+			activateMissionAssignment(current_mission_idx, current_mission)
 			updateMap(current_mission, 0)
 		end
 	end
 end
 
-function hasMission(mission_idx)
-	if GOAL == 1 then
-		return true
+function reverseMapping(input_table)
+	local reversed = {}
+	for k, v in pairs(input_table) do
+		-- We set the value as the key, and the key as the value
+		reversed[v] = k
+	end
+	return reversed
+end
+
+function getCurrentSlot(i)
+	local idx = tonumber(i)
+	local slot = ""
+
+	if idx < 10 and idx > 0 then
+		slot = "0" .. idx
+	else
+		slot = "" .. idx
 	end
 
-	local max_mission_number = Tracker:ProviderCountForCode("Completed Missions")
-	mission_idx = tonumber(mission_idx)
+	return slot
+end
 
-	if GOAL == 0 then
-		return mission_idx <= max_mission_number
-	end
-
-	if GOAL == 2 then
-		for i = 1, max_mission_number do
-			if MISSION_ASSIGNMENTS[i] == mission_idx then
-				return true
-			end
+function getActiveMissionIdx(mission_slot)
+	local idx = tonumber(mission_slot)
+	for i = 1, 20 do
+		local slot = getCurrentSlot(i)
+		local m = Tracker:FindObjectForCode("m" .. slot .. "_assignment")
+		if m.CurrentStage == idx then
+			return slot
 		end
 	end
+	return nil
+end
 
-	return false
+function hasMission(mission_idx)
+	local m_idx = getActiveMissionIdx(mission_idx)
+	return m_idx ~= nil and Tracker:FindObjectForCode("Assignment Slot #" .. m_idx).Active
 end
 
 function notHasMission(mission_idx)
@@ -112,6 +147,10 @@ function hasRequiredWeapon(adjudicator_idx)
 	end
 end
 
+function notHasRequiredWeapon(idx)
+    return not hasRequiredWeapon(idx)
+end
+
 function hasRequiredDifficulty()
 	local required_difficulty = SLOT_DATA["mission_clear_difficulty"]
 	if required_difficulty == nil then
@@ -144,6 +183,10 @@ end
 
 function hasAirhike()
 	return has("Rebellion - Airhike") or has("Agni and Rudra - Airhike") or has("Beowulf - Airhike")
+end
+
+function notHasAirhike()
+    return not hasAirhike()
 end
 
 function hasAirraid()

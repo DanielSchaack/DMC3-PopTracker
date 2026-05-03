@@ -5,109 +5,101 @@
         "margin": "0,0",
         "content": [
             {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "2, 2",
-                        "h_alignment": "left",
-                        "item_h_alignment": "center",
-                        "item_v_alignment": "center",
-                        "item_height": 48,
-                        "item_width": 48,
-                        "rows": [
-                            [
-                                "Rebellion",
-                                "Rebellion - Progressive Stinger",
-                                "Rebellion - Drive",
-                                "Rebellion - Airhike"
-                            ],
-                            [
-                                "Cerberus",
-                                "Cerberus - Revolver Level 2",
-                                "Cerberus - Windmill"
-                            ],
-                            [
-                                "Agni and Rudra",
-                                "Agni and Rudra - Progressive Jetstream",
-                                "Agni and Rudra - Whirlwind",
-                                "Agni and Rudra - Airhike"
-                            ],
-                            [
-                                "Nevan",
-                                "Nevan - Progressive Reverbshock",
-                                "Nevan - Batrift Level 2",
-                                "Nevan - Volume Up",
-                                "Nevan - Airraid"
-                            ],
-                            [
-                                "Beowulf",
-                                "Beowulf - Progressive Uppercut",
-                                "Beowulf - Straight Level 2",
-                                "Beowulf - Airhike"
-                            ],
-                            [
-                                "Ebony & Ivory",
-                                "Shotgun",
-                                "Artemis",
-                                "Spiral",
-                                "Kalina Ann"
-                            ],
-                            [
-                                "Ebony & Ivory - Progressive Upgrade",
-                                "Shotgun - Progressive Upgrade",
-                                "Artemis - Progressive Upgrade",
-                                "Spiral - Progressive Upgrade",
-                                "Kalina Ann - Progressive Upgrade"
-                            ],
-                            [
-                                "Progressive Trickster",
-                                "Progressive Swordmaster",
-                                "Progressive Gunslinger",
-                                "Progressive Royalguard",
-                                "Quicksilver Style",
-                                "Doppelganger Style"
-                            ],
-                            [
-                                "Devil Trigger",
-                                "Blue Orb",
-                                "Purple Orb",
-                                "Vital Star S",
-                                "Vital Star L",
-                                "Devil Star",
-                                "Holy Water"
-                            ],
-                            [
-                                "Astronomical Board",
-                                "Vajura",
-                                "Soul Of Steel",
-                                "Essence of Intelligence",
-                                "Essence of Technique",
-                                "Essence of Fighting",
-                                "Orihalcon Fragment"
-                            ],
-                            [
-                                "Siren's Shriek",
-                                "Crystal Skull",
-                                "Ignis Fatuus",
-                                "Ambrosia",
-                                "Stonemask",
-                                "Neo Generator",
-                                "Haywire Neo Generator"
-                            ],
-                            [
-                                "Full Orihalcon",
-                                "Orihalcon Fragment (left)",
-                                "Orihalcon Fragment (bottom)",
-                                "Orihalcon Fragment (right)",
-                                "Golden Sun",
-                                "Onyx Moonshard",
-                                "Samsara"
-                            ]
-                        ]
-                    }
+                "type": "itemgrid",
+                "item_margin": "2, 2",
+                "h_alignment": "left",
+                "item_h_alignment": "center",
+                "item_v_alignment": "center",
+                "item_height": 48,
+                "item_width": 48,
+                "rows": [
+                    [
+                        "Rebellion",
+                        "Rebellion - Progressive Stinger",
+                        "Rebellion - Drive",
+                        "Rebellion - Airhike"
+                    ],
+                    [
+                        "Cerberus",
+                        "Cerberus - Revolver Level 2",
+                        "Cerberus - Windmill"
+                    ],
+                    [
+                        "Agni and Rudra",
+                        "Agni and Rudra - Progressive Jetstream",
+                        "Agni and Rudra - Whirlwind",
+                        "Agni and Rudra - Airhike"
+                    ],
+                    [
+                        "Nevan",
+                        "Nevan - Progressive Reverbshock",
+                        "Nevan - Batrift Level 2",
+                        "Nevan - Volume Up",
+                        "Nevan - Airraid"
+                    ],
+                    [
+                        "Beowulf",
+                        "Beowulf - Progressive Uppercut",
+                        "Beowulf - Straight Level 2",
+                        "Beowulf - Airhike"
+                    ],
+                    [
+                        "Ebony & Ivory",
+                        "Shotgun",
+                        "Artemis",
+                        "Spiral",
+                        "Kalina Ann"
+                    ],
+                    [
+                        "Ebony & Ivory - Progressive Upgrade",
+                        "Shotgun - Progressive Upgrade",
+                        "Artemis - Progressive Upgrade",
+                        "Spiral - Progressive Upgrade",
+                        "Kalina Ann - Progressive Upgrade"
+                    ],
+                    [
+                        "Progressive Trickster",
+                        "Progressive Swordmaster",
+                        "Progressive Gunslinger",
+                        "Progressive Royalguard",
+                        "Quicksilver Style",
+                        "Doppelganger Style"
+                    ],
+                    [
+                        "Devil Trigger",
+                        "Blue Orb",
+                        "Purple Orb",
+                        "Completed Missions"
+                    ],
+                    [
+                        "Astronomical Board",
+                        "Vajura",
+                        "Soul Of Steel",
+                        "Essence of Intelligence",
+                        "Essence of Technique",
+                        "Essence of Fighting"
+                    ],
+                    [
+                        "Orihalcon Fragment",
+                        "Siren's Shriek",
+                        "Crystal Skull",
+                        "Ignis Fatuus",
+                        "Ambrosia",
+                        "Stonemask"
+                    ],
+                    [
+                        "Neo Generator",
+                        "Haywire Neo Generator",
+                        "Full Orihalcon",
+                        "Orihalcon Fragment (left)",
+                        "Orihalcon Fragment (bottom)",
+                        "Orihalcon Fragment (right)"
+                    ],
+                    [
+                        "Golden Sun",
+                        "Onyx Moonshard",
+                        "Samsara"
+                    ]
                 ]
             }
         ]

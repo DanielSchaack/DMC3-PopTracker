@@ -4,6 +4,9 @@
         "background": "#00000000",
         "content": {
             "type": "dock",
+            "dock": "left",
+            "h_alignment": "stretch",
+            "v_alignment": "stretch",
             "content": [
                 {
                     "type": "dock",
@@ -12,71 +15,89 @@
                         {
                             "type": "array",
                             "orientation": "vertical",
-                            "dock": "top",
                             "content": [
-                                {
-                                    "type": "group",
-                                    "header": "Devil Arms",
-                                    "dock": "top",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "devil_arms_grid"
-                                    }
-                                },
                                 {
                                     "type": "array",
                                     "orientation": "horizontal",
                                     "dock": "top",
                                     "content": [
                                         {
-                                            "type": "group",
-                                            "header": "Guns",
-                                            "dock": "top",
-                                            "content": {
-                                                "type": "layout",
-                                                "key": "guns_grid"
-                                            }
+                                            "type": "array",
+                                            "orientation": "vertical",
+                                            "content": [
+                                                {
+                                                    "type": "group",
+                                                    "header": "Devil Arms",
+                                                    "content": {
+                                                        "type": "layout",
+                                                        "key": "devil_arms_grid"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "array",
+                                                    "orientation": "horizontal",
+                                                    "content": [
+                                                        {
+                                                            "type": "group",
+                                                            "header": "Guns",
+                                                            "content": {
+                                                                "type": "layout",
+                                                                "key": "guns_grid"
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "group",
+                                                            "header": "Styles",
+                                                            "content": {
+                                                                "type": "layout",
+                                                                "key": "styles_grid"
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "group",
+                                                            "header": "Misc.",
+                                                            "content": {
+                                                                "type": "layout",
+                                                                "key": "progressive_items_grid"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "dock",
+                                            "dock": "left",
+                                            "header": "Missions Key Items",
+                                            "content": [
+                                                {
+                                                    "type": "layout",
+                                                    "key": "missions_keyitems_grid"
+                                                }
+                                            ]
                                         },
                                         {
                                             "type": "group",
-                                            "header": "Styles",
-                                            "dock": "top",
+                                            "header": "Settings",
                                             "content": {
                                                 "type": "layout",
-                                                "key": "styles_grid"
-                                            }
-                                        },
-                                        {
-                                            "type": "group",
-                                            "header": "Collectibles",
-                                            "dock": "top",
-                                            "content": {
-                                                "type": "layout",
-                                                "key": "progressive_items_grid"
+                                                "key": "settings_grid"
                                             }
                                         }
                                     ]
                                 },
                                 {
-                                    "type": "group",
-                                    "header": "Settings",
-                                    "dock": "top",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "settings_grid"
-                                    }
+                                    "type": "dock",
+                                    "dock": "left",
+                                    "header": "Missions Assignments",
+                                    "content": [
+                                        {
+                                            "type": "layout",
+                                            "key": "mission_assignments_grid"
+                                        }
+                                    ]
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "type": "container",
-                    "header": "Missions Key Items",
-                    "content": [
-                        {
-                            "type": "layout",
-                            "key": "missions_keyitems_grid"
                         }
                     ]
                 },

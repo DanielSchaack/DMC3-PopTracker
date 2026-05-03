@@ -1,0 +1,327 @@
+{
+    "assignment_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "0,-10",
+                "item_h_alignment": "center",
+                "item_size": 48,
+                "rows": [
+                    [
+                        "Assignment Slot #01",
+                        "m01_assignment",
+                        "Assignment Slot #11",
+                        "m11_assignment"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "0,-10",
+                "item_h_alignment": "center",
+                "item_size": 48,
+                "rows": [
+                    [
+                        "Assignment Slot #02",
+                        "m02_assignment",
+                        "Assignment Slot #12",
+                        "m12_assignment"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "0,-10",
+                "item_h_alignment": "center",
+                "item_size": 48,
+                "rows": [
+                    [
+                        "Assignment Slot #03",
+                        "m03_assignment",
+                        "Assignment Slot #13",
+                        "m13_assignment"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "0,-10",
+                "item_h_alignment": "center",
+                "item_size": 48,
+                "rows": [
+                    [
+                        "Assignment Slot #04",
+                        "m04_assignment",
+                        "Assignment Slot #14",
+                        "m14_assignment"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "0,-10",
+                "item_h_alignment": "center",
+                "item_size": 48,
+                "rows": [
+                    [
+                        "Assignment Slot #05",
+                        "m05_assignment",
+                        "Assignment Slot #15",
+                        "m15_assignment"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "0,-10",
+                "item_h_alignment": "center",
+                "item_size": 48,
+                "rows": [
+                    [
+                        "Assignment Slot #06",
+                        "m06_assignment",
+                        "Assignment Slot #16",
+                        "m16_assignment"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "0,-10",
+                "item_h_alignment": "center",
+                "item_size": 48,
+                "rows": [
+                    [
+                        "Assignment Slot #07",
+                        "m07_assignment",
+                        "Assignment Slot #17",
+                        "m17_assignment"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "0,-10",
+                "item_h_alignment": "center",
+                "item_size": 48,
+                "rows": [
+                    [
+                        "Assignment Slot #08",
+                        "m08_assignment",
+                        "Assignment Slot #18",
+                        "m18_assignment"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "0,-10",
+                "item_h_alignment": "center",
+                "item_size": 48,
+                "rows": [
+                    [
+                        "Assignment Slot #09",
+                        "m09_assignment",
+                        "Assignment Slot #19",
+                        "m19_assignment"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "0,-10",
+                "item_h_alignment": "center",
+                "item_size": 48,
+                "rows": [
+                    [
+                        "Assignment Slot #10",
+                        "m10_assignment",
+                        "Assignment Slot #20",
+                        "m20_assignment"
+                    ]
+                ]
+            }
+        ]
+    },
+    "assignment_grid_horizontal": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "h_alignment": "center",
+                        "item_margin": "2,-10",
+                        "item_h_alignment": "center",
+                        "item_size": 48,
+                        "rows": [
+                            [
+                                "Assignment Slot #01",
+                                "m01_assignment"
+                            ],
+                            [
+                                "Assignment Slot #02",
+                                "m02_assignment"
+                            ],
+                            [
+                                "Assignment Slot #03",
+                                "m03_assignment"
+                            ],
+                            [
+                                "Assignment Slot #04",
+                                "m04_assignment"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "h_alignment": "center",
+                        "item_margin": "2,-10",
+                        "item_h_alignment": "center",
+                        "item_size": 48,
+                        "rows": [
+                            [
+                                "Assignment Slot #05",
+                                "m05_assignment"
+                            ],
+                            [
+                                "Assignment Slot #06",
+                                "m06_assignment"
+                            ],
+                            [
+                                "Assignment Slot #07",
+                                "m07_assignment"
+                            ],
+                            [
+                                "Assignment Slot #08",
+                                "m08_assignment"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "h_alignment": "center",
+                        "item_margin": "2,-10",
+                        "item_h_alignment": "center",
+                        "item_size": 48,
+                        "rows": [
+                            [
+                                "Assignment Slot #09",
+                                "m09_assignment"
+                            ],
+                            [
+                                "Assignment Slot #10",
+                                "m10_assignment"
+                            ],
+                            [
+                                "Assignment Slot #11",
+                                "m11_assignment"
+                            ],
+                            [
+                                "Assignment Slot #12",
+                                "m12_assignment"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "h_alignment": "center",
+                        "item_margin": "2,-10",
+                        "item_h_alignment": "center",
+                        "item_size": 48,
+                        "rows": [
+                            [
+                                "Assignment Slot #13",
+                                "m13_assignment"
+                            ],
+                            [
+                                "Assignment Slot #14",
+                                "m14_assignment"
+                            ],
+                            [
+                                "Assignment Slot #15",
+                                "m15_assignment"
+                            ],
+                            [
+                                "Assignment Slot #16",
+                                "m16_assignment"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "h_alignment": "center",
+                        "item_margin": "2,-10",
+                        "item_h_alignment": "center",
+                        "item_size": 48,
+                        "rows": [
+                            [
+                                "Assignment Slot #17",
+                                "m17_assignment"
+                            ],
+                            [
+                                "Assignment Slot #18",
+                                "m18_assignment"
+                            ],
+                            [
+                                "Assignment Slot #19",
+                                "m19_assignment"
+                            ],
+                            [
+                                "Assignment Slot #20",
+                                "m20_assignment"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "mission_assignments_grid": {
+        "type": "group",
+        "header": "Mission Assignments",
+        "content": {
+            "type": "layout",
+            "key": "assignment_grid_horizontal"
+        }
+    }
+}

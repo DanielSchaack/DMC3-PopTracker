@@ -162,6 +162,7 @@
                         "y": 20,
                         "force_invisibility_rules": [
                             "show_oom_available, $notHasMission|12",
+                            "show_oom_available, $notHasRequiredWeapon|07",
                             "show_oom_off"
                         ]
                     },
@@ -171,6 +172,7 @@
                         "y": 20,
                         "force_invisibility_rules": [
                             "show_oom_available, $notHasMission|14",
+                            "show_oom_available, $notHasRequiredWeapon|07",
                             "show_oom_off"
                         ]
                     },
@@ -180,6 +182,7 @@
                         "y": 20,
                         "force_invisibility_rules": [
                             "show_oom_available, $notHasMission|15",
+                            "show_oom_available, $notHasRequiredWeapon|07",
                             "show_oom_off"
                         ]
                     }

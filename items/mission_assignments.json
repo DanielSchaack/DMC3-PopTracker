@@ -1,0 +1,2702 @@
+[
+    {
+        "name": "Mission #01 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m01_assignment",
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #02 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m02_assignment",
+        "initial_stage_idx": 2,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #03 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m03_assignment",
+        "initial_stage_idx": 3,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #04 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m04_assignment",
+        "initial_stage_idx": 4,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #05 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m05_assignment",
+        "initial_stage_idx": 5,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #06 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m06_assignment",
+        "initial_stage_idx": 6,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #07 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m07_assignment",
+        "initial_stage_idx": 7,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #08 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m08_assignment",
+        "initial_stage_idx": 8,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #09 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m09_assignment",
+        "initial_stage_idx": 9,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #10 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m10_assignment",
+        "initial_stage_idx": 10,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #11 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m11_assignment",
+        "initial_stage_idx": 11,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #12 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m12_assignment",
+        "initial_stage_idx": 12,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #13 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m13_assignment",
+        "initial_stage_idx": 13,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #14 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m14_assignment",
+        "initial_stage_idx": 14,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #15 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m15_assignment",
+        "initial_stage_idx": 15,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #16 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m16_assignment",
+        "initial_stage_idx": 16,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #17 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m17_assignment",
+        "initial_stage_idx": 17,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #18 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m18_assignment",
+        "initial_stage_idx": 18,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #19 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m19_assignment",
+        "initial_stage_idx": 19,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mission #20 - Available",
+        "type": "progressive",
+        "loop": true,
+        "codes": "m20_assignment",
+        "initial_stage_idx": 20,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "??? - Available",
+                "img": "images/missions/Unknown.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #01 - Available",
+                "img": "images/missions/MM-01.png",
+                "codes": "Mission_01",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #02 - Available",
+                "img": "images/missions/MM-02.png",
+                "codes": "Mission_02",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #03 - Available",
+                "img": "images/missions/MM-03.png",
+                "codes": "Mission_03",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #04 - Available",
+                "img": "images/missions/MM-04.png",
+                "codes": "Mission_04",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #05 - Available",
+                "img": "images/missions/MM-05.png",
+                "codes": "Mission_05",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #06 - Available",
+                "img": "images/missions/MM-06.png",
+                "codes": "Mission_06",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #07 - Available",
+                "img": "images/missions/MM-07.png",
+                "codes": "Mission_07",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #08 - Available",
+                "img": "images/missions/MM-08.png",
+                "codes": "Mission_08",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #09 - Available",
+                "img": "images/missions/MM-09.png",
+                "codes": "Mission_09",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #10 - Available",
+                "img": "images/missions/MM-10.png",
+                "codes": "Mission_10",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #11 - Available",
+                "img": "images/missions/MM-11.png",
+                "codes": "Mission_11",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #12 - Available",
+                "img": "images/missions/MM-12.png",
+                "codes": "Mission_12",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #13 - Available",
+                "img": "images/missions/MM-13.png",
+                "codes": "Mission_13",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #14 - Available",
+                "img": "images/missions/MM-14.png",
+                "codes": "Mission_14",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #15 - Available",
+                "img": "images/missions/MM-15.png",
+                "codes": "Mission_15",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #16 - Available",
+                "img": "images/missions/MM-16.png",
+                "codes": "Mission_16",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #17 - Available",
+                "img": "images/missions/MM-17.png",
+                "codes": "Mission_17",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #18 - Available",
+                "img": "images/missions/MM-18.png",
+                "codes": "Mission_18",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #19 - Available",
+                "img": "images/missions/MM-19.png",
+                "codes": "Mission_19",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mission #20 - Available",
+                "img": "images/missions/MM-20.png",
+                "codes": "Mission_20",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

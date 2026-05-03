@@ -175,6 +175,7 @@ end
 AVAILABLE_DIFFICULTIES = {
 	[1] = "Normal",
 }
+
 MISSION_ASSIGNMENTS = {
 	[1] = 1,
 	[2] = 2,
@@ -198,7 +199,31 @@ MISSION_ASSIGNMENTS = {
 	[20] = 20,
 }
 
+ASSIGNMENTS_MISSION = {
+	[1] = 1,
+	[2] = 2,
+	[3] = 3,
+	[4] = 4,
+	[5] = 5,
+	[6] = 6,
+	[7] = 7,
+	[8] = 8,
+	[9] = 9,
+	[10] = 10,
+	[11] = 11,
+	[12] = 12,
+	[13] = 13,
+	[14] = 14,
+	[15] = 15,
+	[16] = 16,
+	[17] = 17,
+	[18] = 18,
+	[19] = 19,
+	[20] = 20,
+}
+
 GOAL = 0
+
 function onClear(slot_data)
 	PLAYER_ID = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
@@ -206,6 +231,21 @@ function onClear(slot_data)
 	COMPLETED_LOCATIONS = {}
 
 	print(PLAYER_ID, TEAM_NUMBER)
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print("--- Provided Difficulties ---")
+		print(dump_table(slot_data["initially_unlocked_difficulties"], 2))
+
+		print("--- Available Difficulties ---")
+		print("Count:", #AVAILABLE_DIFFICULTIES)
+		print(dump_table(AVAILABLE_DIFFICULTIES, 2))
+
+		print("--- Active Mission Assignments ---")
+		print("Count:", #MISSION_ASSIGNMENTS)
+		print(dump_table(MISSION_ASSIGNMENTS, 2))
+
+		print("--- Current Goal ---")
+		print(GOAL)
+	end
 
 	for _, available_difficulty in pairs(slot_data["initially_unlocked_difficulties"]) do
 		if available_difficulty == "Easy" then
@@ -222,24 +262,38 @@ function onClear(slot_data)
 	end
 
 	GOAL = tonumber(slot_data["goal"])
+
+	if GOAL == 0 then
+		activateMissionAssignment(1)
+		for i = 2, 20 do
+			activateMissionAssignment(i)
+			local slot = getCurrentSlot(i)
+			Tracker:FindObjectForCode("Assignment Slot #" .. slot).Active = false
+		end
+	end
+
+	if GOAL == 1 then
+		for i = 1, 20 do
+			activateMissionAssignment(i)
+		end
+	end
+
 	if GOAL == 2 then
 		MISSION_ASSIGNMENTS = slot_data["mission_order"]
+		ASSIGNMENTS_MISSION = reverseMapping(MISSION_ASSIGNMENTS)
+		activateMissionAssignment(1)
+		for i = 2, 20 do
+			local slot = getCurrentSlot(i)
+			local m = Tracker:FindObjectForCode("m" .. slot .. "_assignment")
+			m.CurrentStage = 0
+			Tracker:FindObjectForCode("Assignment Slot #" .. slot).Active = false
+		end
 	end
 
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print("--- Provided Difficulties ---")
-		print(dump_table(slot_data["initially_unlocked_difficulties"], 2))
-
-		print("--- Available Difficulties ---")
-		print("Count:", #AVAILABLE_DIFFICULTIES)
-		print(dump_table(AVAILABLE_DIFFICULTIES, 2))
-
 		print("--- Active Mission Assignments ---")
 		print("Count:", #MISSION_ASSIGNMENTS)
 		print(dump_table(MISSION_ASSIGNMENTS, 2))
-
-		print("--- Current Goal ---")
-		print(GOAL)
 	end
 
 	local has_ss_checks = slot_data["enabled_ss_rank"]
@@ -292,6 +346,7 @@ function onClear(slot_data)
 			end
 		end
 	end
+
 	-- reset items
 	for _, item_array in pairs(ITEM_MAPPING) do
 		for _, item_pair in pairs(item_array) do
@@ -343,7 +398,7 @@ function onClear(slot_data)
 	ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
 	MANUAL_CHECKED = true
 
-	Tracker:FindObjectForCode("Completed Missions").AcquiredCount = 1
+	Tracker:FindObjectForCode("Completed Missions").AcquiredCount = 0
 	local has_randomised_styles = slot_data["randomize_styles"]
 	if not has_randomised_styles then
 		Tracker:FindObjectForCode("Progressive Trickster").CurrentStage = 1
@@ -413,7 +468,6 @@ function onItem(index, item_id, item_name, player_number)
 	end
 end
 
---called when a location gets cleared
 function onLocation(location_id, location_name)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onLocation: %s, %s", location_id, location_name))
@@ -446,9 +500,9 @@ function onLocation(location_id, location_name)
 end
 
 function OnNotify(key, value, old_value)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onNotify: key %s, value %s, old_value %s", key, value, old_value))
-    end
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print(string.format("called onNotify: key %s, value %s, old_value %s", key, value, old_value))
+	end
 	if value ~= old_value and key == HINTS_ID then
 		Tracker.BulkUpdate = true
 		for _, hint in ipairs(value) do

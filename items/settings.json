@@ -73,11 +73,11 @@
         "type": "consumable",
         "img": "/images/settings/Mission-M.png",
         "codes": "Completed Missions",
-        "min_quantity": 1,
+        "min_quantity": 0,
         "max_quantity": 20,
         "increment": 1,
         "decrement": 1,
-        "initial_quantity": 1
+        "initial_quantity": 0
     },
     {
         "name": "Style Checks",

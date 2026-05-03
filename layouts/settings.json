@@ -1,13 +1,76 @@
 {
+    "settings_popup": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "group",
+                "header": "Mission Settings",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_size": 48,
+                    "rows": [
+                        [
+                            "SS Rank Completions"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Shop Settings",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_size": 48,
+                    "rows": [
+                        [
+                            "Style Checks",
+                            "Item Checks",
+                            "Orb Checks",
+                            "Action Checks",
+                            "Guns Checks"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Map & Tracking Settings",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_size": 48,
+                    "rows": [
+                        [
+                            "Show Out of Mission Checks",
+                            "Automated Tab Tracking"
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
     "settings_grid": {
         "type": "itemgrid",
         "h_alignment": "center",
-        "item_size": 48,
+        "item_margin": "10,5",
+        "item_size": 40,
         "rows": [
             [
-                "SS Rank Completions",
-                "Orb Checks",
-                "Show Out of Mission Checks",
+                "SS Rank Completions"
+            ],
+            [
+                "Orb Checks"
+            ],
+            [
+                "Show Out of Mission Checks"
+            ],
+            [
                 "Automated Tab Tracking"
             ]
         ]

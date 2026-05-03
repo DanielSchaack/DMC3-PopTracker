@@ -1,38 +1,111 @@
 {
     "devil_arms_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "layout",
+                "key": "rebellion_grid"
+            },
+            {
+                "type": "layout",
+                "key": "cerberus_grid"
+            },
+            {
+                "type": "layout",
+                "key": "agni_and_rudra_grid"
+            },
+            {
+                "type": "layout",
+                "key": "nevan_grid"
+            },
+            {
+                "type": "layout",
+                "key": "beowulf_grid"
+            },
+            {
+                "type": "layout",
+                "key": "movement_grid"
+            }
+        ]
+    },
+    "rebellion_grid": {
         "type": "itemgrid",
         "h_alignment": "left",
+        "item_margin": "10,-4",
         "item_size": 48,
         "rows": [
             [
                 "Rebellion",
                 "Rebellion - Progressive Stinger",
-                "Rebellion - Drive",
-                "Rebellion - Airhike"
-            ],
+                "Rebellion - Drive"
+            ]
+        ]
+    },
+    "cerberus_grid": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "10,-4",
+        "item_size": 48,
+        "rows": [
             [
                 "Cerberus",
                 "Cerberus - Revolver Level 2",
                 "Cerberus - Windmill"
-            ],
+            ]
+        ]
+    },
+    "agni_and_rudra_grid": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "10,-4",
+        "item_size": 48,
+        "rows": [
             [
                 "Agni and Rudra",
                 "Agni and Rudra - Progressive Jetstream",
-                "Agni and Rudra - Whirlwind",
-                "Agni and Rudra - Airhike"
-            ],
+                "Agni and Rudra - Whirlwind"
+            ]
+        ]
+    },
+    "nevan_grid": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "10,-4",
+        "item_size": 48,
+        "rows": [
             [
                 "Nevan",
                 "Nevan - Progressive Reverbshock",
                 "Nevan - Batrift Level 2",
-                "Nevan - Volume Up",
-                "Nevan - Airraid"
-            ],
+                "Nevan - Volume Up"
+            ]
+        ]
+    },
+    "beowulf_grid": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "10,-4",
+        "item_size": 48,
+        "rows": [
             [
                 "Beowulf",
                 "Beowulf - Progressive Uppercut",
-                "Beowulf - Straight Level 2",
-                "Beowulf - Airhike"
+                "Beowulf - Straight Level 2"
+            ]
+        ]
+    },
+    "movement_grid": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "10,-4",
+        "item_size": 48,
+        "rows": [
+            [
+                "Rebellion - Airhike",
+                "Agni and Rudra - Airhike",
+                "Beowulf - Airhike",
+                "Nevan - Airraid"
             ]
         ]
     }

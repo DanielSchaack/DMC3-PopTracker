@@ -65,7 +65,9 @@
                         "x": 20,
                         "y": 300,
                         "force_invisibility_rules": [
-                            "show_oom_available, $notHasMission|7",
+                            "show_oom_available, $notHasMission|07",
+                            "show_oom_available, $notHas|Orihalcon Fragment",
+                            "show_oom_available, $notHasRequiredWeapon|2",
                             "show_oom_off"
                         ]
                     }
@@ -89,7 +91,8 @@
                         "x": 120,
                         "y": 310,
                         "force_invisibility_rules": [
-                            "show_oom_available, $notHasMission|7",
+                            "show_oom_available, $notHasMission|07",
+                            "show_oom_available, $notHas|Orihalcon Fragment",
                             "show_oom_off"
                         ]
                     }
