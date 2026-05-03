@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "0.3.0",
+            "download_url": "https://github.com/DanielSchaack/DMC3-PopTracker/releases/download/0.3.0/DMC3-PopTracker.zip",
+            "sha256": "95c220643676de29d92dbd826cdc0a8a3dfedf4d986a495c0d770819a41fa537",
+            "changelog": [
+                "Added mission assignment overview",
+                "Reworked location logic based on the new mission overview",
+                "Reworked the margins within the layout to more or less properly align the items.",
+                "Fixed 'Show Out of Mission' to only show ool-available checks"
+            ]
+        },
+        {
             "package_version": "0.2.0",
             "download_url": "https://github.com/DanielSchaack/DMC3-PopTracker/releases/download/0.2.0/DMC3-PopTracker.zip",
             "sha256": "fc02b0989ead1e8bc8e1e75fbdfb1d281d57f5102072974d7f0396f62539a018",
