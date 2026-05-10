@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.3.2",
+            "download_url": "https://github.com/DanielSchaack/DMC3-PopTracker/releases/download/0.3.2/DMC3-PopTracker.zip",
+            "sha256": "1d0dbc286c06cff4655afede9f97145c27b96c945791fb29e5744b4bff8bacd6",
+            "changelog": [
+                "Removed Neo Generators assignment to Mission 11, now correctly being shown for Mission 10"
+            ]
+        },
+        {
             "package_version": "0.3.1",
             "download_url": "https://github.com/DanielSchaack/DMC3-PopTracker/releases/download/0.3.1/DMC3-PopTracker.zip",
             "sha256": "c0cec3ed7ec12ea32fefc21c55a031d57c7e07aacf00e7823eb49397f967f6aa",
