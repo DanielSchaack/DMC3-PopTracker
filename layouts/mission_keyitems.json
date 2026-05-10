@@ -71,7 +71,7 @@
                     },
                     {
                         "type": "group",
-                        "header": "Mission 11",
+                        "header": "",
                         "dock": "top",
                         "content": {
                             "type": "layout",
